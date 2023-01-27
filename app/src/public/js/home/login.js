@@ -26,5 +26,8 @@ function login() {
         } else {
             alert(res.msg);
         }
-    })
+      })
+      .catch((err) => {
+        console.error("Error logging in");
+      });
 }
