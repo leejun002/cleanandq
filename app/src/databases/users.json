@@ -1,0 +1,5 @@
+{
+    "id": ["test", "test2", "test3"],
+    "psword": ["1234", "12345", "123456"],
+    "email": ["jun@naver.com", "jun@gmail.com", "jun@icloud.com"]
+}
