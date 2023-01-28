@@ -2,7 +2,7 @@
 
 const id = document.querySelector("#id"),
     psword = document.querySelector("#psword"),
-    loginBtn = document.querySelector("button");
+    loginBtn = document.querySelector("#button");
 
 loginBtn.addEventListener("click", login);
 
@@ -28,6 +28,6 @@ function login() {
         }
       })
       .catch((err) => {
-        console.error("Error logging in");
+        console.error("로그인 중 에러 발생");
       });
 }
