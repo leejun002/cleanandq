@@ -19,6 +19,8 @@ input[type=text], input[type=password] {
   cursor: pointer;
   width: 95%;
   text-align: center;
+  font-size: 13.3333px;
+  font-family: Arial;
 }
 
 #button:hover {
