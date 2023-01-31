@@ -1,28 +1,45 @@
 const { createLogger, transports, format } = require('winston');
-const { combine, label, colorize, timestamp, printf } = format;
+const { combine, label, timestamp, colorize, simple, printf } = format;
 
 const printFormat = printf(({ timestamp, label, level, message }) => {
     return `${timestamp} [${label}] ${level} : ${message}`;
 });
 
-const printLogFormat = combine(
-    label({
-        label: 'resurrection',
+const printLogFormat = {
+    file: combine(
+        label({
+            label: 'resurrection',
+        }),
+        timestamp({
+            format: 'YYYY-MM-DD HH:mm:ss',
+        }),
+        printFormat,
+    ),
+    console: combine(
+        colorize(),
+        simple(),
+    ),
+};
+
+const opts = {
+    file: new transports.File({
+        filename: 'access.log',
+        dirname: './logs',
+        level: 'info',
+        format: printLogFormat.file,
     }),
-    colorize(),
-    timestamp({
-        format: 'YYYY-MM-DD HH:mm:ss',
+    console: new transports.Console({
+        level: 'info',
+        format: printLogFormat.console,
     }),
-    printFormat
-);
+}
 
 const logger = createLogger({
-    transports: [
-        new transports.Console({
-            level: 'info',
-            format: printLogFormat,
-        }),
-    ],
+    transports: [opts.file],
 });
+
+if (process.env.NODE_ENV !== 'production') {
+    logger.add(opts.console);
+}
 
 module.exports = logger;

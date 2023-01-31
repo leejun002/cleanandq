@@ -9,12 +9,11 @@ const morgan = require("morgan");
 const app = express();
 dotenv.config();
 
-const accessLogStream = require("./src/config/log")
 // routing
+const accessLogStream = require("./src/config/log")
 const home = require("./src/routes/home");
-
 const logger = require("./src/config/logger");
-logger.info("Hello ^*^!");
+logger.info("Hello ^o^!");
 
 // app, setting
 app.set("views", "./src/views");
