@@ -30,7 +30,9 @@ function register() {
         .then((res) => {
             if (res.success) {
                 location.href = "/login";
+                alert("회원가입을 축하드립니다!");
             } else {
+                if (res.err) return alert(res.err);
                 alert(res.msg);
             }
         })
