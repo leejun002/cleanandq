@@ -18,7 +18,7 @@ app.set("view engine", "ejs");
 // use -> method to register middleware
 app.use(express.static(`${__dirname}/src/public`));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true })); // troubleshoot url data not being properly recognized
+app.use(bodyParser.urlencoded({ extended: true })); // troubleshoot url data not being properly recognizedINSERT INTO users (id, email, psword, in_date)
 
 app.use("/", home);
 

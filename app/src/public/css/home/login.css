@@ -17,7 +17,7 @@ input[type=text], input[type=password] {
   margin: 8px auto;
   border: none;
   cursor: pointer;
-  width: 95%;
+  width: auto;
   text-align: center;
   font-size: 13.3333px;
   font-family: Arial;
