@@ -36,9 +36,18 @@ input[type=text], input[type=password] {
   padding: 25px;
 }
 
-p.msg {
+.msg-holder {
+  display: inline;
+}
+
+#icon {
   font-size: 15px;
-  color: red;
+  color: 	rgb(0, 0, 128);
+}
+
+span.msg {
+  font-size: 15px;
+  color: 	rgb(0, 0, 128);
 }
 
 #error-msg-holder {

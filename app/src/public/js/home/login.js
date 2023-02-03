@@ -28,8 +28,14 @@ function login() {
             location.href = "/";
             alert("환영합니다!");
         } else {
-            if (res.err) return alert(res.err);
-            alert(res.msg);
+            if (res.err) {
+                alert(res.err);
+            } else {
+            document.getElementById("error-msg-holder").style.display='block';
+            document.getElementById("error-msg").innerHTML = res.msg;
+            }
+        //     if (res.err) return alert(res.err);
+        //     alert(res.msg);
         }
       })
       .catch((err) => {
