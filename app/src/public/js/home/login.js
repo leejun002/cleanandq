@@ -31,11 +31,12 @@ function login() {
             if (res.err) {
                 alert(res.err);
             } else {
-            document.getElementById("error-msg-holder").style.display='block';
-            document.getElementById("error-msg").innerHTML = res.msg;
+                // if (res.err) return alert(res.err);
+                // alert(res.msg);
+                document.getElementById("error-msg-holder").style.display='block';
+                document.getElementById("error-msg").innerHTML = res.msg;
             }
-        //     if (res.err) return alert(res.err);
-        //     alert(res.msg);
+        //     
         }
       })
       .catch((err) => {

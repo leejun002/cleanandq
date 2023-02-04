@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jeune</title>
+
   <link rel="stylesheet" href="/css/home/register.css">
   <script src="/js/home/register.js" defer></script>
   <script src="https://kit.fontawesome.com/1a2cc02835.js" crossorigin="anonymous"></script>
@@ -16,14 +19,12 @@
     <div class="container">
       <label><b>Create Your ID</b></label>
       <input id="id" type="text" placeholder="ID" required>
-        <div class="msg-holder" id="error-msg-holder">
-          <p class="msg" id="error-msg"><i class="fa-solid fa-exclamation"></i> ID already in use.</span></p>
-        </div>
       <input id="email" type="text" placeholder="Email" required>
       <input id="psword" type="password" placeholder="Password" required>
       <input id="confirm-psword" type="password" placeholder="Confirm Password" required>
         <div class="msg-holder" id="error-msg-holder">
-          <p class="msg" id="error-msg"><i class="fa-solid fa-exclamation"></i> Password is not the same.</span></p>
+          <i id="icon" class="fa-solid fa-person-military-pointing"></i>
+          <span class="msg" id="error-msg"></span>
         </div>
       <p id="button">Sign up</p>
     </div>

@@ -19,7 +19,7 @@ function register() {
         email: email.value,
         psword: psword.value,
     };
-    console.log(req);
+    // console.log(req);
     
     fetch("/register", {
         method: "POST",
@@ -34,8 +34,10 @@ function register() {
                 location.href = "/login";
                 alert("회원가입을 축하드립니다!");
             } else {
-                if (res.err) return alert(res.err);
-                alert(res.msg);
+                // if (res.err) return alert(res.err);
+                // alert(res.msg);
+                document.getElementById("error-msg-holder").style.display='block';
+                document.getElementById("error-msg").innerHTML = res.msg;
             }
         })
         .catch((err) => {
