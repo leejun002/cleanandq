@@ -2,7 +2,7 @@
   "name": "resurrection",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "bin": {
     "resurrection": "./bin/www.js"
   },
@@ -60,7 +60,6 @@
     "ms": "^2.0.0",
     "mysql": "^2.18.1",
     "negotiator": "^0.6.3",
-    "nodemon": "^2.0.20",
     "object-inspect": "^1.12.3",
     "on-finished": "^2.4.1",
     "parseurl": "^1.3.3",
@@ -88,13 +87,16 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./bin/www.js"
+    "start": "node ./bin/www.js"
   },
   "author": "junyoung lee",
   "license": "MIT",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com:leejun002/resurrection.git"
+    "url": "git@github.com:leejun002/resurrection_2.git"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
