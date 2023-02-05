@@ -1,6 +1,6 @@
 "use strict";
 
-const app = require('../server');
+const app = require('../app');
 const logger = require('../src/config/logger');
 
 const PORT = process.env.PORT || 8080;
