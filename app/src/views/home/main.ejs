@@ -13,15 +13,24 @@
 </head>
 
 <body>
-<div class="bar light-grey">
-  <a href="/login" class="bar-item right"><i class="fa-solid fa-user-circle"></i></a>
-  <a href="#" class="bar-item right"><i class="fa fa-search"></i></a>
-</div>
+  <div class="bar light-grey">
+    {% if user %}
+    <a href="/profile" class="bar-item right"><i class="fa-solid fa-user-circle"></i></a>
+    {% else %}
+    <a href="/login" class="bar-item right"><i class="fa-solid fa-user-circle"></i></a>
+    {% endif %}
+    <a href="#" class="bar-item right"><i class="fa fa-search"></i></a>
+  </div>
 
-<div style="text-align:center">
-  <br><br><span style="font-size: 55px; font-family: 'Monoton', cursive;">jeune</span><br>
-  <span style="font-size: 15px; font-family: 'Beth Ellen', cursive;">for private use</span>
-</div>
+  <div style="text-align:center">
+    <br><br><span style="font-size: 55px; font-family: 'Monoton', cursive;">jeune</span><br>
+    <span style="font-size: 15px; font-family: 'Beth Ellen', cursive;">for private use</span>
+    <br><br><br>
+    {% if user %}
+    <h2> {{user.id}}님 환영합니다 </h2>
+    <h3> 비밀번호 : {{user.psword}} </h3>
+    {% endif %}
+  </div>
 
 </body>
 </html>

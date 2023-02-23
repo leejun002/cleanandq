@@ -14,7 +14,8 @@ class User {
             
             if (user) {
                 if ( user.id === client.id && user.psword === client.psword) {
-                    return { success: true };
+                    const data = {id: `${client.id}`, psword: `${client.psword}`};
+                    return { success: true, data };
                 }
                 return { success: false, msg: "비밀번호를 잘못 입력한거 같네요.." };
             }

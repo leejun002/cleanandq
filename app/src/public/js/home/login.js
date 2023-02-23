@@ -14,6 +14,8 @@ function login() {
         id: id.value,
         psword: psword.value,
     };
+
+    // const data = req;
     
     fetch("/login", {
         method: "POST",
@@ -25,8 +27,23 @@ function login() {
       .then((res) => res.json())
       .then((res) => {
         if (res.success) {
-            location.href = "/";
-            alert("환영합니다!");
+            // console.log(res.data);
+            fetch("/makeSession", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(res.data),
+            })
+              .then((res) => res.json())
+              .then((res) => {
+                location.href = "/";
+                alert("환영합니다!");
+                // console.log(res.msg);
+              })
+            // req.session.user = {...data};
+            // res.redirect("/");
+
         } else {
             if (res.err) {
                 alert(res.err);
@@ -36,7 +53,6 @@ function login() {
                 document.getElementById("error-msg-holder").style.display='block';
                 document.getElementById("error-msg").innerHTML = res.msg;
             }
-        //     
         }
       })
       .catch((err) => {

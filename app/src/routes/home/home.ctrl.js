@@ -11,7 +11,8 @@ const User = require("../../models/User");
 const output = {
   home: (req,res) => {
     logger.info(`GET / 304 "홈 화면으로 이동"`);
-    res.render("home/main");
+    let {user} = req.session;
+    res.render("home/main", {user});
   },
   
   login: (req,res) => {
@@ -52,6 +53,12 @@ const process = {
 
     log(response, url);
     return res.status(url.status).json(response);
+  },
+
+  makeSession: (req,res) => {
+    req.session.user = req.body;
+    // console.log(req.session);
+    res.json({msg: "success"});
   },
 };
 
