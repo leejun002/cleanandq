@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="/css/home/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Monoton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Monoton&family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/1a2cc02835.js" crossorigin="anonymous"></script>
 </head>
 
@@ -29,10 +29,10 @@
     {% if user %}
     <h2> {{user.id}}님 환영합니다 </h2>
     <h3> 비밀번호 : {{user.psword}} </h3>
-    <a href="/profile"> <h3>프로필</h3> </a>
-    <a href="/logout"> <h3>로그아웃</h3> </a>
+    <a href="/profile"> <span style="font-size: 25px; font-family: 'Noto Sans KR', sans-serif;">프로필</span> </a><br>
+    <a href="/logout"> <span style="font-size: 25px; font-family: 'Noto Sans KR', sans-serif;">로그아웃</span> </a>
     {% else %}
-    <a href="/profile"> <h3>프로필</h3> </a>
+    <a href="/profile"> <span style="font-size: 25px; font-family: 'Noto Sans KR', sans-serif;">프로필</span> </a>
     {% endif %}
   </div>
 
