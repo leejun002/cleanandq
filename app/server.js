@@ -13,15 +13,16 @@ const path = require('path');
 
 const app = express();
 
+/* session  */
 let maxAge = 60*1000;
 const sessionObj = {
     secret: "biwjp#@%!$", // salt
     resave: false,
     saveUninitialized: true,
-    store: new Memorystore({ checkperiod: maxAge }), // server session storage, expiration date
+    store: new Memorystore({ checkperiod: maxAge }), // server session storage, expires
     cookie: {
         maxAge: maxAge
-    }   // browser cookie expiration date
+    }   // browser cookie expires
 };
 
 // routing

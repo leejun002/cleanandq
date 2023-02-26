@@ -41,8 +41,6 @@ function login() {
                 alert("환영합니다!");
                 // console.log(res.msg);
               })
-            // req.session.user = {...data};
-            // res.redirect("/");
 
         } else {
             if (res.err) {

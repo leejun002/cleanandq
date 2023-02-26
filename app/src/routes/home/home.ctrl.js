@@ -2,6 +2,7 @@
 
 const logger = require("../../config/logger");
 const User = require("../../models/User");
+const {informove} = require("../../util/informove");
 
 // const users = {
 //   id: ["test", "test2", "test3"],
@@ -10,19 +11,36 @@ const User = require("../../models/User");
 
 const output = {
   home: (req,res) => {
-    logger.info(`GET / 304 "홈 화면으로 이동"`);
+    logger.info(`GET / 304 "홈"`);
     let {user} = req.session;
     res.render("home/main", {user});
   },
   
   login: (req,res) => {
-    logger.info(`GET /login 304 "로그인 화면으로 이동"`);
+    logger.info(`GET /login 304 "로그인 페이지"`);
     res.render("home/login");
   },
   
   register: (req,res) => {
-    logger.info(`GET /register 304 "회원가입 화면으로 이동"`);
+    logger.info(`GET /register 304 "회원가입 페이지"`);
     res.render("home/register");
+  },
+
+  profile: (req,res) => {
+    if (req.session.user) {
+      logger.info(`GET /profile 304 "프로필 페이지"`);
+      res.send("프로필 화면");
+    } else {
+      res.send(informove("로그인이 필요합니다", "/"));
+    }
+  },
+
+  logout: (req,res) => {
+    logger.info(`GET /logout 304 "로그아웃"`);
+    req.session.destroy(() => {
+      req.session
+    });
+    res.render("home/main");
   },
 };
 

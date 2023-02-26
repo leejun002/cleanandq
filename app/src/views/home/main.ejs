@@ -29,6 +29,10 @@
     {% if user %}
     <h2> {{user.id}}님 환영합니다 </h2>
     <h3> 비밀번호 : {{user.psword}} </h3>
+    <a href="/profile"> <h3>프로필</h3> </a>
+    <a href="/logout"> <h3>로그아웃</h3> </a>
+    {% else %}
+    <a href="/profile"> <h3>프로필</h3> </a>
     {% endif %}
   </div>
 
