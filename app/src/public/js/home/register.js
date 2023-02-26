@@ -8,6 +8,18 @@ const id = document.querySelector("#id"),
 
 registerBtn.addEventListener("click", register);
 
+psword.addEventListener('keyup', function(event) {
+    if (event.code === 'Enter') {
+        register();
+    }
+});
+
+confirmPsword.addEventListener('keyup', function(event) {
+    if (event.code === 'Enter') {
+        register();
+    }
+});
+
 function register() {
     if (!id.value) return alert("아이디를 입력해주세요.");
     if (!email.value) return alert("이메일을 입력해주세요.");

@@ -66,6 +66,15 @@ span.psw {
   float: right;
 }
 
+a {
+  color:rgb(42, 85, 179);
+  text-decoration-line: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
 .modal {
   position: fixed;
   z-index: 1;

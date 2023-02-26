@@ -14,13 +14,16 @@ html,body{font-size:15px;line-height:1.5}
 .light-grey{color:rgb(0, 0, 0)!important;background-color:#f1f1f1!important}
 
 i {
-    color:rgb(100, 100, 100)
+    color:rgb(100, 100, 100);
 }
 i:hover {
     color:rgb(0, 0, 0);
 }
 
 a {
-    color:rgb(25, 40, 124);
+    color:rgb(42, 85, 179);
     text-decoration-line: none;
+}
+a:hover {
+    text-decoration-line: underline;
 }

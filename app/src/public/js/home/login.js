@@ -6,6 +6,18 @@ const id = document.querySelector("#id"),
 
 loginBtn.addEventListener("click", login);
 
+id.addEventListener('keyup', function(event) {
+    if (event.code === 'Enter') {
+        login();
+    }
+});
+
+psword.addEventListener('keyup', function(event) {
+    if (event.code === 'Enter') {
+        login();
+    }
+});
+
 function login() {
     if (!id.value) return alert("아이디를 입력해주세요.");
     if (!psword.value) return alert("비밀번호를 입력해주세요.");
