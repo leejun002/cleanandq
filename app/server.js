@@ -5,6 +5,7 @@ const express = require('express');
 const nunjucks = require('nunjucks');
 const session = require('express-session');
 const Memorystore = require('memorystore')(session);
+const cookieParser = require('cookie-parser');
 const favicon = require('serve-favicon');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
@@ -14,15 +15,19 @@ const path = require('path');
 const app = express();
 
 /* session  */
-let maxAge = 60*1000;
+let maxAge = 5*60*1000;
 const sessionObj = {
-    secret: "biwjp#@%!$", // salt
-    resave: false,
+    name: 'session-cookie',
+    secure: true, // only https
+    secret: process.env.COOKIE_SECRET, // salt
+    resave: false, // not always saving
     saveUninitialized: true,
     store: new Memorystore({ checkperiod: maxAge }), // server session storage, expires
     cookie: {
-        maxAge: maxAge
-    }   // browser cookie expires
+        maxAge: maxAge,
+        httpOnly: true,
+        Secure: true
+    }   // cookie for client
 };
 
 // routing
@@ -40,6 +45,7 @@ nunjucks.configure('./src/views', {
 app.use(express.static(`${__dirname}/src/public`));
 app.use(favicon(path.join(__dirname, 'src', 'public', 'favicon.ico')));
 
+app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(session(sessionObj));
 
 app.use(express.urlencoded({ extended: true }));
