@@ -29,7 +29,8 @@ const output = {
   profile: (req,res) => {
     if (req.session.user) {
       logger.info(`GET /profile 304 "프로필 페이지"`);
-      res.send("프로필 화면");
+      let {user} = req.session;
+      res.render("home/profile", {user});
     } else {
       res.send(informove("로그인이 필요합니다", "/"));
     }
@@ -40,7 +41,7 @@ const output = {
     req.session.destroy(() => {
       req.session
     });
-    res.render("home/main");
+    res.redirect("/");
   },
 };
 

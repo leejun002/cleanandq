@@ -3,38 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jeune</title>
+  <title>jeune</title>
   
   <link rel="stylesheet" href="/css/home/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Monoton&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Monoton&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <script src="/js/home/main.js" defer></script>
   <script src="https://kit.fontawesome.com/1a2cc02835.js" crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 </head>
 
 <body>
   <div class="bar light-grey">
-    {% if user %}
-    <a href="/profile" class="bar-item right"><i class="fa-solid fa-user-circle"></i></a>
-    {% else %}
-    <a href="/login" class="bar-item right"><i class="fa-solid fa-user-circle"></i></a>
-    {% endif %}
-    <a href="#" class="bar-item right"><i class="fa fa-search"></i></a>
+    <div>
+      <a id="user" class="btn bar-item right">
+        <i class="fa-solid fa-user-circle"></i>
+      </a>
+      <ul id="options" style="display:none;">
+        {% if user %}
+          <br>
+          <span id="memb">{{user.id}}</span><span id="hello">님 안녕하세요</span>
+          <li class="option">
+            <a href="/profile">
+              <span class="iconify" data-icon="material-symbols:manage-accounts-sharp" style="font-size: 15px;"></span>
+              <span>계정</span>
+            </a>
+          </li>
+          <li class="option">
+            <a href="/logout">
+              <span class="iconify" data-icon="fluent:arrow-enter-20-filled" style="font-size: 15px;" data-flip="horizontal"></span>
+              <span>로그아웃</span>
+            </a>
+          </li>
+        {% else %}
+          <li class="option">
+            <a href="/login">
+              <span class="iconify" data-icon="fluent:arrow-enter-20-filled" style="font-size: 15px;"></span>
+              <span>로그인</span>
+            </a>
+          </li>
+          <li class="option">
+            <a href="/profile">
+              <span class="iconify" data-icon="material-symbols:manage-accounts-sharp" style="font-size: 15px;"></span>
+              <span>계정</span>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+    <a class="btn bar-item right"><i class="fa fa-search"></i></a>
   </div>
 
-  <div style="text-align:center">
-    <br><br><span style="font-size: 55px; font-family: 'Monoton', cursive;">jeune</span><br>
-    <span style="font-size: 15px; font-family: 'Beth Ellen', cursive;">for private use</span>
-    <br><br><br>
-    {% if user %}
-    <h2> {{user.id}}님 환영합니다 </h2>
-    <h3> 비밀번호 : {{user.psword}} </h3>
-    <a href="/profile"> <span style="font-size: 25px; font-family: 'Noto Sans KR', sans-serif;">프로필</span> </a><br>
-    <a href="/logout"> <span style="font-size: 25px; font-family: 'Noto Sans KR', sans-serif;">로그아웃</span> </a>
-    {% else %}
-    <a href="/profile"> <span style="font-size: 25px; font-family: 'Noto Sans KR', sans-serif;">프로필</span> </a>
-    {% endif %}
+  <div>
+    <div style="width:100%; text-align:center;">
+      <br><br><span style="font-size: 55px; font-family: 'Monoton', cursive;">JeunE</span><br>
+      <span style="font-size: 20px; font-family: 'Covered By Your Grace', cursive;">someday</span>
+    </div>
   </div>
-
+  
 </body>
 </html>

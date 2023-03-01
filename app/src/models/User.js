@@ -17,9 +17,9 @@ class User {
                     const data = {id: `${client.id}`, psword: `${client.psword}`};
                     return { success: true, data };
                 }
-                return { success: false, msg: "비밀번호를 잘못 입력한거 같네요.." };
+                return { success: false, msg: "비밀번호를 잘못 입력한거 같네요" };
             }
-            return { success: false, msg: "존재하지 않는 아이디입니다." };
+            return { success: false, msg: "존재하지 않는 아이디입니다" };
         } catch (err) {
             return { success: false, err };
         }
@@ -31,7 +31,7 @@ class User {
             const user = await UserStorage.getUserInfo(client.id);
             if (user) {
                 if ( user.id === client.id ) {
-                    return { success: false, msg: "이미 사용중인 아이디입니다." };
+                    return { success: false, msg: "이미 사용중인 아이디입니다" };
                 } else {
                     return { success: true };
                 }
