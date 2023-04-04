@@ -3,64 +3,150 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>jeune</title>
-  
+  <title>크린앤Q</title>
   <link rel="stylesheet" href="/css/home/main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Monoton&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Sans:wght@800&display=swap');
+  </style>
+
   <script src="/js/home/main.js" defer></script>
   <script src="https://kit.fontawesome.com/1a2cc02835.js" crossorigin="anonymous"></script>
   <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 </head>
 
 <body>
-  <div class="bar light-grey">
-    <div>
-      <a id="user" class="btn bar-item right">
-        <i class="fa-solid fa-user-circle"></i>
-      </a>
-      <ul id="options" style="display:none;">
-        {% if user %}
-          <br>
-          <span id="memb">{{user.id}}</span><span id="hello">님 안녕하세요</span>
-          <li class="option">
-            <a href="/profile">
-              <span class="iconify" data-icon="material-symbols:manage-accounts-sharp" style="font-size: 15px;"></span>
-              <span>계정</span>
-            </a>
-          </li>
-          <li class="option">
-            <a href="/logout">
-              <span class="iconify" data-icon="fluent:arrow-enter-20-filled" style="font-size: 15px;" data-flip="horizontal"></span>
-              <span>로그아웃</span>
-            </a>
-          </li>
-        {% else %}
-          <li class="option">
-            <a href="/login">
-              <span class="iconify" data-icon="fluent:arrow-enter-20-filled" style="font-size: 15px;"></span>
-              <span>로그인</span>
-            </a>
-          </li>
-          <li class="option">
-            <a href="/profile">
-              <span class="iconify" data-icon="material-symbols:manage-accounts-sharp" style="font-size: 15px;"></span>
-              <span>계정</span>
-            </a>
-          </li>
-        {% endif %}
+  <!-- <a id="user" class="btn bar-item"><i class="fa-solid fa-user-circle"></i></a>
+  <a class="btn bar-item"><i class="fa fa-search"></i></a> -->
+  <div class="nav-container">
+    <nav>
+      <ul class="mobile-nav">
+        <li>
+          <div class="menu-icon-container active">
+            <div class="menu-icon">
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <a href="/" class="link-logo">
+            <span style="font-weight: bold; font-family: 'Noto Sans KR', sans-serif;">크린앤</span>
+            <span style="font-family: 'Noto Sans', sans-serif; color:red;">Q</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="link-search"><i class="fa fa-search"></i></a>
+        </li>
+        <li>
+          <a id="#"><i class="fa-solid fa-user-circle"></i></a>
+        </li>
       </ul>
-    </div>
-    <a class="btn bar-item right"><i class="fa fa-search"></i></a>
+
+      <ul class="desktop-nav">
+        <li>
+          <a href="/">
+            <span style="font-weight: bold; font-family: 'Noto Sans KR', sans-serif;">크린앤</span>
+            <span style="font-family: 'Noto Sans', sans-serif; color:red;">Q</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">칸스톤</a>
+        </li>
+        <li>
+          <a href="#">홈샤시·샤시</a>
+        </li>
+        <li>
+          <a href="#">중문</a>
+        </li>
+        <li>
+          <a href="#">BATH</a>
+        </li>
+        <li>
+          <a href="#">주방/가구</a>
+        </li>
+        <li>
+          <a href="#">바닥재</a>
+        </li>
+        <li>
+          <a href="#">벽지</a>
+        </li>
+        <li>
+          <a href="#">타일</a>
+        </li>
+        <li>
+          <a href="#">붙박이장·현관장</a>
+        </li>
+        <li>
+          <a href="#">견적내보기</a>
+        </li>
+        <li>
+          <a href="#" class="link-search"><i class="fa fa-search"></i></a>
+        </li>
+        <li>
+          <a id="user" class="link-user"><i class="fa-solid fa-user-circle"></i></a>
+        </li>
+      </ul>
+    </nav>
   </div>
 
   <div>
-    <div style="width:100%; text-align:center;">
-      <br><br><span style="font-size: 55px; font-family: 'Monoton', cursive;">JeunE</span><br>
-      <span style="font-size: 20px; font-family: 'Covered By Your Grace', cursive;">someday</span>
+    <ul id="options" style="display:none;">
+      {% if user %}
+        <br>
+        <span id="memb">{{user.id}}</span><span id="hello">님 안녕하세요</span>
+        <li class="option">
+          <a href="/profile">
+            <span class="iconify" data-icon="material-symbols:manage-accounts-sharp" style="font-size: 15px;"></span>
+            <span>계정</span>
+          </a>
+        </li>
+        <li class="option">
+          <a href="/logout">
+            <span class="iconify" data-icon="fluent:arrow-enter-20-filled" style="font-size: 15px;" data-flip="horizontal"></span>
+            <span>로그아웃</span>
+          </a>
+        </li>
+      {% else %}
+        <li class="option">
+          <a href="/login">
+            <span class="iconify" data-icon="fluent:arrow-enter-20-filled" style="font-size: 15px;"></span>
+            <span>로그인</span>
+          </a>
+        </li>
+        <li class="option">
+          <a href="/profile">
+            <span class="iconify" data-icon="material-symbols:manage-accounts-sharp" style="font-size: 15px;"></span>
+            <span>계정</span>
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+
+  <div>
+    <div style="text-align:center;">
+      <br><br><br>
+      <img class="logo1" src="/pic/clnq.png"></img>
+      <br>
+      <img class="logo2" src="/pic/hlc.png"></img>
     </div>
   </div>
+
+  <div style="text-align:center;">
+    <div style="display:inline-block; width:80%;  font-size: 15px; font-family: 'Noto Sans KR', sans-serif;">
+      <br><span>Total 인테리어 건축자재 & 리모델링</span><br><br>
+      <span>타 업체들과 차별화된 핏한 고급스러움 & 마무리까지 꼼꼼한 시공</span><br><br><br><br>
+      
+      <span>Tel&nbsp;&nbsp;:&nbsp;&nbsp;031-935-5098 &nbsp;&nbsp;&nbsp;010-3230-9136(대표 이용갑)</span><br>
+      <span>E-mail : h9413320@naver.com</span><br>
+      <span>주소: 경기도 고양시 덕양구 화신로 295 건영상가동 2층 203호</span><br>
+      <span>전화예약 후 매장 방문하시면 가장 좋습니다:)</span><br>
+    </div>
+  </div>
+
   
+
 </body>
 </html>

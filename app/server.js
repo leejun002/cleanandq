@@ -43,7 +43,7 @@ nunjucks.configure('./src/views', {
 
 // use -> method to register middleware
 app.use(express.static(`${__dirname}/src/public`));
-app.use(favicon(path.join(__dirname, 'src', 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'src', 'public', 'favicon', 'clnqlogo.ico')));
 
 app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(session(sessionObj));
