@@ -98,7 +98,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com:leejun002/resurrection_2.git"
+    "url": "git@github.com:leejun002/clnq.git"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

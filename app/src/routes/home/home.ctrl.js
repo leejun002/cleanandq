@@ -43,6 +43,11 @@ const output = {
     });
     res.redirect("/");
   },
+
+  hanstone: (req,res) => {
+    logger.info(`GET /hanstone 304 "칸스톤 페이지"`);
+    res.render("home/hanstone");
+  },
 };
 
 const process = {
