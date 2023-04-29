@@ -44,6 +44,7 @@
     "fresh": "^0.5.2",
     "function-bind": "^1.1.1",
     "get-intrinsic": "^1.2.0",
+    "gsap": "^3.11.5",
     "has": "^1.0.3",
     "has-flag": "^4.0.0",
     "has-symbols": "^1.0.3",
