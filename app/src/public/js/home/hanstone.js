@@ -102,12 +102,48 @@ function show() {
 
 
 gsap.registerPlugin(ScrollTrigger);
+
 gsap.to(".parallax-item .first", {
-  scrollTrigger: ".parallax-item .first", opacity: 1, y:0, duration: 0.2
+    scrollTrigger: {
+        trigger: ".parallax-item .first",
+        // markers: true,
+        start: "top bottom",
+        end: "bottom 80%",
+        scrub: true,
+},
+    opacity: 1, y: 0, duration: 0.2
 });
 
-// gsap.to(".parallax-item .second", {
-//     scrollTrigger: ".parallax-item .second", opacity: 1, y:0, duration: 0.2
-// });
+gsap.to(".txt2", {
+    scrollTrigger: {
+      trigger: ".txt2",
+    //   markers: true,
+      start: "bottom bottom",
+      end: "top 90%",
+      scrub: true,
+},
+    opacity: 1, y: 0
+});
 
 
+gsap.from(".txt3", {
+    scrollTrigger: {
+      trigger: ".content3",
+    //   markers: true,
+      start: "bottom bottom",
+      end: "bottom 80%",
+      scrub: true,
+},
+    opacity: 1, y: 0, fontSize: '130px'
+});
+
+gsap.to(".sec3", {
+    scrollTrigger: {
+      trigger: ".sec3",
+      markers: true,
+      start: "top bottom",
+      end: "bottom 80%",
+      scrub: true,
+},
+    background: 'rgb(0,0,0)'
+});
