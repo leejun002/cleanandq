@@ -134,16 +134,175 @@ gsap.from(".txt3", {
       end: "bottom 80%",
       scrub: true,
 },
-    opacity: 1, y: 0, fontSize: '130px'
+    opacity: 1, y: 40, fontSize: '130px'
+});
+
+gsap.from(".txt4", {
+    scrollTrigger: {
+      trigger: ".content4",
+    //   markers: true,
+      start: "60% bottom",
+      end: "80% 80%",
+      scrub: true,
+},
+    opacity: 0, y: 20
+});
+
+gsap.from(".txt5", {
+    scrollTrigger: {
+      trigger: ".content4",
+    //   markers: true,
+      start: "center bottom",
+      end: "70% 80%",
+      scrub: true,
+},
+    opacity: 0, y: 20
+});
+
+gsap.from(".txt6", {
+    scrollTrigger: {
+      trigger: ".content4",
+    //   markers: true,
+      start: "center bottom",
+      end: "70% 80%",
+      scrub: true,
+},
+    opacity: 0, y: 20
+});
+
+gsap.from(".txt7", {
+    scrollTrigger: {
+      trigger: ".content5",
+    //   markers: true,
+      start: "center bottom",
+      end: "70% 80%",
+      scrub: true,
+},
+    opacity: 0, y: 20
+});
+
+gsap.from(".txt8", {
+  scrollTrigger: {
+    trigger: ".content5",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
+},
+  opacity: 0, y: -20
 });
 
 gsap.to(".sec3", {
     scrollTrigger: {
       trigger: ".sec3",
-      markers: true,
+    //   markers: true,
       start: "top bottom",
       end: "bottom 80%",
       scrub: true,
 },
     background: 'rgb(0,0,0)'
+});
+
+gsap.from(".img--2", {
+    scrollTrigger: {
+      trigger: ".img--2",
+    //   markers: true,
+      start: "bottom bottom",
+      end: "bottom 80%",
+      scrub: true,
+},
+    opacity: 0, y: -20
+});
+
+gsap.from(".img--3", {
+    scrollTrigger: {
+      trigger: ".img--3",
+    //   markers: true,
+      start: "bottom bottom",
+      end: "bottom 80%",
+      scrub: true,
+},
+    opacity: 0, y: -20
+});
+
+gsap.from(".img--4", {
+  scrollTrigger: {
+    trigger: ".content5",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
+},
+  opacity: 0, y: -20
+});
+
+gsap.from(".img--5", {
+  scrollTrigger: {
+    trigger: ".content5",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
+},
+  opacity: 0, y: -20
+});
+
+
+gsap.from(".img--7", {
+    scrollTrigger: {
+      trigger: ".img--7",
+    //   markers: true,
+      start: "center bottom",
+      end: "60% bottom",
+      scrub: true,
+},
+    opacity: 0, y: 20
+});
+
+gsap.from(".img--8", {
+    scrollTrigger: {
+      trigger: ".content5",
+    //   markers: true,
+      start: "center bottom",
+      end: "70% 80%",
+      scrub: true,
+},
+    opacity: 0, y: 20
+});
+
+//ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  // direction: 'vertical',
+  // loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 0
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 0
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 0
+    }
+  }
 });
