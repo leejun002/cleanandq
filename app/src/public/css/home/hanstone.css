@@ -60,7 +60,7 @@ background: rgb(255, 255, 255);
 }
 
 .sec1 {
-    background: url('/pic/irmat2.png');
+    background: url('/pic/hanstone/sec1/irmat.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -100,7 +100,7 @@ background: rgb(255, 255, 255);
 
 .sec5 {
     position: relative;
-    background: url('/pic/swiper/classic/classic.png');
+    background: url('/pic/hanstone/swiper/classic/classic.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -111,7 +111,7 @@ background: rgb(255, 255, 255);
 
 .sec6 {
     position: relative;
-    background: url('/pic/swiper/irregular/irregular.png');
+    background: url('/pic/hanstone/swiper/irregular/irregular.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -122,7 +122,7 @@ background: rgb(255, 255, 255);
 
 .sec7 {
     position: relative;
-    background: url('/pic/swiper/stream/stream.png');
+    background: url('/pic/hanstone/swiper/stream/stream.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -133,7 +133,7 @@ background: rgb(255, 255, 255);
 
 .sec8 {
     position: relative;
-    background: url('/pic/swiper/subtle/subtle.png');
+    background: url('/pic/hanstone/swiper/subtle/subtle.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -680,7 +680,7 @@ nav .desktop-nav li a:hover{
 }
 
 .link-logo {
-    /* background: url('/pic/xx.png'); */
+    /* background: url('/pic/hanstone/xx.png'); */
     display: block;
     background-position: center;
     height: 45px;
@@ -691,7 +691,7 @@ nav .desktop-nav li a:hover{
 }
 
 .link-search {
-    /* background: url('/pic/xx.png'); */
+    /* background: url('/pic/hanstone/xx.png'); */
     display: block;
     background-position: center;
     height: 30px;
@@ -704,7 +704,7 @@ nav .desktop-nav li a:hover{
     position: fixed;
     float: right;
     right: 15px;
-    /* background: url('/pic/xx.png'); */
+    /* background: url('/pic/hanstone/xx.png'); */
     display: block;
     height: 35px;
     /* background-size: 18px; */
@@ -721,7 +721,7 @@ nav .desktop-nav li a:hover{
 }
 
 .link-close {
-    background: url('/pic/close1.svg');
+    background: url('/pic/hanstone/close1.svg');
     color: white;
     display: block;
     background-position: center;
@@ -1498,16 +1498,16 @@ a {
 }
 
 .swiper-button-prev {
-    background-image: url(/pic/swiper/arrow-left.svg);
+    background-image: url(/pic/hanstone/swiper/arrow-left.svg);
     /* left: 20px; */
 }
 
 
 .swiper-button-next {
-    background-image: url(/pic/swiper/arrow-right.svg);
+    background-image: url(/pic/hanstone/swiper/arrow-right.svg);
     /* right: 10px; */
 }
 
 /* .swiper-button-next:hover {
-    background-image: url(/pic/swiper/arrow-right-w.svg);
+    background-image: url(/pic/hanstone/swiper/arrow-right-w.svg);
 } */
