@@ -129,6 +129,8 @@ background: rgb(255, 255, 255);
 .sec1-2 {
     background-image: url('/pic/hanstone/sec1/irregular.jpg');
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
     flex: 1;
 }  @media all and (max-width: 740px) {
@@ -146,6 +148,7 @@ background: rgb(255, 255, 255);
     background-image: url('/pic/hanstone/sec1/matterhorn.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
     flex:1;
 }  @media all and (max-width: 740px) {
