@@ -5,8 +5,11 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    width: 100%;
+    width: auto;
+    height: 100%;
     min-height: 98vh;
+    position: relative;
+    overflow: hidden;
 }
 
 .parallax-item .mv_vid {

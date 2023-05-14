@@ -68,3 +68,18 @@ function show() {
         options.style.display = 'none';
     }
 }
+
+// ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(".txt2", {
+    scrollTrigger: {
+      trigger: ".txt2",
+      // markers: true,
+      start: "-50% bottom",
+      end: "-30% 90%",
+      scrub: true,
+},
+    opacity: 1, y: 0
+});
