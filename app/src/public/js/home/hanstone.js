@@ -117,14 +117,13 @@ gsap.to(".parallax-item .first", {
 gsap.to(".txt2", {
     scrollTrigger: {
       trigger: ".txt2",
-    //   markers: true,
-      start: "bottom bottom",
-      end: "top 90%",
+      // markers: true,
+      start: "-50% bottom",
+      end: "-30% 90%",
       scrub: true,
 },
     opacity: 1, y: 0
 });
-
 
 gsap.from(".txt3", {
     scrollTrigger: {
@@ -134,7 +133,7 @@ gsap.from(".txt3", {
       end: "bottom 80%",
       scrub: true,
 },
-    opacity: 1, y: 40, fontSize: '130px'
+    opacity: 1, y: 40, fontSize: '100px'
 });
 
 gsap.from(".txt4", {
@@ -172,7 +171,7 @@ gsap.from(".txt6", {
 
 gsap.from(".txt7", {
     scrollTrigger: {
-      trigger: ".content5",
+      trigger: ".txt7",
     //   markers: true,
       start: "center bottom",
       end: "70% 80%",
@@ -183,7 +182,7 @@ gsap.from(".txt7", {
 
 gsap.from(".txt8", {
   scrollTrigger: {
-    trigger: ".content5",
+    trigger: ".txt8",
   //   markers: true,
     start: "center bottom",
     end: "70% 80%",
@@ -206,39 +205,28 @@ gsap.to(".sec3", {
 gsap.from(".img--2", {
     scrollTrigger: {
       trigger: ".img--2",
-    //   markers: true,
-      start: "bottom bottom",
-      end: "bottom 80%",
+      // markers: true,
+      start: "-50% bottom",
+      end: "-30% 80%",
       scrub: true,
 },
     opacity: 0, y: -20
 });
 
-gsap.from(".img--3", {
-    scrollTrigger: {
-      trigger: ".img--3",
-    //   markers: true,
-      start: "bottom bottom",
-      end: "bottom 80%",
-      scrub: true,
-},
-    opacity: 0, y: -20
-});
+// gsap.from(".img--3", {
+//     scrollTrigger: {
+//       trigger: ".img--3",
+//     //   markers: true,
+//       start: "bottom bottom",
+//       end: "bottom 80%",
+//       scrub: true,
+// },
+//     opacity: 0, y: -20
+// });
 
 gsap.from(".img--4", {
   scrollTrigger: {
-    trigger: ".content5",
-  //   markers: true,
-    start: "center bottom",
-    end: "70% 80%",
-    scrub: true,
-},
-  opacity: 0, y: -20
-});
-
-gsap.from(".img--5", {
-  scrollTrigger: {
-    trigger: ".content5",
+    trigger: ".img--4",
   //   markers: true,
     start: "center bottom",
     end: "70% 80%",
@@ -261,7 +249,7 @@ gsap.from(".img--7", {
 
 gsap.from(".img--8", {
     scrollTrigger: {
-      trigger: ".content5",
+      trigger: ".img--8",
     //   markers: true,
       start: "center bottom",
       end: "70% 80%",

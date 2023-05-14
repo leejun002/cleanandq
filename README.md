@@ -1,2 +1,2 @@
 # resurrection
-homepage for private use
+homepage for clnq
