@@ -72,6 +72,10 @@
     .parallax-item .first {
         font-size: 1.8rem;
     }
+}  @media all and (max-width: 300px) {
+    .parallax-item .first {
+        font-size: 1.5rem;
+    }
 }  
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
@@ -120,6 +124,8 @@ background: rgb(255, 255, 255);
     .sec1-1 {
         background-image: url('/pic/hanstone/sec1/irregular.jpg');
         background-position: 55%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         width: 100%;
         grid-column-start: 1;
         grid-column-end: 2;
@@ -137,6 +143,8 @@ background: rgb(255, 255, 255);
     .sec1-2 {
         background-image: url('/pic/hanstone/sec1/matterhorn.jpg');
         background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         width: 100%;
         grid-column-start: 2;
         grid-column-end: 3;
@@ -154,7 +162,11 @@ background: rgb(255, 255, 255);
 }  @media all and (max-width: 740px) {
     .sec1-3 {
         background-image: url('/pic/hanstone/sec1/white.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         width: 100%;
+        grid-row-start: 2;
+        grid-row-end: 3;
     }
 }
 
@@ -253,10 +265,15 @@ background: rgb(255, 255, 255);
         left: 47%;
         bottom: 2%;
     }
-}  @media all and (max-width: 450px) {
+}  @media all and (max-width: 350px) {
     .content1 {
-        left: 47%;
+        left: 50%;
         bottom: 2%;
+    }
+}  @media all and (max-width: 300px) {
+    .content1 {
+        width: 80%;
+        left: 15%;
     }
 }
 
@@ -354,11 +371,12 @@ background: rgb(255, 255, 255);
     transition: all 0.5s;
 }  @media all and (max-width: 740px) {
     .img--2 {
+        width: 30%;
+        min-width: 150px;
         left: 10%;
         bottom: 10%;
     }
 }
-
 
 .img--4 {
     z-index: 1;
@@ -425,7 +443,7 @@ background: rgb(255, 255, 255);
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     color: rgb(0, 0, 0);
-    margin-left: 4vw;
+    /* margin-left: 4vw; */
     left: 10%;
     opacity: 0;
     transform: translateY(30px);
@@ -449,25 +467,6 @@ background: rgb(255, 255, 255);
 }  @media all and (max-width: 450px) {
     .txt2 {
         font-size: 10px;
-    }
-}
-
-/* .quartz {
-    color: gold;
-} */
-
-.txt2_2 {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 40px;
-    color: white;
-    max-width: 40vw;
-    margin-left: 0vw;
-    left: 0%;
-}
-    @media all and (max-width: 768px) {
-    .txt2_2 {
-        max-width: 80vw;
-        margin-left: 5vw;
     }
 }
 
@@ -509,6 +508,18 @@ background: rgb(255, 255, 255);
 }  @media all and (max-width:600px) {
     .txt3 {
         font-size: 43px;
+    }
+}  @media all and (max-width:450px) {
+    .txt3 {
+        font-size: 38px;
+    }
+}  @media all and (max-width:370px) {
+    .txt3 {
+        font-size: 33px;
+    }
+}  @media all and (max-width:330px) {
+    .txt3 {
+        font-size: 30px;
     }
 }
 
@@ -570,6 +581,10 @@ background: rgb(255, 255, 255);
         top: 32%;
         font-size: 23px;
     }
+}  @media all and (max-width:450px) {
+    .txt4 {
+        font-size: 20px;
+    }
 }
 
 .txt5 {
@@ -602,6 +617,10 @@ background: rgb(255, 255, 255);
     .txt5 {
         top: 5%;
         font-size: 23px;
+    }
+}  @media all and (max-width:450px) {
+    .txt5 {
+        font-size: 20px;
     }
 }
 
@@ -652,6 +671,15 @@ background: rgb(255, 255, 255);
         left: 25%;
         bottom: 22%;
         font-size: 23px;
+    }
+}  @media all and (max-width:450px) {
+    .txt6 {
+        left: 20%;
+        font-size: 20px;
+    }
+}  @media all and (max-width:340px) {
+    .txt6 {
+        bottom: 11%;
     }
 }
 
@@ -720,12 +748,14 @@ background: rgb(255, 255, 255);
 }  @media all and (max-width:500px) {
     .txt7 {
         right: 20%;
-        font-size: 18px;
     }
 }  @media all and (max-width:400px) {
     .txt7 {
         right: 15%;
-        font-size: 18px;
+    }
+}  @media all and (max-width:340px) {
+    .txt7 {
+        right: 7%;
     }
 }
 
@@ -781,7 +811,7 @@ background: rgb(255, 255, 255);
 }  @media all and (max-width:600px) {
     .txt8 {
         left: 10%;
-        bottom: 13%;
+        bottom: 10%;
         font-size: 18px;
     }
 }
@@ -819,6 +849,10 @@ background: rgb(255, 255, 255);
     .txt9 {
         font-size: 15px;
     }
+}  @media all and (max-width: 340px) {
+    .txt9 {
+        font-size: 13px;
+    }
 }
 
 .txt10 {
@@ -854,6 +888,10 @@ background: rgb(255, 255, 255);
     .txt10 {
         right: 3%;
         font-size: 15px;
+    }
+}  @media all and (max-width: 340px) {
+    .txt10 {
+        font-size: 13px;
     }
 }
 
@@ -900,6 +938,10 @@ background: rgb(255, 255, 255);
         left: 1%;
         font-size: 17px;
     }
+}  @media all and (max-width: 340px) {
+    .txt11 {
+        font-size: 13px;
+    }
 }
 
 .txt12 {
@@ -945,6 +987,10 @@ background: rgb(255, 255, 255);
         right: 1%;
         font-size: 17px;
     }
+}  @media all and (max-width: 340px) {
+    .txt12 {
+        font-size: 13px;
+    }
 }
 
 .txt13 {
@@ -953,37 +999,37 @@ background: rgb(255, 255, 255);
     left: 3%;
 
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(255, 255, 255);
     transition: all 0.5s;
 }  @media all and (max-width:1700px) {
     .txt13 {
-        font-size: 55px;
+        font-size: 37px;
     }
 }  @media all and (max-width:1650px) {
     .txt13 {
-        font-size: 50px;
+        font-size: 33px;
     }
 }  @media all and (max-width:1400px) {
     .txt13 {
-        font-size: 45px;
+        font-size: 30px;
     }
 }  @media all and (max-width:1100px) {
     .txt13 {
-        font-size: 40px;
+        font-size: 27px;
     }
 }  @media all and (max-width:900px) {
     .txt13 {
-        font-size: 35px;
+        font-size: 24px;
     }
 }  @media all and (max-width:740px) {
     .txt13 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }  @media all and (max-width:600px) {
     .txt13 {
-        font-size: 25px;
+        font-size: 17px;
     }
 }
 
@@ -1732,17 +1778,65 @@ a {
     opacity: 1;
     top: 70%;
     transition: 0.5s;
+}  @media all and (max-height: 882px) {
+    .swiper-slide-active .text-wrap {
+        top: 64%;
+    }
+}  @media all and (max-height: 800px) {
+    .swiper-slide-active .text-wrap {
+        top: 60%;
+    }
+}  @media all and (max-height: 770px) {
+    .swiper-slide-active .text-wrap {
+        top: 55%;
+    }
+}  @media all and (max-height: 730px) {
+    .swiper-slide-active .text-wrap {
+        top: 50%;
+    }
+}  @media all and (max-height: 680px) {
+    .swiper-slide-active .text-wrap {
+        top: 45%;
+    }
+}  @media all and (max-height: 630px) {
+    .swiper-slide-active .text-wrap {
+        top: 40%;
+    }
 }
 
 .swiper-slide-active .text-wrap2 {
     opacity: 1;
     top: 70%;
     transition: 0.5s;
+}  @media all and (max-height: 882px) {
+    .swiper-slide-active .text-wrap2 {
+        top: 64%;
+    }
+}  @media all and (max-height: 800px) {
+    .swiper-slide-active .text-wrap2 {
+        top: 60%;
+    }
+}  @media all and (max-height: 770px) {
+    .swiper-slide-active .text-wrap2 {
+        top: 55%;
+    }
+}  @media all and (max-height: 730px) {
+    .swiper-slide-active .text-wrap2 {
+        top: 50%;
+    }
+}  @media all and (max-height: 680px) {
+    .swiper-slide-active .text-wrap2 {
+        top: 45%;
+    }
+}  @media all and (max-height: 630px) {
+    .swiper-slide-active .text-wrap2 {
+        top: 40%;
+    }
 }
 
 .text-wrap {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 0;
     right: 0;
     /* opacity: 0; */
@@ -1750,6 +1844,30 @@ a {
     text-align: center;
     transition: 0.5s;
     z-index: 1;
+}  @media all and (max-height: 882px) {
+    .text-wrap {
+        top: 59%;
+    }
+}  @media all and (max-height: 800px) {
+    .text-wrap {
+        top: 55%;
+    }
+}  @media all and (max-height: 770px) {
+    .text-wrap {
+        top: 50%;
+    }
+}  @media all and (max-height: 730px) {
+    .text-wrap {
+        top: 45%;
+    }
+}  @media all and (max-height: 680px) {
+    .text-wrap {
+        top: 40%;
+    }
+}  @media all and (max-height: 630px) {
+    .text-wrap {
+        top: 35%;
+    }
 }
 
 .text-wrap h2 {
@@ -1791,7 +1909,7 @@ a {
     .text-wrap p {
         font-size: 13px;
     }
-}  @media all and (max-width: 740px) {
+}  @media all and (max-width: 600px) {
     .text-wrap p {
         font-size: 10px;
     }
@@ -1799,7 +1917,7 @@ a {
 
 .text-wrap2 {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 0;
     right: 0;
     /* opacity: 0; */
@@ -1807,6 +1925,30 @@ a {
     text-align: center;
     transition: 0.5s;
     z-index: 1;
+}  @media all and (max-height: 882px) {
+    .text-wrap2 {
+        top: 59%;
+    }
+}  @media all and (max-height: 800px) {
+    .text-wrap2 {
+        top: 55%;
+    }
+}  @media all and (max-height: 770px) {
+    .text-wrap2 {
+        top: 50%;
+    }
+}  @media all and (max-height: 730px) {
+    .text-wrap2 {
+        top: 45%;
+    }
+}  @media all and (max-height: 680px) {
+    .text-wrap2 {
+        top: 40%;
+    }
+}  @media all and (max-height: 630px) {
+    .text-wrap2 {
+        top: 35%;
+    }
 }
 
 .text-wrap2 h2 {
