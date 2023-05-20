@@ -243,16 +243,25 @@ background: rgb(255, 255, 255);
     background-position: center;
     background-attachment: fixed;
     padding: 5vw; */
-    height: 100vh;
+    height: 10vh;
     overflow: hidden;
 }
+
+.sec10 {
+    position: relative;
+    padding: 1rem;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    height: auto;
+}
+
 
 .content1 {
     position: absolute;
     /* left: 5%; */
     bottom: 10%;
     z-index: 3;
-    left: 0%;
+    left: 2%;
     width: 30%;
 }  @media all and (max-width: 740px) {
     .content1 {
@@ -424,6 +433,8 @@ background: rgb(255, 255, 255);
         width: 80%;
     }
 }
+
+
 
 .txt1 {
     font-family: 'Noto Sans KR', sans-serif;
@@ -997,7 +1008,6 @@ background: rgb(255, 255, 255);
     position: absolute;
     top: 5%;
     left: 3%;
-
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 40px;
     font-weight: bold;
@@ -1005,31 +1015,39 @@ background: rgb(255, 255, 255);
     transition: all 0.5s;
 }  @media all and (max-width:1700px) {
     .txt13 {
-        font-size: 37px;
+        font-size: 38px;
     }
 }  @media all and (max-width:1650px) {
     .txt13 {
-        font-size: 33px;
+        font-size: 36px;
     }
 }  @media all and (max-width:1400px) {
     .txt13 {
-        font-size: 30px;
+        font-size: 34px;
     }
 }  @media all and (max-width:1100px) {
     .txt13 {
-        font-size: 27px;
+        font-size: 32px;
     }
 }  @media all and (max-width:900px) {
     .txt13 {
-        font-size: 24px;
+        font-size: 30px;
     }
 }  @media all and (max-width:740px) {
     .txt13 {
-        font-size: 20px;
+        font-size: 28px;
     }
 }  @media all and (max-width:600px) {
     .txt13 {
-        font-size: 17px;
+        font-size: 26px;
+    }
+}  @media all and (max-width:400px) {
+    .txt13 {
+        font-size: 23px;
+    }
+}  @media all and (max-width:300px) {
+    .txt13 {
+        font-size: 20px;
     }
 }
 
@@ -1039,6 +1057,7 @@ background: rgb(255, 255, 255);
 .txt13-span2 {
     color: rgb(243, 250, 116);
 }
+
 
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
@@ -2077,3 +2096,233 @@ a {
 /* .swiper-button-next:hover {
     background-image: url(/pic/hanstone/swiper/arrow-right-w.svg);
 } */
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* 크린앤Q 시공사례 card */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.cards {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}  @media (min-width: 741px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+}  @media (min-width: 1500px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+.card {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* padding: 1rem; */
+    height: 600px;
+    max-width: 100%;
+}
+
+.card .card-pic1 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/patagonia1.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.card .card-txt {
+    width: 100%;
+    top: 90%;
+    height: 10%;
+    background-color: rgb(0, 0, 0);
+    /* background-attachment: fixed; */
+}
+
+.card .card-txt .txt14 {
+    position: relative;
+    /* top: 550px; */
+    left: 5%;
+    max-width: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}  @media all and (max-width:1700px) {
+    .card .card-txt .txt14 {
+        font-size: 18px;
+    }
+}  @media all and (max-width:1650px) {
+    .card .card-txt .txt14 {
+        font-size: 17px;
+    }
+}  @media all and (max-width:1500px) {
+    .card .card-txt .txt14 {
+        font-size: 22px;
+    }
+}  @media all and (max-width:1300px) {
+    .card .card-txt .txt14 {
+        font-size: 19px;
+    }
+}  @media all and (max-width:950px) {
+    .card .card-txt .txt14 {
+        font-size: 17px;
+    }
+}  @media all and (max-width:740px) {
+    .card .card-txt .txt14 {
+        font-size: 20px;
+    }
+}  @media all and (max-width:600px) {
+    .card .card-txt .txt14 {
+        font-size: 18px;
+    }
+}  @media all and (max-width:500px) {
+    .card .card-txt .txt14 {
+        font-size: 16px;
+    }
+}  @media all and (max-width:400px) {
+    .card .card-txt .txt14 {
+        font-size: 14px;
+    }
+}
+
+.txt14-span {
+    color: rgb(255, 253, 143)
+}
+
+.card .card-pic2 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/patagonia2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic2-2 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/winterwalking1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic3 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/tranquility1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic4 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/lunarshadow1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic5 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/tranquility2.jpg');
+    background-size: cover;
+    background-position: 50% 70%;
+}
+
+.card .card-pic6 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/jendai1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic6-2 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/jendai2.jpg');
+    background-size: cover;
+    background-position: 50% 80%;
+}
+
+.card .card-pic6-3 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/jendai3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic7 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/milady1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic8 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/lunarwhite1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic9 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/lunarshadow2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic10 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/amb&shadow.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic11 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/ambrosial1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic12 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/jendai4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic13 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/lunarwhite2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic14 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/lunarwhite3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic15 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/lunarwhite4.jpg');
+    background-size: cover;
+    background-position: 50% 30%;
+}
