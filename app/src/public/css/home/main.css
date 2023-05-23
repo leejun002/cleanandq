@@ -105,7 +105,7 @@ nav .desktop-nav li a:hover{
 }
 
 .link-close {
-    background: url('/pic/close1.svg');
+    background: url('/pic/main/close1.svg');
     color: white;
     display: block;
     background-position: center;
@@ -711,7 +711,7 @@ a {
 }
 
 .sec1-1 {
-    background-image: url('/pic/main/전체.jpg');
+    background-image: url('/pic/main/all.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -719,7 +719,7 @@ a {
     flex: 1;
 }  @media all and (max-width: 740px) {
     .sec1-1 {
-        background-image: url('/pic/main/전체.jpg');
+        background-image: url('/pic/main/all.jpg');
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
@@ -729,7 +729,7 @@ a {
 }
 
 .sec1-2 {
-    background-image: url('/pic/main/2층.jpg');
+    background-image: url('/pic/main/2floor.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -737,7 +737,7 @@ a {
     flex: 1;
 }  @media all and (max-width: 740px) {
     .sec1-2 {
-        background-image: url('/pic/main/2층.jpg');
+        background-image: url('/pic/main/2floor.jpg');
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
@@ -748,7 +748,7 @@ a {
 
 
 .sec1-3 {
-    background-image: url('/pic/main/3층.jpg');
+    background-image: url('/pic/main/3floor.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -756,7 +756,7 @@ a {
     flex:1;
 }  @media all and (max-width: 740px) {
     .sec1-3 {
-        background-image: url('/pic/main/3층.jpg');
+        background-image: url('/pic/main/3floor.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% auto;
@@ -769,31 +769,21 @@ a {
 }  @media all and (max-width: 530px) {
     .sec1-3 {
         background-size: auto 100%;
+        transform: translateY(-1px);
     }
 }
 
 .content1 {
     position: absolute;
-    /* left: 5%; */
     bottom: 10%;
     z-index: 3;
-    left: 30%;
-    width: 40%;
+    left: 31%;
+    width: 35%;
 }  @media all and (max-width: 740px) {
     .content1 {
         width: 50%;
         left: 47%;
         bottom: 5%;
-    }
-}  @media all and (max-width: 450px) {
-    .content1 {
-        left: 47%;
-        bottom: 2%;
-    }
-}  @media all and (max-width: 450px) {
-    .content1 {
-        left: 47%;
-        bottom: 2%;
     }
 }
 

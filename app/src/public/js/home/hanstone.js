@@ -75,17 +75,7 @@ function show() {
 //     e.forEach((box)=>{
 //         if (box.isIntersecting){
 //             box.target.style.opacity = 1;
-//             // box.target.style.traslateY() = '6rem';
-//         } else {
-//             box.target.style.opacity = 0;
-//         }
-//     })
-// })
-
-// let observer2 = new IntersectionObserver((e)=>{
-//     e.forEach((box)=>{
-//         if (box.isIntersecting){
-//             box.target.style.opacity = 1;
+//             box.target.style.transform = translateY('0');
 //         } else {
 //             box.target.style.opacity = 0;
 //         }
@@ -94,9 +84,6 @@ function show() {
 
 // let first = document.querySelector('.parallax-item .first')
 // observer1.observe(first)
-
-// let second = document.querySelector('.parallax-item .second')
-// observer2.observe(second)
 
 //ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 

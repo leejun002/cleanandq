@@ -91,23 +91,9 @@ background: rgb(255, 255, 255);
 }
 
 .sec1 {
-    /* background-image: url('/pic/hanstone/sec1/irmat1.png'), url('/pic/hanstone/sec1/irmat2.png'), url('/pic/hanstone/sec1/irmat3.png');
-    background-size: auto;
-    background-position: left, right 70%, right ;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-attachment: fixed;*/
-
     position: relative;
-    /* padding: 5vw; */
-    /* background: #ffffff; */
     overflow: hidden;
     display: flex;
-
-    /* min-width: 100%; */
-    /* min-height: 100%; */
-    /* width: 100%; */
-    /* height:400%; */
-    
 }  @media all and (max-width: 740px) {
     .sec1 {
         display: grid;
@@ -141,7 +127,7 @@ background: rgb(255, 255, 255);
     flex: 1;
 }  @media all and (max-width: 740px) {
     .sec1-2 {
-        background-image: url('/pic/hanstone/sec1/matterhorn.jpg');
+        background-image: url('/pic/hanstone/sec1/matterhorn_c.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -153,7 +139,7 @@ background: rgb(255, 255, 255);
 
 
 .sec1-3 {
-    background-image: url('/pic/hanstone/sec1/matterhorn.jpg');
+    background-image: url('/pic/hanstone/sec1/matterhorn_c.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -324,7 +310,7 @@ background: rgb(255, 255, 255);
 } */
 
 .content4 {
-    background: url('/pic/hanstone/sec3/bathdark.png');
+    background: url('/pic/hanstone/sec3/bathdark_c.png');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -1019,34 +1005,42 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:1650px) {
     .txt13 {
+        top: 10%;
         font-size: 36px;
     }
 }  @media all and (max-width:1400px) {
     .txt13 {
+        top: 15%;
         font-size: 34px;
     }
 }  @media all and (max-width:1100px) {
     .txt13 {
+        top: 20%;
         font-size: 32px;
     }
 }  @media all and (max-width:900px) {
     .txt13 {
+        top: 23%;
         font-size: 30px;
     }
 }  @media all and (max-width:740px) {
     .txt13 {
+        top: 25%;
         font-size: 28px;
     }
 }  @media all and (max-width:600px) {
     .txt13 {
+        top: 30%;
         font-size: 26px;
     }
 }  @media all and (max-width:400px) {
     .txt13 {
+        top: 33%;
         font-size: 23px;
     }
 }  @media all and (max-width:300px) {
     .txt13 {
+        top: 37%;
         font-size: 20px;
     }
 }
@@ -1169,7 +1163,7 @@ nav .desktop-nav li a:hover{
 }
 
 .link-close {
-    background: url('/pic/hanstone/close1.svg');
+    background: url('/pic/main/close1.svg');
     color: white;
     display: block;
     background-position: center;
@@ -1779,7 +1773,6 @@ a {
 }
 
 .swiper {
-    /* right: 0%; */
     width: 100%;
     height: 300px;
 }
@@ -2017,7 +2010,6 @@ a {
 
 .swiper-slide .swipe img {
     display: block;
-    
     object-fit: none;
     position: absolute;
     left: 0;
@@ -2122,15 +2114,6 @@ a {
     max-width: 100%;
 }
 
-.card .card-pic1 {
-    width: 100%;
-    height: 85%;
-    background: url('/pic/hanstone/sec10/patagonia1.png');
-    background-size: cover;
-    background-position: center;
-    /* background-attachment: fixed; */
-}
-
 .card .card-txt {
     width: 100%;
     top: 90%;
@@ -2191,10 +2174,19 @@ a {
     color: rgb(255, 253, 143)
 }
 
+.card .card-pic1 {
+    width: 100%;
+    height: 85%;
+    background: url('/pic/hanstone/sec10/patagonia1_c.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
 .card .card-pic2 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/patagonia2.png');
+    background: url('/pic/hanstone/sec10/patagonia2_c.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -2210,7 +2202,7 @@ a {
 .card .card-pic3 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/tranquility1.jpg');
+    background: url('/pic/hanstone/sec10/tranquility1_c.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -2226,7 +2218,7 @@ a {
 .card .card-pic5 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/tranquility2.jpg');
+    background: url('/pic/hanstone/sec10/tranquility2_c.jpg');
     background-size: cover;
     background-position: 50% 70%;
 }
@@ -2234,7 +2226,7 @@ a {
 .card .card-pic6 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/jendai1.jpg');
+    background: url('/pic/hanstone/sec10/jendai1_c.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -2242,7 +2234,7 @@ a {
 .card .card-pic6-2 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/jendai2.jpg');
+    background: url('/pic/hanstone/sec10/jendai2_c.jpg');
     background-size: cover;
     background-position: 50% 80%;
 }
@@ -2250,7 +2242,7 @@ a {
 .card .card-pic6-3 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/jendai3.png');
+    background: url('/pic/hanstone/sec10/jendai3_c.png');
     background-size: cover;
     background-position: center;
 }
@@ -2258,7 +2250,7 @@ a {
 .card .card-pic7 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/milady1.jpg');
+    background: url('/pic/hanstone/sec10/milady1_c.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -2274,7 +2266,7 @@ a {
 .card .card-pic9 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/lunarshadow2.jpg');
+    background: url('/pic/hanstone/sec10/lunarshadow2_c.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -2290,7 +2282,7 @@ a {
 .card .card-pic11 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/ambrosial1.jpg');
+    background: url('/pic/hanstone/sec10/ambrosial1_c.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -2298,7 +2290,7 @@ a {
 .card .card-pic12 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/jendai4.jpg');
+    background: url('/pic/hanstone/sec10/jendai4_c.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -2314,7 +2306,7 @@ a {
 .card .card-pic14 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/lunarwhite3.jpg');
+    background: url('/pic/hanstone/sec10/lunarwhite3_c.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -2322,7 +2314,7 @@ a {
 .card .card-pic15 {
     width: 100%;
     height: 85%;
-    background: url('/pic/hanstone/sec10/lunarwhite4.jpg');
+    background: url('/pic/hanstone/sec10/lunarwhite4_c.jpg');
     background-size: cover;
     background-position: 50% 30%;
 }
