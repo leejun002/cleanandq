@@ -48,6 +48,11 @@ const output = {
     logger.info(`GET /hanstone 304 "칸스톤 페이지"`);
     res.render("home/hanstone");
   },
+
+  homesash: (req,res) => {
+    logger.info(`GET /homesash 304 "칸스톤 페이지"`);
+    res.render("home/homesash");
+  },
 };
 
 const process = {
