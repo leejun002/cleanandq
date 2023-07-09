@@ -39,14 +39,14 @@
 }
 
 .sec1-1 {
-  background-image: url('/pic/hanstone/sec1/white.png');
+  background-image: none;
   width: 100%;
   flex: 1;
 }  @media all and (max-width: 1070px) {
   .sec1-1 {
     background-image: url('/pic/homesash/sec1/energy.jpg');
     background-size: auto 80%;
-    background-position: 30px 22.5%;
+    background-position: 30% 44px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
@@ -56,32 +56,17 @@
     grid-row-start: 1;
     grid-row-end: 2;
   }
-}  @media all and (max-width: 1000px) {
-  .sec1-1 {
-    background-position: 5px 22.5%;
-  }
-}  @media all and (max-width: 950px) {
-  .sec1-1 {
-    background-position: 20% 22.5%;
-  }
-}  @media all and (max-width: 830px) {
-  .sec1-1 {
-    background-position: 30% 22.5%;
-  }
 }  @media all and (max-width: 640px) {
   .sec1-1 {
     background-size: auto 70%;
-    background-position: 30% 15%;
   }
 }  @media all and (max-width: 570px) {
   .sec1-1 {
     background-size: auto 60%;
-    background-position: 30% 11%;
   }
 }  @media all and (max-width: 500px) {
   .sec1-1 {
     background-size: auto 50%;
-    background-position: 30% 9%;
   }
 }
 
@@ -89,26 +74,26 @@
 .sec1-2 {
   background-image: url('/pic/homesash/sec1/energy.jpg');
   background-size: auto 100%;
-  background-position: 100% 22.5%;
+  background-position: 100% 44px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
   flex: 3;
 }  @media all and (max-width: 1700px) {
   .sec1-2 {
-    background-position: 330px 22.5%;
+    background-position: 330px 44px;
   }
 }  @media all and (max-width: 1400px) {
   .sec1-2 {
-    background-position: 250px 22.5%;
+    background-position: 250px 44px;
   }
 } @media all and (max-width: 1300px) {
   .sec1-2 {
-    background-position: 200px 22.5%;
+    background-position: 200px 44px;
   }
 }  @media all and (max-width: 1200px) {
   .sec1-2 {
-    background-position: 80px 22.5%;
+    background-position: 80px 44px;
   }
 }  @media all and (max-width: 1070px) {
   .sec1-2 {
@@ -143,6 +128,27 @@
   height: 70vh;
   background: rgb(0, 0, 0);
   overflow: hidden;
+}
+
+@media all and (max-width:1650px) {
+  .sec3-2 {
+    height: 90vh;
+    /* background-size: cover; */
+  }
+}
+
+@media all and (max-width:900px) {
+  .sec3-2 {
+    height: 70vh;
+    /* background-size: cover; */
+  }
+}
+
+@media all and (max-width:700px) {
+  .sec3-2 {
+    height: 80vh;
+    /* background-size: cover; */
+  }
 }
 
 .sec4 {
@@ -204,7 +210,7 @@
     background-position: center;
     background-attachment: fixed;
     padding: 5vw; */
-  height: 10vh;
+  height: 18vh;
   overflow: hidden;
 }
 
@@ -280,12 +286,6 @@
   z-index: 3;
 }
 
-@media all and (max-width: 768px) {
-  .intro__content {
-    right: auto;
-  }
-}
-
 .content3 {
   position: absolute;
   left: 10%;
@@ -294,10 +294,22 @@
   width: 300%;
 }
 
+@media all and (max-width: 1700px) {
+  .content3 {
+    top: 5%;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .content3 {
+    top: 8%;
+  }
+}
+
 .content3-2 {
   position: absolute;
   left: 10%;
-  bottom: 80%;
+  top: 10%;
   z-index: 3;
   width: 300%;
 }
@@ -309,7 +321,7 @@
 }
 
 .content4 {
-  background: url('/pic/homesash/sec3/insulation.png');
+  background: url('/pic/homesash/sec3/insulation_c.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -342,13 +354,13 @@
 }
 
 .content4-2 {
-  background: url('/pic/homesash/sec3-2/horizontal.png');
+  background: url('/pic/homesash/sec3-2/horizontal_c.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
   left: 10%;
-  top: 20%;
+  top: 40%;
   width: 40%;
   z-index: 3;
   height: 50%;
@@ -357,6 +369,7 @@
 
 @media all and (max-width:1650px) {
   .content4-2 {
+    top: 25%;
     width: 80%;
     /* background-size: cover; */
   }
@@ -364,10 +377,12 @@
 
 @media all and (max-width:700px) {
   .content4-2 {
-    background: url('/pic/homesash/sec3-2/vertical.png');
+    background: url('/pic/homesash/sec3-2/vertical_c.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    top: 23%;
+    height: 55%;
     /* background-size: cover; */
   }
 }
@@ -404,7 +419,7 @@
 .content5-2 {
   position: absolute;
   left: 30%;
-  bottom: 5%;
+  top: 43%;
   width: 70%;
   z-index: 3;
   height: 70%;
@@ -414,7 +429,15 @@
   .content5-2 {
     width: 100%;
     left: 0;
-    top: 70%;
+    top: 75%;
+  }
+}
+
+@media all and (max-width:700px) {
+  .content5-2 {
+    width: 100%;
+    left: 0;
+    top: 79%;
   }
 }
 
@@ -534,9 +557,9 @@
 @media all and (max-width: 1070px) {
   .img--2 {
     width: 20%;
-    min-width: 150px;
+    min-width: 100px;
     left: 10%;
-    bottom: 10%;
+    bottom: 5%;
   }
 }
 
@@ -550,12 +573,56 @@
   transition: all 0.5s;
 }
 
-@media all and (max-width: 1070px) {
+@media all and (max-width: 1700px) {
   .img--3 {
-    width: 20%;
-    min-width: 150px;
-    left: 10%;
-    bottom: 10%;
+    right: 17%;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  .img--3 {
+    right: 14%;
+    bottom: -2%;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .img--3 {
+    width: 40%;
+    right: 30%;
+    bottom: 20%;
+  }
+}
+
+@media all and (max-width: 840px) {
+  .img--3 {
+    width: 50%;
+    right: 25%;
+    bottom: 20%;
+  }
+}
+
+@media all and (max-width: 740px) {
+  .img--3 {
+    width: 60%;
+    right: 20%;
+    bottom: 20%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .img--3 {
+    width: 70%;
+    right: 15%;
+    bottom: 20%;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .img--3 {
+    width: 80%;
+    right: 10%;
+    bottom: 20%;
   }
 }
 
@@ -684,27 +751,33 @@
   }
 }
 
-@media all and (max-width: 740px) {
+@media all and (max-width: 900px) {
   .txt2 {
-    font-size: 26px;
+    font-size: 27px;
   }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 740px) {
   .txt2 {
     font-size: 24px;
   }
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 600px) {
   .txt2 {
     font-size: 20px;
   }
 }
 
+@media all and (max-width: 450px) {
+  .txt2 {
+    font-size: 16px;
+  }
+}
+
 @media all and (max-width: 400px) {
   .txt2 {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
@@ -1385,8 +1458,23 @@
   }
 }
 
+@media all and (max-width:500px) {
+  .txt4-5 {
+    left: 18%;
+    font-size: 20px;
+  }
+}
+
 @media all and (max-width:450px) {
   .txt4-5 {
+    left: 17%;
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width:400px) {
+  .txt4-5 {
+    left: 15%;
     font-size: 20px;
   }
 }
@@ -1457,6 +1545,13 @@
   }
 }
 
+@media all and (max-width:390px) {
+  .txt5-2 {
+    left: 5%;
+    font-size: 23px;
+  }
+}
+
 .txt5-3 {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 40px;
@@ -1523,6 +1618,14 @@
     font-size: 25px;
   }
 }
+
+@media all and (max-width:390px) {
+  .txt5-3 {
+    left: 5%;
+    font-size: 23px;
+  }
+}
+
 .txt5-4 {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 40px;
@@ -1587,6 +1690,13 @@
   .txt5-4 {
     left: 7%;
     font-size: 25px;
+  }
+}
+
+@media all and (max-width:390px) {
+  .txt5-4 {
+    left: 5%;
+    font-size: 23px;
   }
 }
 
@@ -2755,14 +2865,14 @@
 .txt13 {
   position: absolute;
   top: 5%;
-  left: 3%;
+  left: 10%;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 40px;
+  font-size: 80px;
   font-weight: bold;
   color: rgb(255, 255, 255);
   transition: all 0.5s;
 }
-
+/* 
 @media all and (max-width:1700px) {
   .txt13 {
     font-size: 38px;
@@ -2823,7 +2933,7 @@
     top: 37%;
     font-size: 20px;
   }
-}
+} */
 
 .txt13-span1 {
   color: rgb(255, 152, 83);
@@ -3992,6 +4102,7 @@ a {
   margin: 0 auto;
   display: grid;
   gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }
 
@@ -4001,7 +4112,7 @@ a {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1000px) {
   .cards {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -4011,8 +4122,26 @@ a {
   background-color: rgb(0, 0, 0);
   color: white;
   /* padding: 1rem; */
-  height: 600px;
+  height: 450px;
   max-width: 100%;
+}
+
+@media all and (max-width: 1450px) {
+  .card {
+    height: 380px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .card {
+    height: 300px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .card {
+    height: 230px;
+  }
 }
 
 .card .card-txt {
@@ -4020,58 +4149,62 @@ a {
   top: 90%;
   height: 10%;
   background-color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  display: flex;
   /* background-attachment: fixed; */
 }
 
 .card .card-txt .txt14 {
   position: relative;
   /* top: 550px; */
-  left: 5%;
+  left: 0;
+  top: 30%;
   max-width: 100%;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   color: rgb(255, 255, 255);
   transition: all 0.5s;
 }
 
-@media all and (max-width:1700px) {
+/* @media all and (max-width:1700px) {
   .card .card-txt .txt14 {
-    font-size: 18px;
+    font-size: 38px;
   }
 }
 
 @media all and (max-width:1650px) {
   .card .card-txt .txt14 {
-    font-size: 17px;
+    font-size: 36px;
   }
-}
+} */
 
 @media all and (max-width:1500px) {
   .card .card-txt .txt14 {
-    font-size: 22px;
+    font-size: 35px;
   }
 }
 
-@media all and (max-width:1300px) {
+/* @media all and (max-width:1300px) {
   .card .card-txt .txt14 {
-    font-size: 19px;
+    font-size: 32px;
   }
 }
 
 @media all and (max-width:950px) {
   .card .card-txt .txt14 {
-    font-size: 17px;
+    font-size: 30px;
   }
-}
+} */
 
 @media all and (max-width:740px) {
   .card .card-txt .txt14 {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
-@media all and (max-width:600px) {
+/* @media all and (max-width:600px) {
   .card .card-txt .txt14 {
     font-size: 18px;
   }
@@ -4087,7 +4220,7 @@ a {
   .card .card-txt .txt14 {
     font-size: 14px;
   }
-}
+} */
 
 .txt14-span {
   color: rgb(255, 253, 143)
@@ -4096,32 +4229,24 @@ a {
 .card .card-pic1 {
   width: 100%;
   height: 85%;
-  background: url('/pic/hanstone/sec10/patagonia1_c.jpg');
+  background: url('/pic/homesash/sec10/normal.png');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 35%;
   /* background-attachment: fixed; */
 }
 
 .card .card-pic2 {
   width: 100%;
   height: 85%;
-  background: url('/pic/hanstone/sec10/patagonia2_c.jpg');
+  background: url('/pic/homesash/sec10/balcony.png');
   background-size: cover;
-  background-position: center;
-}
-
-.card .card-pic2-2 {
-  width: 100%;
-  height: 85%;
-  background: url('/pic/hanstone/sec10/winterwalking1.png');
-  background-size: cover;
-  background-position: center;
+  background-position: 50% 40%;
 }
 
 .card .card-pic3 {
   width: 100%;
   height: 85%;
-  background: url('/pic/hanstone/sec10/tranquility1_c.jpg');
+  background: url('/pic/homesash/sec10/system.png');
   background-size: cover;
   background-position: center;
 }
@@ -4129,7 +4254,7 @@ a {
 .card .card-pic4 {
   width: 100%;
   height: 85%;
-  background: url('/pic/hanstone/sec10/lunarshadow1.png');
+  background: url('/pic/homesash/sec10/rehau.png');
   background-size: cover;
   background-position: center;
 }
@@ -4137,39 +4262,23 @@ a {
 .card .card-pic5 {
   width: 100%;
   height: 85%;
-  background: url('/pic/hanstone/sec10/tranquility2_c.jpg');
+  background: url('/pic/homesash/sec10/aluminium.png');
   background-size: cover;
-  background-position: 50% 70%;
+  background-position: center;
 }
 
 .card .card-pic6 {
   width: 100%;
   height: 85%;
-  background: url('/pic/hanstone/sec10/jendai1_c.jpg');
+  background: url('/pic/homesash/sec10/specialuse.png');
   background-size: cover;
-  background-position: center;
-}
-
-.card .card-pic6-2 {
-  width: 100%;
-  height: 85%;
-  background: url('/pic/hanstone/sec10/jendai2_c.jpg');
-  background-size: cover;
-  background-position: 50% 80%;
-}
-
-.card .card-pic6-3 {
-  width: 100%;
-  height: 85%;
-  background: url('/pic/hanstone/sec10/jendai3_c.png');
-  background-size: cover;
-  background-position: center;
+  background-position: 50% 0;
 }
 
 .card .card-pic7 {
   width: 100%;
   height: 85%;
-  background: url('/pic/hanstone/sec10/milady1_c.jpg');
+  background: url('/pic/homesash/sec10/sheetcolor.png');
   background-size: cover;
   background-position: center;
 }
@@ -4177,63 +4286,7 @@ a {
 .card .card-pic8 {
   width: 100%;
   height: 85%;
-  background: url('/pic/hanstone/sec10/lunarwhite1.png');
+  background: url('/pic/homesash/sec10/handle.png');
   background-size: cover;
   background-position: center;
-}
-
-.card .card-pic9 {
-  width: 100%;
-  height: 85%;
-  background: url('/pic/hanstone/sec10/lunarshadow2_c.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.card .card-pic10 {
-  width: 100%;
-  height: 85%;
-  background: url('/pic/hanstone/sec10/amb&shadow.png');
-  background-size: cover;
-  background-position: center;
-}
-
-.card .card-pic11 {
-  width: 100%;
-  height: 85%;
-  background: url('/pic/hanstone/sec10/ambrosial1_c.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.card .card-pic12 {
-  width: 100%;
-  height: 85%;
-  background: url('/pic/hanstone/sec10/jendai4_c.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.card .card-pic13 {
-  width: 100%;
-  height: 85%;
-  background: url('/pic/hanstone/sec10/lunarwhite2.png');
-  background-size: cover;
-  background-position: center;
-}
-
-.card .card-pic14 {
-  width: 100%;
-  height: 85%;
-  background: url('/pic/hanstone/sec10/lunarwhite3_c.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.card .card-pic15 {
-  width: 100%;
-  height: 85%;
-  background: url('/pic/hanstone/sec10/lunarwhite4_c.jpg');
-  background-size: cover;
-  background-position: 50% 30%;
 }
