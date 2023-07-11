@@ -71,19 +71,19 @@ function show() {
 
 //ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
-// let observer1 = new IntersectionObserver((e)=>{
-//     e.forEach((box)=>{
-//         if (box.isIntersecting){
-//             box.target.style.opacity = 1;
-//             box.target.style.transform = translateY('0');
-//         } else {
-//             box.target.style.opacity = 0;
-//         }
-//     })
-// })
+let observer1 = new IntersectionObserver((e)=>{
+    e.forEach((box)=>{
+        if (box.isIntersecting){
+            box.target.style.opacity = 1;
+            // box.target.style.transform = translateY('0');
+        } else {
+            box.target.style.opacity = 0;
+        }
+    })
+})
 
-// let first = document.querySelector('.parallax-item .first')
-// observer1.observe(first)
+let first = document.querySelector('.img--2')
+observer1.observe(first)
 
 //ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
@@ -123,6 +123,28 @@ gsap.from(".txt3", {
     opacity: 1, y: 40, fontSize: '100px'
 });
 
+gsap.from(".txt3-2", {
+  scrollTrigger: {
+    trigger: ".content3-2",
+  //   markers: true,
+    start: "bottom bottom",
+    end: "bottom 80%",
+    scrub: true,
+},
+  opacity: 1, y: 40, fontSize: '80px'
+});
+
+gsap.from(".txt3-3", {
+  scrollTrigger: {
+    trigger: ".content3-3",
+  //   markers: true,
+    start: "bottom bottom",
+    end: "bottom 80%",
+    scrub: true,
+},
+  opacity: 1, y: 40, fontSize: '120px'
+});
+
 gsap.from(".content4", {
   scrollTrigger: {
     trigger: ".content4",
@@ -140,6 +162,17 @@ gsap.from(".content4-2", {
     // markers: true,
     start: "center bottom",
     end: "60% bottom",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
+gsap.from(".content7", {
+  scrollTrigger: {
+    trigger: ".content7",
+    // markers: true,
+    start: "20% bottom",
+    end: "30% bottom",
     scrub: true,
 },
   opacity: 0, y: 20
@@ -178,37 +211,48 @@ gsap.from(".txt5", {
     opacity: 0, y: 20
 });
 
-gsap.from(".txt6", {
-    scrollTrigger: {
-      trigger: ".content4",
-    //   markers: true,
-      start: "center bottom",
-      end: "70% 80%",
-      scrub: true,
-},
-    opacity: 0, y: 20
-});
-
-gsap.from(".txt7", {
-    scrollTrigger: {
-      trigger: ".txt7",
-    //   markers: true,
-      start: "center bottom",
-      end: "70% 80%",
-      scrub: true,
-},
-    opacity: 0, y: 20
-});
-
-gsap.from(".txt8", {
+gsap.from(".txt5-2, .txt5-3, .txt5-4", {
   scrollTrigger: {
-    trigger: ".txt8",
-  //   markers: true,
-    start: "center bottom",
-    end: "70% 80%",
+    trigger: ".content5-2",
+    // markers: true,
+    start: "top bottom",
+    end: "30% 80%",
     scrub: true,
 },
-  opacity: 0, y: -20
+  opacity: 0, y: 20
+});
+
+gsap.from(".txt8-1, .txt8-2, .txt8-3, .txt8-4, .txt8-5, .txt8-6, .txt8-7, .txt8-8, .txt8-9", {
+  scrollTrigger: {
+    trigger: ".content8",
+    // markers: true,
+    start: "top bottom",
+    end: "30% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
+gsap.from(".txt8-10, .txt8-11", {
+  scrollTrigger: {
+    trigger: ".content9",
+    // markers: true,
+    start: "80% bottom",
+    end: "100% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
+gsap.from(".txt13", {
+  scrollTrigger: {
+    trigger: ".txt13",
+  //   markers: true,
+    start: "bottom bottom",
+    end: "bottom 80%",
+    scrub: true,
+},
+  opacity: 1, y: -20, fontSize: '100px'
 });
 
 gsap.to(".sec3", {
@@ -222,16 +266,16 @@ gsap.to(".sec3", {
     background: 'rgb(0,0,0)'
 });
 
-gsap.from(".img--2", {
-    scrollTrigger: {
-      trigger: ".img--2",
-      // markers: true,
-      start: "-50% bottom",
-      end: "-30% 80%",
-      scrub: true,
-},
-    opacity: 0, y: -20
-});
+// gsap.from(".img--2", {
+//     scrollTrigger: {
+//       trigger: ".img--2",
+//       markers: true,
+//       start: "top 30%",
+//       end: "top 30%",
+//       scrub: true,
+// },
+//     opacity: 0, y: -20
+// });
 
 gsap.from(".img--3", {
   scrollTrigger: {
