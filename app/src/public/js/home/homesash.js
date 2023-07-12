@@ -164,7 +164,7 @@ gsap.from(".txt3-3", {
     end: "bottom 80%",
     scrub: true,
 },
-  opacity: 1, y: -40, fontSize: '100px'
+  opacity: 1, y: -10, fontSize: '100px'
 });
 
 gsap.from(".txt4-2, .txt4-3, .txt4-4", {
@@ -255,6 +255,17 @@ gsap.from(".txt14", {
   opacity: 0, y: 20
 });
 
+gsap.from(".txt15", {
+  scrollTrigger: {
+    trigger: ".txt15",
+    // markers: true,
+    start: "top bottom",
+    end: "30% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
 gsap.to(".sec3", {
     scrollTrigger: {
       trigger: ".sec3",
@@ -288,27 +299,15 @@ gsap.from(".img--4", {
   opacity: 0, y: -20
 });
 
-
-gsap.from(".img--7", {
-    scrollTrigger: {
-      trigger: ".img--7",
-    //   markers: true,
-      start: "center bottom",
-      end: "60% bottom",
-      scrub: true,
+gsap.from(".img--5", {
+  scrollTrigger: {
+    trigger: ".img--5",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
 },
-    opacity: 0, y: 20
-});
-
-gsap.from(".img--8", {
-    scrollTrigger: {
-      trigger: ".img--8",
-    //   markers: true,
-      start: "center bottom",
-      end: "70% 80%",
-      scrub: true,
-},
-    opacity: 0, y: 20
+  opacity: 0, y: 20
 });
 
 gsap.from(".card-pic1", {
