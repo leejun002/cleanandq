@@ -120,7 +120,7 @@ gsap.from(".content7", {
     end: "30% bottom",
     scrub: true,
 },
-  opacity: 0, y: 20
+  opacity: 0, y: 40
 });
 
 gsap.to(".txt2", {
@@ -313,7 +313,7 @@ gsap.from(".img--5", {
 gsap.from(".card-pic1", {
   scrollTrigger: {
     trigger: ".card-pic1",
-  //   markers: true,
+    // markers: true,
     start: "center bottom",
     end: "70% 80%",
     scrub: true,
