@@ -90,15 +90,37 @@ observer1.observe(first)
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".parallax-item .first", {
-    scrollTrigger: {
-        trigger: ".parallax-item .first",
-        // markers: true,
-        start: "top bottom",
-        end: "bottom 80%",
-        scrub: true,
+gsap.from(".content4", {
+  scrollTrigger: {
+    trigger: ".content4",
+    // markers: true,
+    start: "center bottom",
+    end: "60% bottom",
+    scrub: true,
 },
-    opacity: 1, y: 0, duration: 0.2
+  opacity: 0, y: 20
+});
+
+gsap.from(".content4-2", {
+  scrollTrigger: {
+    trigger: ".content4-2",
+    // markers: true,
+    start: "center bottom",
+    end: "60% bottom",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
+gsap.from(".content7", {
+  scrollTrigger: {
+    trigger: ".content7",
+    // markers: true,
+    start: "20% bottom",
+    end: "30% bottom",
+    scrub: true,
+},
+  opacity: 0, y: 20
 });
 
 gsap.to(".txt2", {
@@ -142,40 +164,7 @@ gsap.from(".txt3-3", {
     end: "bottom 80%",
     scrub: true,
 },
-  opacity: 1, y: 40, fontSize: '120px'
-});
-
-gsap.from(".content4", {
-  scrollTrigger: {
-    trigger: ".content4",
-    // markers: true,
-    start: "center bottom",
-    end: "60% bottom",
-    scrub: true,
-},
-  opacity: 0, y: 20
-});
-
-gsap.from(".content4-2", {
-  scrollTrigger: {
-    trigger: ".content4-2",
-    // markers: true,
-    start: "center bottom",
-    end: "60% bottom",
-    scrub: true,
-},
-  opacity: 0, y: 20
-});
-
-gsap.from(".content7", {
-  scrollTrigger: {
-    trigger: ".content7",
-    // markers: true,
-    start: "20% bottom",
-    end: "30% bottom",
-    scrub: true,
-},
-  opacity: 0, y: 20
+  opacity: 1, y: -40, fontSize: '100px'
 });
 
 gsap.from(".txt4-2, .txt4-3, .txt4-4", {
@@ -255,6 +244,17 @@ gsap.from(".txt13", {
   opacity: 1, y: -20, fontSize: '100px'
 });
 
+gsap.from(".txt14", {
+  scrollTrigger: {
+    trigger: ".txt14",
+    // markers: true,
+    start: "top bottom",
+    end: "30% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
 gsap.to(".sec3", {
     scrollTrigger: {
       trigger: ".sec3",
@@ -265,17 +265,6 @@ gsap.to(".sec3", {
 },
     background: 'rgb(0,0,0)'
 });
-
-// gsap.from(".img--2", {
-//     scrollTrigger: {
-//       trigger: ".img--2",
-//       markers: true,
-//       start: "top 30%",
-//       end: "top 30%",
-//       scrub: true,
-// },
-//     opacity: 0, y: -20
-// });
 
 gsap.from(".img--3", {
   scrollTrigger: {
@@ -320,6 +309,94 @@ gsap.from(".img--8", {
       scrub: true,
 },
     opacity: 0, y: 20
+});
+
+gsap.from(".card-pic1", {
+  scrollTrigger: {
+    trigger: ".card-pic1",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
+gsap.from(".card-pic2", {
+  scrollTrigger: {
+    trigger: ".card-pic2",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
+gsap.from(".card-pic3", {
+  scrollTrigger: {
+    trigger: ".card-pic3",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
+gsap.from(".card-pic4", {
+  scrollTrigger: {
+    trigger: ".card-pic4",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
+gsap.from(".card-pic5", {
+  scrollTrigger: {
+    trigger: ".card-pic5",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
+gsap.from(".card-pic6", {
+  scrollTrigger: {
+    trigger: ".card-pic6",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
+gsap.from(".card-pic7", {
+  scrollTrigger: {
+    trigger: ".card-pic7",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
+});
+
+gsap.from(".card-pic8", {
+  scrollTrigger: {
+    trigger: ".card-pic8",
+  //   markers: true,
+    start: "center bottom",
+    end: "70% 80%",
+    scrub: true,
+},
+  opacity: 0, y: 20
 });
 
 //ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
