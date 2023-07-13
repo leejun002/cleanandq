@@ -1427,6 +1427,13 @@ a {
     transition: opacity 400ms;
     text-decoration-line: none;
 }  
+
+@media all and (max-width: 740px) {
+    a {
+        opacity: 1.0;
+    }
+}
+
 a:hover {cursor: pointer;opacity: 1.0;}
 
 #memb {color: rgb(253, 255, 220);display: inline;}
