@@ -1011,6 +1011,7 @@ background: rgb(255, 255, 255);
 }  @media all and (max-width:1400px) {
     .txt13 {
         top: 15%;
+        left: 5%;
         font-size: 34px;
     }
 }  @media all and (max-width:1100px) {
@@ -1031,11 +1032,13 @@ background: rgb(255, 255, 255);
 }  @media all and (max-width:600px) {
     .txt13 {
         top: 30%;
+        left: 10%;
         font-size: 26px;
     }
 }  @media all and (max-width:400px) {
     .txt13 {
         top: 33%;
+        left: 15%;
         font-size: 23px;
     }
 }  @media all and (max-width:300px) {
@@ -1423,7 +1426,7 @@ a {
     opacity: 0.8;
     transition: opacity 400ms;
     text-decoration-line: none;
-}
+}  
 a:hover {cursor: pointer;opacity: 1.0;}
 
 #memb {color: rgb(253, 255, 220);display: inline;}
