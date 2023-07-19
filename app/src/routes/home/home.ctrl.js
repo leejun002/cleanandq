@@ -50,8 +50,13 @@ const output = {
   },
 
   homesash: (req,res) => {
-    logger.info(`GET /homesash 304 "칸스톤 페이지"`);
+    logger.info(`GET /homesash 304 "홈샤시 페이지"`);
     res.render("home/homesash");
+  },
+
+  normal: (req,res) => {
+    logger.info(`GET /normal 304 "일반창 페이지"`);
+    res.render("home/sash/normal");
   },
 };
 
