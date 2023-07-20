@@ -965,32 +965,32 @@ a {
 
 .card .card-pic10 {
     width: 100%;
-    height: 85%;
-    background: url('/pic/hanstone/sec10/amb&shadow.png');
+    height: 60%;
+    background: url('/pic/sash/nf-200c.png');
     background-size: cover;
     background-position: center;
 }
 
 .card .card-pic11 {
     width: 100%;
-    height: 85%;
-    background: url('/pic/hanstone/sec10/ambrosial1_c.jpg');
+    height: 60%;
+    background: url('/pic/sash/nf-225h.png');
     background-size: cover;
     background-position: center;
 }
 
 .card .card-pic12 {
     width: 100%;
-    height: 85%;
-    background: url('/pic/hanstone/sec10/jendai4_c.jpg');
+    height: 60%;
+    background: url('/pic/sash/nf-224c.png');
     background-size: cover;
     background-position: center;
 }
 
 .card .card-pic13 {
     width: 100%;
-    height: 85%;
-    background: url('/pic/hanstone/sec10/lunarwhite2.png');
+    height: 60%;
+    background: url('/pic/sash/ndf-234.png');
     background-size: cover;
     background-position: center;
 }
