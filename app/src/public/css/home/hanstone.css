@@ -241,7 +241,6 @@ background: rgb(255, 255, 255);
     height: auto;
 }
 
-
 .content1 {
     position: absolute;
     /* left: 5%; */
@@ -1794,6 +1793,12 @@ a {
 
 .swipe {
     opacity: 1;
+}
+
+.swiper-slide .swipe img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .swiper-slide-active .text-wrap {
