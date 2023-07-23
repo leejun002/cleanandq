@@ -77,45 +77,48 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:1650px) {
     .txt13 {
-        top: 10%;
         font-size: 36px;
     }
 }  @media all and (max-width:1400px) {
     .txt13 {
-        top: 15%;
         left: 5%;
         font-size: 34px;
     }
 }  @media all and (max-width:1100px) {
     .txt13 {
-        top: 20%;
         font-size: 32px;
     }
 }  @media all and (max-width:900px) {
     .txt13 {
-        top: 23%;
         font-size: 30px;
     }
 }  @media all and (max-width:740px) {
     .txt13 {
-        top: 25%;
         font-size: 28px;
     }
 }  @media all and (max-width:600px) {
     .txt13 {
-        top: 30%;
         left: 10%;
         font-size: 26px;
     }
+
+}  @media all and (max-width:500px) {
+    .txt13 {
+        left: 10%;
+        font-size: 24px;
+    }
 }  @media all and (max-width:400px) {
     .txt13 {
-        top: 50%;
         left: 8%;
         font-size: 23px;
     }
-}  @media all and (max-width:300px) {
+}  @media all and (max-width:380px) {
     .txt13 {
-        top: 37%;
+        left: 6%;
+        font-size: 22px;
+    }
+}  @media all and (max-width:350px) {
+    .txt13 {
         font-size: 20px;
     }
 }
@@ -146,35 +149,26 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:1100px) {
     .txt13-2 {
-        top: 20%;
+        top: 10%;
         font-size: 32px;
     }
 }  @media all and (max-width:900px) {
     .txt13-2 {
-        top: 23%;
         font-size: 30px;
     }
 }  @media all and (max-width:740px) {
     .txt13-2 {
-        top: 25%;
         font-size: 28px;
     }
 }  @media all and (max-width:600px) {
     .txt13-2 {
-        top: 30%;
-        left: 10%;
+        left: 7%;
         font-size: 26px;
     }
 }  @media all and (max-width:400px) {
     .txt13-2 {
-        top: 33%;
         left: 8%;
-        font-size: 23px;
-    }
-}  @media all and (max-width:300px) {
-    .txt13-2 {
-        top: 37%;
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
@@ -184,8 +178,9 @@ background: rgb(255, 255, 255);
 .txt13-span2 {
     color: rgb(243, 250, 116);
 }
-
-
+.txt13-span3 {
+    color: rgb(255, 116, 163);
+}
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
@@ -911,7 +906,27 @@ a {
     }
 }
 
-.card {
+.sec8 .card {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* padding: 1rem; */
+    height: 450px;
+    max-width: 100%;
+}
+
+@media all and (max-width:1000px) {
+    .sec8 .card {
+        height: 330px;
+    }
+}
+
+@media all and (max-width:500px) {
+    .sec8 .card {
+        height: 270px;
+    }
+}
+
+.sec10 .card {
     background-color: rgb(0, 0, 0);
     color: white;
     /* padding: 1rem; */
@@ -920,8 +935,8 @@ a {
 }
 
 @media all and (max-width:1000px) {
-    .card {
-        height: 300px;
+    .sec10 .card {
+        height: 330px;
     }
 }
 
@@ -954,27 +969,31 @@ a {
     }
 }  @media all and (max-width:1500px) {
     .card .card-txt .txt14 {
-        font-size: 22px;
+        font-size: 20px;
     }
 }  @media all and (max-width:1300px) {
     .card .card-txt .txt14 {
         font-size: 19px;
     }
+}  @media all and (max-width:1000px) {
+    .card .card-txt .txt14 {
+        font-size: 16px;
+    }
 }  @media all and (max-width:950px) {
     .card .card-txt .txt14 {
-        font-size: 17px;
+        font-size: 15px;
     }
 }  @media all and (max-width:740px) {
     .card .card-txt .txt14 {
-        font-size: 20px;
+        font-size: 17px;
     }
 }  @media all and (max-width:600px) {
     .card .card-txt .txt14 {
-        font-size: 18px;
+        font-size: 16px;
     }
 }  @media all and (max-width:500px) {
     .card .card-txt .txt14 {
-        font-size: 16px;
+        font-size: 15px;
     }
 }  @media all and (max-width:400px) {
     .card .card-txt .txt14 {
@@ -1007,6 +1026,17 @@ a {
         font-size: 120%;
     }
 }
+
+.txt14-span4 {
+    color: rgb(255, 253, 143);
+    font-size: 120%;
+  }
+  
+  @media all and (max-width:1000px) {
+      .txt14-span4 {
+          font-size: 100%;
+      }
+  }
 
 .sec8 .card .card-pic1 {
     width: 100%;
@@ -1042,12 +1072,12 @@ a {
     background-position: center;
 }
 
-@media all and (max-width:1000px) {
+/* @media all and (max-width:1000px) {
     .sec10 .card .card-pic2 {
         background-size: contain;
         background-repeat: no-repeat;
     }
-}
+} */
 
 .sec8 .card .card-pic3 {
     width: 100%;
@@ -1121,12 +1151,12 @@ a {
     background-position: center;
 }
 
-@media all and (max-width:1000px) {
+/* @media all and (max-width:1000px) {
     .card .card-pic9 {
         background-size: contain;
         background-repeat: no-repeat;
     }
-}
+} */
 
 .card .card-pic10 {
     width: 100%;
@@ -1136,12 +1166,12 @@ a {
     background-position: center;
 }
 
-@media all and (max-width:1000px) {
+/* @media all and (max-width:1000px) {
     .card .card-pic10 {
         background-size: contain;
         background-repeat: no-repeat;
     }
-}
+} */
 
 .card .card-pic11 {
     width: 100%;
