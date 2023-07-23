@@ -1029,12 +1029,12 @@ a {
 
 .txt14-span4 {
     color: rgb(255, 253, 143);
-    font-size: 120%;
+    font-size: 140%;
   }
   
   @media all and (max-width:1000px) {
       .txt14-span4 {
-          font-size: 100%;
+          font-size: 120%;
       }
   }
 
@@ -1131,7 +1131,7 @@ a {
 .card .card-pic8 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/normal/ndf-250h.png');
+    background: url('/pic/sash/balcony/vdf-245h.png');
     background-size: cover;
     background-position: center;
 }
@@ -1139,37 +1139,23 @@ a {
 .card .card-pic9 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/normal/ndf-230d+.png');
+    background: url('/pic/sash/balcony/vf-139.png');
     background-size: cover;
     background-position: center;
 }
-
-/* @media all and (max-width:1000px) {
-    .card .card-pic9 {
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-} */
 
 .card .card-pic10 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/normal/nf-200c.png');
+    background: url('/pic/sash/balcony/vf-159.png');
     background-size: cover;
     background-position: center;
 }
 
-/* @media all and (max-width:1000px) {
-    .card .card-pic10 {
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-} */
-
 .card .card-pic11 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/normal/nf-225h.png');
+    background: url('/pic/sash/balcony/vf-165.png');
     background-size: cover;
     background-position: center;
 }
@@ -1177,7 +1163,7 @@ a {
 .card .card-pic12 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/normal/nf-224c.png');
+    background: url('/pic/sash/balcony/vdf-267d.png');
     background-size: cover;
     background-position: center;
 }
@@ -1185,7 +1171,20 @@ a {
 .card .card-pic13 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/normal/ndf-234.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic14 {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic15 {
+    width: 100%;
+    height: 60%;
     background-size: cover;
     background-position: center;
 }
