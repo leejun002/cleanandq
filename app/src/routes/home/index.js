@@ -13,6 +13,7 @@ router.get("/logout", ctrl.output.logout);
 router.get("/hanstone", ctrl.output.hanstone);
 router.get("/homesash", ctrl.output.homesash);
 router.get("/normal", ctrl.output.normal);
+router.get("/balcony", ctrl.output.balcony);
 
 
 router.post("/login", ctrl.process.login);

@@ -58,6 +58,11 @@ const output = {
     logger.info(`GET /normal 304 "일반창 페이지"`);
     res.render("home/sash/normal");
   },
+
+  balcony: (req,res) => {
+    logger.info(`GET /balcony 304 "발코니창 페이지"`);
+    res.render("home/sash/balcony");
+  },
 };
 
 const process = {
