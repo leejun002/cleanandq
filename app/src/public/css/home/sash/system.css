@@ -1046,16 +1046,7 @@ a {
 .sec8 .card .card-pic1 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/balcony/balcony1.jpg');
-    background-size: cover;
-    background-position: center;
-    /* background-attachment: fixed; */
-}
-
-.sec10 .card .card-pic1 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vdf-245d.png');
+    
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
@@ -1069,26 +1060,10 @@ a {
     background-position: center;
 }
 
-.sec10 .card .card-pic2 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vdf-245d+sp.png');
-    background-size: cover;
-    background-position: center;
-}
-
 .sec8 .card .card-pic3 {
     width: 100%;
     height: 90%;
     background: url('/pic/sash/balcony/balcony3.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec10 .card .card-pic3 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vf-120h.png');
     background-size: cover;
     background-position: center;
 }
@@ -1101,10 +1076,35 @@ a {
     background-position: 0 30%;
 }
 
+.sec10 .card .card-pic1 {
+    width: 100%;
+    height: 60%;
+    background: url('/pic/sash/system/lsf-160.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.sec10 .card .card-pic2 {
+    width: 100%;
+    height: 60%;
+    background: url('/pic/sash/system/lsdf-290.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec10 .card .card-pic3 {
+    width: 100%;
+    height: 60%;
+    background: url('/pic/sash/system/nf-060.png');
+    background-size: cover;
+    background-position: center;
+}
+
 .sec10 .card .card-pic4 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vf-131.png');
+    background: url('/pic/sash/system/ptf-70.png');
     background-size: cover;
     background-position: center;
 }
@@ -1112,7 +1112,7 @@ a {
 .card .card-pic5 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vf-140.png');
+    background: url('/pic/sash/system/dsf-157.png');
     background-size: cover;
     background-position: 50% 70%;
 }
@@ -1120,7 +1120,7 @@ a {
 .card .card-pic6 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vf-143.png');
+    background: url('/pic/sash/system/stnf-157.png');
     background-size: cover;
     background-position: center;
 }
@@ -1128,7 +1128,6 @@ a {
 .card .card-pic7 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vdf-240h.png');
     background-size: cover;
     background-position: center;
 }
@@ -1136,7 +1135,6 @@ a {
 .card .card-pic8 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vdf-245h.png');
     background-size: cover;
     background-position: center;
 }
@@ -1144,7 +1142,6 @@ a {
 .card .card-pic9 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vf-139.png');
     background-size: cover;
     background-position: center;
 }
@@ -1152,7 +1149,6 @@ a {
 .card .card-pic10 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vf-159.png');
     background-size: cover;
     background-position: center;
 }
@@ -1160,7 +1156,6 @@ a {
 .card .card-pic11 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vf-165.png');
     background-size: cover;
     background-position: center;
 }
@@ -1168,7 +1163,6 @@ a {
 .card .card-pic12 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vdf-267d.png');
     background-size: cover;
     background-position: center;
 }
@@ -1176,7 +1170,6 @@ a {
 .card .card-pic13 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vdf-295.png');
     background-size: cover;
     background-position: center;
 }
@@ -1184,7 +1177,6 @@ a {
 .card .card-pic14 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vf-140+sp.png');
     background-size: cover;
     background-position: center;
 }
@@ -1192,7 +1184,6 @@ a {
 .card .card-pic15 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/f-279.png');
     background-size: cover;
     background-position: center;
 }

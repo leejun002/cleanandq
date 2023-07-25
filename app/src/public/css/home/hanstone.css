@@ -2062,8 +2062,8 @@ a {
 
 .swiper-button-next,
 .swiper-button-prev {
-    width: 40px !important;
-    height: 40px !important;
+    width: 30px !important;
+    height: 30px !important;
     background-color: rgba(240, 240, 240, 0.7);
     backdrop-filter: blur(3px);
     background-size: 20px;

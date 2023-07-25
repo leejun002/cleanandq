@@ -63,6 +63,11 @@ const output = {
     logger.info(`GET /balcony 304 "발코니창 페이지"`);
     res.render("home/sash/balcony");
   },
+
+  system: (req,res) => {
+    logger.info(`GET /system 304 "시스템창 페이지"`);
+    res.render("home/sash/system");
+  },
 };
 
 const process = {
