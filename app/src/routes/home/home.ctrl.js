@@ -68,6 +68,11 @@ const output = {
     logger.info(`GET /system 304 "시스템창 페이지"`);
     res.render("home/sash/system");
   },
+
+  rehau: (req,res) => {
+    logger.info(`GET /rehau 304 "레하우창 페이지"`);
+    res.render("home/sash/rehau");
+  },
 };
 
 const process = {

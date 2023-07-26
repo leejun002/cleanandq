@@ -1046,41 +1046,16 @@ a {
 .sec8 .card .card-pic1 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/system/system1.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: url('/pic/sash/rehau/rehau1.jpg');
+    background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
 }
 
-.sec8 .card .card-pic2 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/sash/system/system2.jpg');
-    background-size: cover;
-    background-position: 20% 50%;
-}
-
-.sec8 .card .card-pic3 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/sash/system/system3.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec8 .card .card-pic4 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/sash/system/system4.jpg');
-    background-size: cover;
-    background-position: 0 80%;
-}
 
 .sec10 .card .card-pic1 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/system/lsf-160.png');
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
@@ -1089,7 +1064,6 @@ a {
 .sec10 .card .card-pic2 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/system/lsdf-290.png');
     background-size: cover;
     background-position: center;
 }
@@ -1097,7 +1071,6 @@ a {
 .sec10 .card .card-pic3 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/system/nf-060.png');
     background-size: cover;
     background-position: center;
 }
@@ -1105,7 +1078,6 @@ a {
 .sec10 .card .card-pic4 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/system/ptf-70.png');
     background-size: cover;
     background-position: center;
 }
@@ -1113,7 +1085,6 @@ a {
 .card .card-pic5 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/system/dsf-157.png');
     background-size: cover;
     background-position: 50% 70%;
 }
@@ -1121,7 +1092,6 @@ a {
 .card .card-pic6 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/system/stnf-157.png');
     background-size: cover;
     background-position: center;
 }
@@ -1129,7 +1099,6 @@ a {
 .card .card-pic7 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/system/stnf-220.png');
     background-size: cover;
     background-position: center;
 }
