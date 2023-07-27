@@ -14,6 +14,7 @@ router.get("/hanstone", ctrl.output.hanstone);
 router.get("/homesash", ctrl.output.homesash);
 router.get("/normal", ctrl.output.normal);
 router.get("/balcony", ctrl.output.balcony);
+router.get("/system", ctrl.output.system);
 router.get("/rehau", ctrl.output.rehau);
 
 router.post("/login", ctrl.process.login);
