@@ -384,7 +384,7 @@
 }
 
 .content4 {
-  background: url('/pic/homesash/sec3/insulation_c.png');
+  background: url('/pic/homesash/sec3/insulation.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -411,22 +411,23 @@
 
 @media all and (max-width:960px) {
   .content4 {
+    top: 17%;
     width: 80%;
-    height: 20%;
+    height: 25%;
   }
 }
 
 .content4-2 {
-  background: url('/pic/homesash/sec3-2/horizontal_c.png');
+  background: url('/pic/homesash/sec3-2/horizontal.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
   left: 10%;
-  top: 40%;
+  top: 30%;
   width: 40%;
   z-index: 3;
-  height: 50%;
+  height: 70%;
   transition: all 0.5s;
 }
 
@@ -434,18 +435,19 @@
   .content4-2 {
     top: 25%;
     width: 80%;
+    height: 50%;
     /* background-size: cover; */
   }
 }
 
 @media all and (max-width:700px) {
   .content4-2 {
-    background: url('/pic/homesash/sec3-2/vertical_c.png');
+    background: url('/pic/homesash/sec3-2/vertical.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    top: 23%;
-    height: 55%;
+    top: 17%;
+    height: 60%;
     /* background-size: cover; */
   }
 }
