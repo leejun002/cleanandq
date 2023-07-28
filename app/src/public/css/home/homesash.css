@@ -247,27 +247,26 @@
   /* left: 5%; */
   bottom: 10%;
   z-index: 3;
-  left: 5%;
+  left: 7%;
   width: 80%;
 }
 
 @media all and (max-width: 1070px) {
   .content1 {
-    left: 47%;
-    bottom: 5%;
+    left: 55%;
+    bottom: 2%;
   }
 }
 
 @media all and (max-width: 500px) {
   .content1 {
-    left: 43%;
+    left: 53%;
     bottom: 2%;
   }
 }
 
 @media all and (max-width: 450px) {
   .content1 {
-    left: 47%;
     bottom: 2%;
   }
 }
@@ -307,15 +306,15 @@
 
 .content3 {
   position: absolute;
-  left: 10%;
-  bottom: 80%;
+  left: 13%;
+  top: 4%;
   z-index: 3;
   width: 300%;
 }
 
 @media all and (max-width: 1700px) {
   .content3 {
-    top: 5%;
+    left: 15%;
   }
 }
 
@@ -704,8 +703,25 @@
   .img--2 {
     width: 20%;
     min-width: 100px;
-    left: 10%;
+    left: 20%;
     bottom: 5%;
+  }
+}
+
+@media all and (max-width: 740px) {
+  .img--2 {
+    width: 25%;
+    min-width: 100px;
+    left: 20%;
+    bottom: 4%;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .img--2 {
+    width: 25%;
+    min-width: 100px;
+    left: 17%;
   }
 }
 
@@ -1094,27 +1110,39 @@
   }
 }
 
+@media all and (max-width:1200px) {
+  .txt2 {
+    font-size: 28px;
+  }
+}
+
 @media all and (max-width:1070px) {
   .txt2 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
 @media all and (max-width: 900px) {
   .txt2 {
-    font-size: 27px;
+    font-size: 23px;
   }
 }
 
 @media all and (max-width: 740px) {
   .txt2 {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
 @media all and (max-width: 600px) {
   .txt2 {
     font-size: 20px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .txt2 {
+    font-size: 17px;
   }
 }
 
@@ -1130,9 +1158,15 @@
   }
 }
 
-.breton {
+@media all and (max-width: 400px) {
+  .txt2 {
+    font-size: 15px;
+  }
+}
+
+.txt2-span {
+  color: rgb(255, 153, 0);
   font-weight: bold;
-  color: #9b0837;
 }
 
 .txt3 {
@@ -2048,7 +2082,8 @@
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  color: rgb(255, 101, 81);
+  /* color: rgb(255, 101, 81); */
+  color: rgb(255, 86, 142);
   /* z-index: 100; */
   opacity: 1;
   position: absolute;
