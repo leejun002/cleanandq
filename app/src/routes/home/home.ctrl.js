@@ -73,6 +73,11 @@ const output = {
     logger.info(`GET /rehau 304 "레하우창 페이지"`);
     res.render("home/sash/rehau");
   },
+
+  aluminium: (req,res) => {
+    logger.info(`GET /aluminium 304 "레하우창 페이지"`);
+    res.render("home/sash/aluminium");
+  },
 };
 
 const process = {

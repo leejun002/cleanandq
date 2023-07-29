@@ -907,7 +907,7 @@ a {
 
 @media all and (max-width: 1000px) {
     .sec10 .cards {
-       gap: 3rem; 
+       gap: 1rem; 
     }
 }
 
@@ -935,13 +935,13 @@ a {
     background-color: rgb(0, 0, 0);
     color: white;
     /* padding: 1rem; */
-    height: 500px;
+    height: 750px;
     max-width: 100%;
 }
 
 @media all and (max-width:1000px) {
     .sec10 .card {
-        height: 330px;
+        height: 500px;
     }
 }
 
@@ -1035,18 +1035,18 @@ a {
 .txt14-span4 {
     color: rgb(255, 253, 143);
     font-size: 140%;
-}
+  }
   
-@media all and (max-width:1000px) {
-    .txt14-span4 {
-        font-size: 120%;
-    }
-}
+  @media all and (max-width:1000px) {
+      .txt14-span4 {
+          font-size: 120%;
+      }
+  }
 
 .sec8 .card .card-pic1 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/balcony/balcony1.jpg');
+    background: url('/pic/sash/aluminium/aluminium1.jpg');
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
@@ -1055,31 +1055,16 @@ a {
 .sec8 .card .card-pic2 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/balcony/balcony2.jpg');
+    background: url('/pic/sash/aluminium/aluminium2.jpg');
     background-size: cover;
     background-position: center;
-}
-
-.sec8 .card .card-pic3 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/sash/balcony/balcony3.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec8 .card .card-pic4 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/sash/normal/normal4.jpg');
-    background-size: cover;
-    background-position: 0 30%;
+    /* background-attachment: fixed; */
 }
 
 .sec10 .card .card-pic1 {
     width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vdf-245d.png');
+    height: 65%;
+    background: url('/pic/sash/aluminium/alcap.png');
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
@@ -1087,16 +1072,16 @@ a {
 
 .sec10 .card .card-pic2 {
     width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vdf-245d+sp.png');
+    height: 65%;
+    background: url('/pic/sash/aluminium/alhid.png');
     background-size: cover;
     background-position: center;
 }
 
 .sec10 .card .card-pic3 {
     width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vf-120h.png');
+    height: 65%;
+    background: url('/pic/sash/aluminium/halsys-dr75.png');
     background-size: cover;
     background-position: center;
 }
@@ -1104,7 +1089,7 @@ a {
 .sec10 .card .card-pic4 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vf-131.png');
+    background: url('/pic/sash/aluminium/alcap.png');
     background-size: cover;
     background-position: center;
 }
@@ -1112,7 +1097,7 @@ a {
 .card .card-pic5 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vf-140.png');
+    background: url('/pic/sash/aluminium/dsf-157.png');
     background-size: cover;
     background-position: 50% 70%;
 }
@@ -1120,7 +1105,7 @@ a {
 .card .card-pic6 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vf-143.png');
+    background: url('/pic/sash/aluminium/stnf-157.png');
     background-size: cover;
     background-position: center;
 }
@@ -1128,71 +1113,7 @@ a {
 .card .card-pic7 {
     width: 100%;
     height: 60%;
-    background: url('/pic/sash/balcony/vdf-240h.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.card .card-pic8 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vdf-245h.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.card .card-pic9 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vf-139.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.card .card-pic10 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vf-159.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.card .card-pic11 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vf-165.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.card .card-pic12 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vdf-267d.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.card .card-pic13 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vdf-295.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.card .card-pic14 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/vf-140+sp.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.card .card-pic15 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/balcony/f-279.png');
+    background: url('/pic/sash/aluminium/stnf-220.png');
     background-size: cover;
     background-position: center;
 }

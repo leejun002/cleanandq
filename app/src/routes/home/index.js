@@ -16,6 +16,7 @@ router.get("/normal", ctrl.output.normal);
 router.get("/balcony", ctrl.output.balcony);
 router.get("/system", ctrl.output.system);
 router.get("/rehau", ctrl.output.rehau);
+router.get("/aluminium", ctrl.output.aluminium);
 
 router.post("/login", ctrl.process.login);
 router.post("/register", ctrl.process.register);
