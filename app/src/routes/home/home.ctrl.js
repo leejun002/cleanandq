@@ -78,6 +78,11 @@ const output = {
     logger.info(`GET /aluminium 304 "레하우창 페이지"`);
     res.render("home/sash/aluminium");
   },
+
+  specialuse: (req,res) => {
+    logger.info(`GET /specialuse 304 "레하우창 페이지"`);
+    res.render("home/sash/specialuse");
+  },
 };
 
 const process = {
