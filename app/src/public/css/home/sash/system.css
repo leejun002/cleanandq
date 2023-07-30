@@ -101,7 +101,6 @@ background: rgb(255, 255, 255);
         left: 10%;
         font-size: 26px;
     }
-
 }  @media all and (max-width:500px) {
     .txt13 {
         left: 10%;
@@ -119,7 +118,7 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:380px) {
     .txt13 {
-        left: 6%;
+        left: 3.5%;
         font-size: 22px;
     }
 }  @media all and (max-width:350px) {

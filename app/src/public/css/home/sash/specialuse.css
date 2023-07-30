@@ -947,9 +947,27 @@ a {
     max-width: 100%;
 }
 
+@media all and (max-width:1500px) {
+    .sec10 .card {
+        height: 700px;
+    }
+}
+
+@media all and (max-width:1200px) {
+    .sec10 .card {
+        height: 550px;
+    }
+}
+
 @media all and (max-width:1000px) {
     .sec10 .card {
         height: 450px;
+    }
+}
+
+@media all and (max-width:500px) {
+    .sec10 .card {
+        height: 395px;
     }
 }
 
@@ -1121,6 +1139,24 @@ a {
 .card .card-pic7 {
     width: 100%;
     height: 60%;
+    background: url('/pic/sash/specialuse/tnf-100.png');
     background-size: cover;
+    background-position: center;
+}
+
+.card .card-pic8 {
+    width: 100%;
+    height: 60%;
+    background: url('/pic/sash/specialuse/jam1.png');
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
+.card .card-pic9 {
+    width: 100%;
+    height: 60%;
+    background: url('/pic/sash/specialuse/jam2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 }
