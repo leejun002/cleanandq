@@ -18,6 +18,8 @@ router.get("/homesash", ctrl.output.homesash);
   router.get("/rehau", ctrl.output.rehau);
   router.get("/aluminium", ctrl.output.aluminium);
   router.get("/specialuse", ctrl.output.specialuse);
+  router.get("/sheetcolor", ctrl.output.sheetcolor);
+  router.get("/handle", ctrl.output.handle);
 
 router.post("/login", ctrl.process.login);
 router.post("/register", ctrl.process.register);

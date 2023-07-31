@@ -75,13 +75,23 @@ const output = {
   },
 
   aluminium: (req,res) => {
-    logger.info(`GET /aluminium 304 "레하우창 페이지"`);
+    logger.info(`GET /aluminium 304 "알루미늄창 페이지"`);
     res.render("home/sash/aluminium");
   },
 
   specialuse: (req,res) => {
-    logger.info(`GET /specialuse 304 "레하우창 페이지"`);
+    logger.info(`GET /specialuse 304 "특수용도창 페이지"`);
     res.render("home/sash/specialuse");
+  },
+
+  sheetcolor: (req,res) => {
+    logger.info(`GET /sheetcolor 304 "시트컬러 페이지"`);
+    res.render("home/sash/sheetcolor");
+  },
+
+  handle: (req,res) => {
+    logger.info(`GET /handle 304 "핸들 페이지"`);
+    res.render("home/sash/handle");
   },
 };
 
