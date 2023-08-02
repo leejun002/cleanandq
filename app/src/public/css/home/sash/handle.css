@@ -9,25 +9,28 @@ background: rgb(255, 255, 255);
     height: 100vh; 
 }
 
-.sec7 {
+.sec6 {
     position: relative;
     background:rgb(0, 0, 0);
     height: 15vh;
     overflow: hidden;
 }
-
 @media all and (max-width: 1000px) {
-    .sec7 {
+    .sec6 {
         height: 10vh;
     }
 }
 
-.sec8 {
+.sec7 {
     position: relative;
-    padding: 1rem;
-    background: rgb(0, 0, 0);
+    background:rgb(0, 0, 0);
+    height: 18vh;
     overflow: hidden;
-    height: auto;
+}
+@media all and (max-width: 1000px) {
+    .sec7 {
+        height: 15vh;
+    }
 }
 
 .sec9 {
@@ -36,7 +39,6 @@ background: rgb(255, 255, 255);
     height: 8vh;
     overflow: hidden;
 }
-
 @media all and (max-width: 1000px) {
     .sec9 {
         height: 7vh;
@@ -44,6 +46,30 @@ background: rgb(255, 255, 255);
 }
 
 .sec10 {
+    position: relative;
+    padding: 1rem;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    height: auto;
+}
+
+.sec11 {
+    position: relative;
+    padding: 1rem;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    height: auto;
+}
+
+.sec12 {
+    position: relative;
+    padding: 1rem;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    height: auto;
+}
+
+.sec13 {
     position: relative;
     padding: 1rem;
     background: rgb(0, 0, 0);
@@ -176,14 +202,28 @@ background: rgb(255, 255, 255);
     }
 }
 
-.txt13-span1 {
-    color: rgb(255, 152, 83);
-}
 .txt13-span2 {
     color: rgb(243, 250, 116);
 }
 .txt13-span3 {
-    color: rgb(255, 116, 163);
+    font-size: 1.4em;
+    color: rgb(201, 255, 246);
+}
+.txt13-span4 {
+    font-size: 1.2em;
+    color: rgb(116, 234, 255);
+}
+.txt13-span5 {
+    font-size: 1.2em;
+    color: rgb(116, 255, 197);
+}
+.txt13-span6 {
+    font-size: 1.2em;
+    color: rgb(116, 255, 202);
+}
+.txt13-span7 {
+    font-size: 1.2em;
+    color: rgb(116, 255, 202);
 }
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
@@ -879,54 +919,85 @@ a {
 /* 크린앤Q 시공사례 card */
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
-.sec8 .cards {
-    /* max-width: 1200px; */
-    margin: 0 auto;
-    display: grid;
-    gap: 0.5rem;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-}  @media (min-width: 741px) {
-    .sec8 .cards { grid-template-columns: repeat(2, 1fr); }
-}  @media (min-width: 1500px) {
-    .sec8 .cards { grid-template-columns: repeat(3, 1fr); }
-}
-
-
 .sec10 .cards {
     /* max-width: 1200px; */
     margin: 0 auto;
     display: grid;
     gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }  @media (min-width: 741px) {
-    .sec10 .cards { grid-template-columns: repeat(2, 1fr); }
-}  @media (min-width: 1500px) {
     .sec10 .cards { grid-template-columns: repeat(3, 1fr); }
+}  @media (min-width: 1500px) {
+    .sec10 .cards { grid-template-columns: repeat(4, 1fr); }
 }
 
 @media all and (max-width: 1000px) {
     .sec10 .cards {
-       gap: 3rem; 
+       gap: 1rem;
     }
 }
 
-.sec8 .card {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    /* padding: 1rem; */
-    height: 450px;
-    max-width: 100%;
+.sec11 .cards {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}  @media (min-width: 741px) {
+    .sec11 .cards { grid-template-columns: repeat(3, 1fr); }
+}  @media (min-width: 1500px) {
+    .sec11 .cards { grid-template-columns: repeat(4, 1fr); }
 }
 
-@media all and (max-width:1000px) {
-    .sec8 .card {
-        height: 330px;
+@media all and (max-width: 1000px) {
+    .sec11 .cards {
+       gap: 1rem; 
     }
 }
 
-@media all and (max-width:500px) {
-    .sec8 .card {
-        height: 270px;
+@media all and (max-width: 740px) {
+    .sec11 .cards {
+       gap: 0; 
+    }
+}
+
+.sec12 .cards {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}  @media (min-width: 741px) {
+    .sec12 .cards { grid-template-columns: repeat(3, 1fr); }
+}  @media (min-width: 1500px) {
+    .sec12 .cards { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media all and (max-width: 1000px) {
+    .sec12 .cards {
+       gap: 1rem; 
+    }
+}
+
+.sec13 .cards {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}  @media (min-width: 741px) {
+    .sec13 .cards { grid-template-columns: repeat(3, 1fr); }
+}  @media (min-width: 1500px) {
+    .sec13 .cards { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media all and (max-width: 1000px) {
+    .sec13 .cards {
+       gap: 1rem; 
     }
 }
 
@@ -934,7 +1005,7 @@ a {
     background-color: rgb(0, 0, 0);
     color: white;
     /* padding: 1rem; */
-    height: 500px;
+    height: 350px;
     max-width: 100%;
 }
 
@@ -944,6 +1015,47 @@ a {
     }
 }
 
+.sec11 .card {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* padding: 1rem; */
+    height: 350px;
+    max-width: 100%;
+}
+
+@media all and (max-width:1000px) {
+    .sec11 .card {
+        height: 330px;
+    }
+}
+
+.sec12 .card {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* padding: 1rem; */
+    height: 350px;
+    max-width: 100%;
+}
+
+@media all and (max-width:1000px) {
+    .sec12 .card {
+        height: 330px;
+    }
+}
+
+.sec13 .card {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* padding: 1rem; */
+    height: 350px;
+    max-width: 100%;
+}
+
+@media all and (max-width:1000px) {
+    .sec13 .card {
+        height: 330px;
+    }
+}
 
 .card .card-txt {
     width: 100%;
@@ -1042,44 +1154,10 @@ a {
       }
   }
 
-.sec8 .card .card-pic1 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/sash/system/system1.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-attachment: fixed; */
-}
-
-.sec8 .card .card-pic2 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/sash/system/system2.jpg');
-    background-size: cover;
-    background-position: 20% 50%;
-}
-
-.sec8 .card .card-pic3 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/sash/system/system3.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec8 .card .card-pic4 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/sash/system/system4.jpg');
-    background-size: cover;
-    background-position: 0 80%;
-}
-
 .sec10 .card .card-pic1 {
     width: 100%;
-    height: 60%;
-    background: url('/pic/sash/system/lsf-160.png');
+    height: 90%;
+    background: url('/pic/sash/handle/magnus/magnus1.png');
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
@@ -1087,48 +1165,210 @@ a {
 
 .sec10 .card .card-pic2 {
     width: 100%;
-    height: 60%;
-    background: url('/pic/sash/system/lsdf-290.png');
+    height: 90%;
+    background: url('/pic/sash/handle/magnus/magnus4.png');
     background-size: cover;
     background-position: center;
 }
 
 .sec10 .card .card-pic3 {
     width: 100%;
-    height: 60%;
-    background: url('/pic/sash/system/nf-060.png');
+    height: 90%;
+    background: url('/pic/sash/handle/magnus/magnus6.png');
     background-size: cover;
     background-position: center;
 }
 
-.sec10 .card .card-pic4 {
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+.sec11 .card .card-pic1 {
     width: 100%;
-    height: 60%;
-    background: url('/pic/sash/system/ptf-70.png');
+    height: 90%;
+    background: url('/pic/sash/handle/laffine/lafix.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.sec11 .card .card-pic2 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/handle/laffine/la1-h.png');
     background-size: cover;
     background-position: center;
 }
 
-.card .card-pic5 {
+.sec11 .card .card-pic3 {
     width: 100%;
-    height: 60%;
-    background: url('/pic/sash/system/dsf-157.png');
-    background-size: cover;
-    background-position: 50% 70%;
-}
-
-.card .card-pic6 {
-    width: 100%;
-    height: 60%;
-    background: url('/pic/sash/system/stnf-157.png');
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/basic3.png');
     background-size: cover;
     background-position: center;
 }
 
-.card .card-pic7 {
+.sec11 .card .card-pic4 {
     width: 100%;
-    height: 60%;
-    background: url('/pic/sash/system/stnf-220.png');
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/basic4.png');
     background-size: cover;
     background-position: center;
+}
+
+.sec11 .card .card-pic5 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/basic1.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.sec11 .card .card-pic6 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/basic2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec11 .card .card-pic7 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/basic3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+.sec12 .card .card-pic1 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/darkbrown.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.sec12 .card .card-pic2 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/black.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec12 .card .card-pic3 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/whitemetal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec12 .card .card-pic4 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/lightmetal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec12 .card .card-pic5 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/darkmetal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec12 .card .card-pic6 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/darkbrown.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.sec12 .card .card-pic7 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/black.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec12 .card .card-pic8 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/whitemetal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec12 .card .card-pic9 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/lightmetal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec12 .card .card-pic10 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/darkmetal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+.sec13 .card .card-pic1 {
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.sec13 .card .card-pic2 {
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec13 .card .card-pic3 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/whitemetal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec13 .card .card-pic4 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/lightmetal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec13 .card .card-pic5 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/darkmetal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec13 .card .card-pic6 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/sash/sheetcolor/darkbrown.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
 }
