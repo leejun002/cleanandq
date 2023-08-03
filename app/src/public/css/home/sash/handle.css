@@ -139,12 +139,12 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:400px) {
     .txt13 {
-        left: 5.5%;
+        left: 8%;
         font-size: 23px;
     }
 }  @media all and (max-width:380px) {
     .txt13 {
-        left: 3.5%;
+        left: 8%;
         font-size: 22px;
     }
 }  @media all and (max-width:350px) {
@@ -155,7 +155,7 @@ background: rgb(255, 255, 255);
 
 .txt13-2 {
     position: absolute;
-    top: 10%;
+    top: 7%;
     left: 3%;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 40px;
@@ -168,18 +168,17 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:1650px) {
     .txt13-2 {
-        top: 10%;
+        top: 5%;
         font-size: 36px;
     }
 }  @media all and (max-width:1400px) {
     .txt13-2 {
-        top: 15%;
+        top: 10%;
         left: 5%;
         font-size: 34px;
     }
 }  @media all and (max-width:1100px) {
     .txt13-2 {
-        top: 10%;
         font-size: 32px;
     }
 }  @media all and (max-width:900px) {
@@ -207,7 +206,7 @@ background: rgb(255, 255, 255);
 }
 .txt13-span3 {
     font-size: 1.4em;
-    color: rgb(201, 255, 246);
+    color: rgb(255, 255, 255);
 }
 .txt13-span4 {
     font-size: 1.2em;
@@ -215,15 +214,15 @@ background: rgb(255, 255, 255);
 }
 .txt13-span5 {
     font-size: 1.2em;
-    color: rgb(116, 255, 197);
+    color: rgb(116, 255, 202);
 }
 .txt13-span6 {
     font-size: 1.2em;
-    color: rgb(116, 255, 202);
+    color: rgb(255, 116, 213);
 }
 .txt13-span7 {
     font-size: 1.2em;
-    color: rgb(116, 255, 202);
+    color: rgb(116, 188, 255);
 }
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
@@ -957,12 +956,6 @@ a {
     }
 }
 
-@media all and (max-width: 740px) {
-    .sec11 .cards {
-       gap: 0; 
-    }
-}
-
 .sec12 .cards {
     /* max-width: 1200px; */
     margin: 0 auto;
@@ -1009,9 +1002,21 @@ a {
     max-width: 100%;
 }
 
-@media all and (max-width:1000px) {
+@media all and (max-width:1130px) {
     .sec10 .card {
-        height: 330px;
+        height: 260px;
+    }
+}
+
+@media all and (max-width:570px) {
+    .sec10 .card {
+        height: 200px;
+    }
+}
+
+@media all and (max-width:430px) {
+    .sec10 .card {
+        height: 150px;
     }
 }
 
@@ -1023,9 +1028,21 @@ a {
     max-width: 100%;
 }
 
-@media all and (max-width:1000px) {
+@media all and (max-width:1130px) {
     .sec11 .card {
-        height: 330px;
+        height: 260px;
+    }
+}
+
+@media all and (max-width:570px) {
+    .sec11 .card {
+        height: 200px;
+    }
+}
+
+@media all and (max-width:430px) {
+    .sec11 .card {
+        height: 150px;
     }
 }
 
@@ -1037,9 +1054,21 @@ a {
     max-width: 100%;
 }
 
-@media all and (max-width:1000px) {
+@media all and (max-width:1130px) {
     .sec12 .card {
-        height: 330px;
+        height: 260px;
+    }
+}
+
+@media all and (max-width:570px) {
+    .sec12 .card {
+        height: 200px;
+    }
+}
+
+@media all and (max-width:430px) {
+    .sec12 .card {
+        height: 150px;
     }
 }
 
@@ -1051,9 +1080,21 @@ a {
     max-width: 100%;
 }
 
-@media all and (max-width:1000px) {
+@media all and (max-width:1130px) {
     .sec13 .card {
-        height: 330px;
+        height: 260px;
+    }
+}
+
+@media all and (max-width:570px) {
+    .sec13 .card {
+        height: 200px;
+    }
+}
+
+@media all and (max-width:430px) {
+    .sec13 .card {
+        height: 150px;
     }
 }
 
@@ -1093,11 +1134,7 @@ a {
     }
 }  @media all and (max-width:1000px) {
     .card .card-txt .txt14 {
-        font-size: 16px;
-    }
-}  @media all and (max-width:950px) {
-    .card .card-txt .txt14 {
-        font-size: 15px;
+        font-size: 18px;
     }
 }  @media all and (max-width:740px) {
     .card .card-txt .txt14 {
@@ -1201,7 +1238,7 @@ a {
 .sec11 .card .card-pic3 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/basic3.png');
+    background: url('/pic/sash/handle/laffine/la4.png');
     background-size: cover;
     background-position: center;
 }
@@ -1209,7 +1246,7 @@ a {
 .sec11 .card .card-pic4 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/basic4.png');
+    background: url('/pic/sash/handle/laffine/la5.png');
     background-size: cover;
     background-position: center;
 }
@@ -1217,16 +1254,15 @@ a {
 .sec11 .card .card-pic5 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/basic1.png');
+    background: url('/pic/sash/handle/laffine/la7.png');
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
 }
 
 .sec11 .card .card-pic6 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/basic2.png');
+    background: url('/pic/sash/handle/laffine/la1n.png');
     background-size: cover;
     background-position: center;
 }
@@ -1234,7 +1270,7 @@ a {
 .sec11 .card .card-pic7 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/basic3.png');
+    background: url('/pic/sash/handle/laffine/la-1.png');
     background-size: cover;
     background-position: center;
 }
@@ -1244,7 +1280,7 @@ a {
 .sec12 .card .card-pic1 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/darkbrown.png');
+    background: url('/pic/sash/handle/kaiser/kafix.png');
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
@@ -1253,7 +1289,7 @@ a {
 .sec12 .card .card-pic2 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/black.png');
+    background: url('/pic/sash/handle/kaiser/ka1-h.png');
     background-size: cover;
     background-position: center;
 }
@@ -1261,7 +1297,7 @@ a {
 .sec12 .card .card-pic3 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/whitemetal.png');
+    background: url('/pic/sash/handle/kaiser/ka3.png');
     background-size: cover;
     background-position: center;
 }
@@ -1269,7 +1305,7 @@ a {
 .sec12 .card .card-pic4 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/lightmetal.png');
+    background: url('/pic/sash/handle/kaiser/ka4.png');
     background-size: cover;
     background-position: center;
 }
@@ -1277,7 +1313,7 @@ a {
 .sec12 .card .card-pic5 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/darkmetal.png');
+    background: url('/pic/sash/handle/kaiser/ka5.png');
     background-size: cover;
     background-position: center;
 }
@@ -1285,16 +1321,15 @@ a {
 .sec12 .card .card-pic6 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/darkbrown.png');
+    background: url('/pic/sash/handle/kaiser/ka6.png');
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
 }
 
 .sec12 .card .card-pic7 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/black.png');
+    background: url('/pic/sash/handle/kaiser/ka7-1.png');
     background-size: cover;
     background-position: center;
 }
@@ -1302,7 +1337,7 @@ a {
 .sec12 .card .card-pic8 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/whitemetal.png');
+    background: url('/pic/sash/handle/kaiser/ka1n.png');
     background-size: cover;
     background-position: center;
 }
@@ -1310,7 +1345,7 @@ a {
 .sec12 .card .card-pic9 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/lightmetal.png');
+    background: url('/pic/sash/handle/kaiser/ka-1.png');
     background-size: cover;
     background-position: center;
 }
@@ -1318,7 +1353,7 @@ a {
 .sec12 .card .card-pic10 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/darkmetal.png');
+    background: url('/pic/sash/handle/kaiser/ka-7.png');
     background-size: cover;
     background-position: center;
 }
@@ -1328,6 +1363,7 @@ a {
 .sec13 .card .card-pic1 {
     width: 100%;
     height: 90%;
+    background: url('/pic/sash/handle/crescent/cr600.png');
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
@@ -1336,6 +1372,7 @@ a {
 .sec13 .card .card-pic2 {
     width: 100%;
     height: 90%;
+    background: url('/pic/sash/handle/crescent/cr345.png');
     background-size: cover;
     background-position: center;
 }
@@ -1343,7 +1380,7 @@ a {
 .sec13 .card .card-pic3 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/whitemetal.png');
+    background: url('/pic/sash/handle/crescent/cr375.png');
     background-size: cover;
     background-position: center;
 }
@@ -1351,7 +1388,7 @@ a {
 .sec13 .card .card-pic4 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/lightmetal.png');
+    background: url('/pic/sash/handle/crescent/cr800n.png');
     background-size: cover;
     background-position: center;
 }
@@ -1359,7 +1396,7 @@ a {
 .sec13 .card .card-pic5 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/darkmetal.png');
+    background: url('/pic/sash/handle/crescent/cr810n.png');
     background-size: cover;
     background-position: center;
 }
@@ -1367,7 +1404,7 @@ a {
 .sec13 .card .card-pic6 {
     width: 100%;
     height: 90%;
-    background: url('/pic/sash/sheetcolor/darkbrown.png');
+    background: url('/pic/sash/handle/crescent/cr490.png');
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
