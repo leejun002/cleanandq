@@ -704,7 +704,7 @@
     width: 20%;
     min-width: 100px;
     left: 20%;
-    bottom: 5%;
+    bottom: 3%;
   }
 }
 
@@ -3568,7 +3568,30 @@ body {
   right: 0;
 }
 
+.nav-container2 {
+  background: rgba(218, 218, 218, 0.8);
+  font-weight: 600;
+  height: 40px;
+  z-index: 200;
+  position: fixed;
+  left: 0;
+  top: 44px;
+  right: 0;
+}
+@media all and (max-width:740px) {
+  .nav-container2 {
+    height: 37px;
+  }
+}
+
 .nav-container nav {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 8px;
+  height: 100%;
+}
+
+.nav-container2 nav {
   width: 1000px;
   margin: 0 auto;
   padding: 0 8px;
@@ -3589,10 +3612,42 @@ nav .desktop-nav li a {
   font-size: 14px;
   opacity: 0.8;
   transition: opacity 400ms;
-}
+}  
 
 nav .desktop-nav li a:hover {
   opacity: 1;
+}
+
+nav .sash-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+}
+
+nav .sash-nav li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  opacity: 1;
+  transition: opacity 400ms;
+}
+
+@media all and (max-width:740px) {
+  nav .sash-nav li a {
+    font-size: 16px;
+  }
+}
+
+@media all and (max-width:550px) {
+  nav .sash-nav li a {
+    font-size: 12.5px;
+  }
+}
+
+nav .sash-nav li a:hover {
+  opacity: 0.8;
 }
 
 .link-logo {
@@ -3976,6 +4031,34 @@ a:hover {
   .nav-container nav {
     width: 100%;
     padding: 0 50px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav-container2 nav {
+    width: 100%;
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 740px) {
+  .nav-container2 nav {
+    width: 100%;
+    padding: 0 35px;
+  }
+}
+
+@media (max-width: 550px) {
+  .nav-container2 nav {
+    width: 100%;
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 490px) {
+  .nav-container2 nav {
+    width: 100%;
+    padding: 0 15px;
   }
 }
 
