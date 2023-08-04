@@ -653,7 +653,7 @@ a:hover {cursor: pointer;opacity: 1.0;}
     border-color: #f5f5f5;
     background: #000000;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    z-index: 3;
+    z-index: 300;
     font-size: 17px;
     font-family: 'Noto Sans KR', sans-serif;
 }
