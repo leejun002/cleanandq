@@ -111,7 +111,8 @@ background: rgb(255, 255, 255);
         background-image: url('/pic/hanstone/sec1/irregular.jpg');
         background-position: 50% 100%;
         background-repeat: no-repeat;
-        background-attachment: ;
+        background-attachment: fixed;
+        background-size: cover;
         width: 100%;
         grid-column-start: 1;
         grid-column-end: 2;
@@ -123,28 +124,32 @@ background: rgb(255, 255, 255);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     width: 100%;
     flex: 1;
 }  @media all and (max-width: 740px) {
     .sec1-2 {
-        background-image: url('/pic/hanstone/sec1/matterhorn_c.jpg');
+        background-image: url('/pic/hanstone/sec1/matterhorn_m.png');
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-size: cover;
         width: 100%;
         grid-column-start: 2;
         grid-column-end: 3;
     }
 }
 
-
 .sec1-3 {
-    background-image: url('/pic/hanstone/sec1/matterhorn_c.jpg');
+    background-image: url('/pic/hanstone/sec1/matterhorn.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     width: 100%;
-    flex:1;
+    flex: 1;
+    /* display: block;
+    object-fit: none;
+    position: relative; */
 }  @media all and (max-width: 740px) {
     .sec1-3 {
         background-image: url('/pic/hanstone/sec1/white.png');
@@ -2025,7 +2030,7 @@ a {
 
 .swiper-slide .swipe img {
     display: block;
-    object-fit: none;
+    /* object-fit: none; */
     position: absolute;
     left: 0;
     top: 0;

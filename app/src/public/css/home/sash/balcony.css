@@ -16,18 +16,6 @@ background: rgb(255, 255, 255);
     overflow: hidden;
 }
 
-@media all and (max-width: 1000px) {
-    .sec7 {
-        height: 19vh;
-    }
-}
-
-@media all and (max-width: 740px) {
-    .sec7 {
-        height: 16vh;
-    }
-}
-
 .sec8 {
     position: relative;
     padding: 1rem;
@@ -111,9 +99,9 @@ background: rgb(255, 255, 255);
         left: 10%;
         font-size: 26px;
     }
-
 }  @media all and (max-width:500px) {
     .txt13 {
+        top: 70%;
         left: 10%;
         font-size: 24px;
     }

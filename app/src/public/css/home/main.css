@@ -688,97 +688,86 @@ a {
 }
 
 .sec {
-    height: 100vh; 
+    height: 100vh;
 }
 
 .sec1 {
-    /* background-image: url('/pic/hanstone/sec1/irmat1.png'), url('/pic/hanstone/sec1/irmat2.png'), url('/pic/hanstone/sec1/irmat3.png');
-    background-size: auto;
-    background-position: left, right 70%, right ;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-attachment: fixed;*/
-
     position: relative;
-    /* padding: 5vw; */
-    /* background: #ffffff; */
     overflow: hidden;
-    display: flex;
-
-    /* min-width: 100%; */
-    /* min-height: 100%; */
-    /* width: 100%; */
-    /* height:400%; */
-    
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 55% 45%;
+    height: 65vh;
+    top: 44px;
 }  @media all and (max-width: 740px) {
     .sec1 {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 60% 40%;
+        height: 47vh;
     }
 }
 
 .sec1-1 {
-    background-image: url('/pic/main/all.jpg');
-    background-position: center;
+    background: url('/pic/main/4.jpg');
+    background-position: 40% 50%;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     width: 100%;
     flex: 1;
-}  @media all and (max-width: 740px) {
-    .sec1-1 {
-        background-image: url('/pic/main/all.jpg');
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}  @media all and (max-width: 1000px) {
+    .sec1-2 {
         background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        grid-column-start: 1;
-        grid-column-end: 2;
     }
 }
 
 .sec1-2 {
-    background-image: url('/pic/main/2floor.jpg');
-    background-position: center;
+    background-image: url('/pic/main/5.jpg');
+    background-position: 50% 35%;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     width: 100%;
     flex: 1;
-}  @media all and (max-width: 740px) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}  @media all and (max-width: 1000px) {
     .sec1-2 {
-        background-image: url('/pic/main/2floor.jpg');
         background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        grid-column-start: 2;
-        grid-column-end: 3;
+    }
+}  @media all and (max-width: 500px) {
+    .sec1-2 {
+        background-position: 50% 100%;
     }
 }
-
 
 .sec1-3 {
-    background-image: url('/pic/main/3floor.jpg');
-    background-position: center;
+    background-image: url('/pic/main/innergate.jpg');
+    background-position: 50% 20%;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     width: 100%;
     flex:1;
-}  @media all and (max-width: 740px) {
-    .sec1-3 {
-        background-image: url('/pic/main/3floor.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        flex:1;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-}  @media all and (max-width: 530px) {
-    .sec1-3 {
-        background-size: auto 100%;
-        transform: translateY(-1px);
-    }
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
+
+.sec1-4 {
+    background-image: url('/pic/main/bath.jpg');
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    flex:1;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}  
 
 .content1 {
     position: absolute;
@@ -792,6 +781,17 @@ a {
         left: 47%;
         bottom: 5%;
     }
+}
+
+.text {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.intro {
+    font-size: 1.3em;
 }
 
 .txt2 {
