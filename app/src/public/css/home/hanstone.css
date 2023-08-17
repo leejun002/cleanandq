@@ -192,6 +192,10 @@ background: rgb(255, 255, 255);
     /* padding: 5vw; */
     height: 31vh;
     overflow: hidden;
+}  @media all and (max-width: 740px) {
+    .sec5 {
+        height: 34vh;
+    }
 }
 
 .sec6 {
@@ -203,6 +207,10 @@ background: rgb(255, 255, 255);
     /* padding: 5vw; */
     height: 31vh;
     overflow: hidden;
+}  @media all and (max-width: 740px) {
+    .sec6 {
+        height: 34vh;
+    }
 }
 
 .sec7 {
@@ -214,6 +222,10 @@ background: rgb(255, 255, 255);
     /* padding: 5vw; */
     height: 30.9vh;
     overflow: hidden;
+}  @media all and (max-width: 740px) {
+    .sec7 {
+        height: 34vh;
+    }
 }
 
 .sec8 {
@@ -225,6 +237,10 @@ background: rgb(255, 255, 255);
     /* padding: 5vw; */
     height: 31vh;
     overflow: hidden;
+}  @media all and (max-width: 740px) {
+    .sec8 {
+        height: 34vh;
+    }
 }
 
 .sec9 {
@@ -801,7 +817,6 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:900px) {
     .txt8 {
-        
         font-size: 21px;
     }
 }  @media all and (max-width:740px) {
@@ -840,19 +855,14 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width: 740px) {
     .txt9 {
-        font-size: 23px;
+        left: 0%;
+        font-size: 40px;
+        transform: rotate( -90deg );
     }
 }  @media all and (max-width: 600px) {
     .txt9 {
-        font-size: 20px;
-    }
-}  @media all and (max-width: 450px) {
-    .txt9 {
-        font-size: 15px;
-    }
-}  @media all and (max-width: 340px) {
-    .txt9 {
-        font-size: 13px;
+        left: -3%;
+        font-size: 35px;
     }
 }
 
@@ -865,7 +875,7 @@ background: rgb(255, 255, 255);
     z-index: 100;
     opacity: 1;
     position: absolute;
-    right: 5%;
+    right: 3%;
     bottom: 53%;
     /* transform: translateY(30px); */
     transition: all 0.5s;
@@ -877,22 +887,25 @@ background: rgb(255, 255, 255);
     .txt10 {
         font-size: 25px;
     }
+}  @media all and (max-width: 900px) {
+    .txt10 {
+        right: 1%;
+    }
 }  @media all and (max-width: 740px) {
     .txt10 {
-        font-size: 23px;
+        right: -4%;
+        bottom: 40%;
+        font-size: 40px;
+        transform: rotate( -90deg );
     }
 }  @media all and (max-width: 600px) {
     .txt10 {
-        font-size: 20px;
+        right: -7%;
+        font-size: 35px;
     }
-}  @media all and (max-width: 450px) {
+}  @media all and (max-width: 500px) {
     .txt10 {
-        right: 3%;
-        font-size: 15px;
-    }
-}  @media all and (max-width: 340px) {
-    .txt10 {
-        font-size: 13px;
+        right: -10%;
     }
 }
 
@@ -905,7 +918,7 @@ background: rgb(255, 255, 255);
     z-index: 100;
     opacity: 1;
     position: absolute;
-    left: 5%;
+    left: 4%;
     bottom: 53%;
     /* transform: translateY(30px); */
     transition: all 0.5s;
@@ -919,29 +932,28 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width: 900px) {
     .txt11 {
-        left: 4%;
+        left: 2%;
     }
 }  @media all and (max-width: 740px) {
     .txt11 {
-        left: 3.5%;
-        font-size: 23px;
+        left: -2%;
+        font-size: 40px;
+        transform: rotate( -90deg );
     }
 }  @media all and (max-width: 600px) {
     .txt11 {
-        font-size: 20px;
+        left: -5%;
+        font-size: 35px;
     }
-}  @media all and (max-width: 550px) {
+}  @media all and (max-width: 500px) {
     .txt11 {
-        left: 2%;
+        left: -7%;
+        font-size: 35px;
     }
-}  @media all and (max-width: 450px) {
+}  @media all and (max-width: 400px) {
     .txt11 {
-        left: 1%;
-        font-size: 17px;
-    }
-}  @media all and (max-width: 340px) {
-    .txt11 {
-        font-size: 13px;
+        left: -10%;
+        font-size: 35px;
     }
 }
 
@@ -954,7 +966,7 @@ background: rgb(255, 255, 255);
     z-index: 100;
     opacity: 1;
     position: absolute;
-    right: 5%;
+    right: 3%;
     bottom: 53%;
     /* transform: translateY(30px); */
     transition: all 0.5s;
@@ -968,29 +980,23 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width: 900px) {
     .txt12 {
-        right: 4%;
+        right: 1%;
     }
 }  @media all and (max-width: 740px) {
     .txt12 {
-        right: 3.5%;
-        font-size: 23px;
+        right: -4%;
+        bottom: 40%;
+        font-size: 40px;
+        transform: rotate( -90deg );
     }
 }  @media all and (max-width: 600px) {
     .txt12 {
-        font-size: 20px;
+        right: -7%;
+        font-size: 35px;
     }
-}  @media all and (max-width: 550px) {
+}  @media all and (max-width: 500px) {
     .txt12 {
-        right: 2%;
-    }
-}  @media all and (max-width: 450px) {
-    .txt12 {
-        right: 1%;
-        font-size: 17px;
-    }
-}  @media all and (max-width: 340px) {
-    .txt12 {
-        font-size: 13px;
+        right: -10%;
     }
 }
 
@@ -1763,25 +1769,25 @@ a {
 } */
 
 .swiper-left {
-    width: 75%;
+    width: 80%;
     position: absolute;
     right: 0;
 }
 
 .swiper-left2 {
-    width: 80%;
+    width: 85%;
     position: absolute;
     right: 0;
 }
 
 .swiper-right {
-    width: 70%;
+    width: 80%;
     position: absolute;
     left: 0;
 }
 
 .swiper-right2 {
-    width: 80%;
+    width: 85%;
     position: absolute;
     left: 0;
 }
@@ -2036,6 +2042,12 @@ a {
     top: 0;
     right: 0;
     bottom: 0;
+}
+
+@media all and (max-width: 740px) {
+    .swiper-pagination {
+        display: none;
+    }
 }
 
 .swiper-pagination-bullet {
