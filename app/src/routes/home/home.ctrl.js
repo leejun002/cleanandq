@@ -54,44 +54,49 @@ const output = {
     res.render("home/homesash");
   },
 
-  normal: (req,res) => {
-    logger.info(`GET /normal 304 "일반창 페이지"`);
-    res.render("home/sash/normal");
-  },
+      normal: (req,res) => {
+        logger.info(`GET /normal 304 "일반창 페이지"`);
+        res.render("home/sash/normal");
+      },
 
-  balcony: (req,res) => {
-    logger.info(`GET /balcony 304 "발코니창 페이지"`);
-    res.render("home/sash/balcony");
-  },
+      balcony: (req,res) => {
+        logger.info(`GET /balcony 304 "발코니창 페이지"`);
+        res.render("home/sash/balcony");
+      },
 
-  system: (req,res) => {
-    logger.info(`GET /system 304 "시스템창 페이지"`);
-    res.render("home/sash/system");
-  },
+      system: (req,res) => {
+        logger.info(`GET /system 304 "시스템창 페이지"`);
+        res.render("home/sash/system");
+      },
 
-  rehau: (req,res) => {
-    logger.info(`GET /rehau 304 "레하우창 페이지"`);
-    res.render("home/sash/rehau");
-  },
+      rehau: (req,res) => {
+        logger.info(`GET /rehau 304 "레하우창 페이지"`);
+        res.render("home/sash/rehau");
+      },
 
-  aluminium: (req,res) => {
-    logger.info(`GET /aluminium 304 "알루미늄창 페이지"`);
-    res.render("home/sash/aluminium");
-  },
+      aluminium: (req,res) => {
+        logger.info(`GET /aluminium 304 "알루미늄창 페이지"`);
+        res.render("home/sash/aluminium");
+      },
 
-  specialuse: (req,res) => {
-    logger.info(`GET /specialuse 304 "특수용도창 페이지"`);
-    res.render("home/sash/specialuse");
-  },
+      specialuse: (req,res) => {
+        logger.info(`GET /specialuse 304 "특수용도창 페이지"`);
+        res.render("home/sash/specialuse");
+      },
 
-  sheetcolor: (req,res) => {
-    logger.info(`GET /sheetcolor 304 "시트컬러 페이지"`);
-    res.render("home/sash/sheetcolor");
-  },
+      sheetcolor: (req,res) => {
+        logger.info(`GET /sheetcolor 304 "시트컬러 페이지"`);
+        res.render("home/sash/sheetcolor");
+      },
 
-  handle: (req,res) => {
-    logger.info(`GET /handle 304 "핸들 페이지"`);
-    res.render("home/sash/handle");
+      handle: (req,res) => {
+        logger.info(`GET /handle 304 "핸들 페이지"`);
+        res.render("home/sash/handle");
+      },
+
+  flooring: (req,res) => {
+    logger.info(`GET /flooring 304 "바닥재 페이지"`);
+    res.render("home/flooring");
   },
 };
 

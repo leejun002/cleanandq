@@ -706,7 +706,7 @@ a {
 }
 
 .sec1-1 {
-    background: url('/pic/main/4.jpg');
+    background: url('/pic/main/side.jpg');
     background-position: 40% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -723,7 +723,7 @@ a {
 }
 
 .sec1-2 {
-    background-image: url('/pic/main/5.jpg');
+    background-image: url('/pic/main/sash.jpg');
     background-position: 50% 35%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -791,6 +791,7 @@ a {
 }
 
 .intro {
+    font-weight: bold;
     font-size: 1.3em;
 }
 
