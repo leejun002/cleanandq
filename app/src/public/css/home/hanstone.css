@@ -190,12 +190,8 @@ background: rgb(255, 255, 255);
     background-position: center;
     background-attachment: fixed;
     /* padding: 5vw; */
-    height: 31vh;
+    height: 300px;
     overflow: hidden;
-}  @media all and (max-width: 740px) {
-    .sec5 {
-        height: 34vh;
-    }
 }
 
 .sec6 {
@@ -205,12 +201,8 @@ background: rgb(255, 255, 255);
     background-position: center;
     background-attachment: fixed;
     /* padding: 5vw; */
-    height: 31vh;
+    height: 300px;
     overflow: hidden;
-}  @media all and (max-width: 740px) {
-    .sec6 {
-        height: 34vh;
-    }
 }
 
 .sec7 {
@@ -220,12 +212,8 @@ background: rgb(255, 255, 255);
     background-position: center;
     background-attachment: fixed;
     /* padding: 5vw; */
-    height: 30.9vh;
+    height: 300px;
     overflow: hidden;
-}  @media all and (max-width: 740px) {
-    .sec7 {
-        height: 34vh;
-    }
 }
 
 .sec8 {
@@ -235,12 +223,8 @@ background: rgb(255, 255, 255);
     background-position: center;
     background-attachment: fixed;
     /* padding: 5vw; */
-    height: 31vh;
+    height: 300px;
     overflow: hidden;
-}  @media all and (max-width: 740px) {
-    .sec8 {
-        height: 34vh;
-    }
 }
 
 .sec9 {
@@ -861,7 +845,7 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width: 600px) {
     .txt9 {
-        left: -3%;
+        left: -7%;
         font-size: 35px;
     }
 }
@@ -906,6 +890,10 @@ background: rgb(255, 255, 255);
 }  @media all and (max-width: 500px) {
     .txt10 {
         right: -10%;
+    }
+}  @media all and (max-width: 400px) {
+    .txt10 {
+        right: -15%;
     }
 }
 
@@ -1816,61 +1804,15 @@ a {
     opacity: 1;
     top: 70%;
     transition: 0.5s;
-}  @media all and (max-height: 882px) {
-    .swiper-slide-active .text-wrap {
-        top: 64%;
-    }
-}  @media all and (max-height: 800px) {
-    .swiper-slide-active .text-wrap {
-        top: 60%;
-    }
-}  @media all and (max-height: 770px) {
-    .swiper-slide-active .text-wrap {
-        top: 55%;
-    }
-}  @media all and (max-height: 730px) {
-    .swiper-slide-active .text-wrap {
-        top: 50%;
-    }
-}  @media all and (max-height: 680px) {
-    .swiper-slide-active .text-wrap {
-        top: 45%;
-    }
-}  @media all and (max-height: 630px) {
-    .swiper-slide-active .text-wrap {
-        top: 40%;
-    }
-}
+}  
+
 
 .swiper-slide-active .text-wrap2 {
     opacity: 1;
     top: 70%;
     transition: 0.5s;
-}  @media all and (max-height: 882px) {
-    .swiper-slide-active .text-wrap2 {
-        top: 64%;
-    }
-}  @media all and (max-height: 800px) {
-    .swiper-slide-active .text-wrap2 {
-        top: 60%;
-    }
-}  @media all and (max-height: 770px) {
-    .swiper-slide-active .text-wrap2 {
-        top: 55%;
-    }
-}  @media all and (max-height: 730px) {
-    .swiper-slide-active .text-wrap2 {
-        top: 50%;
-    }
-}  @media all and (max-height: 680px) {
-    .swiper-slide-active .text-wrap2 {
-        top: 45%;
-    }
-}  @media all and (max-height: 630px) {
-    .swiper-slide-active .text-wrap2 {
-        top: 40%;
-    }
-}
+}  
+
 
 .text-wrap {
     position: absolute;
@@ -1882,31 +1824,8 @@ a {
     text-align: center;
     transition: 0.5s;
     z-index: 1;
-}  @media all and (max-height: 882px) {
-    .text-wrap {
-        top: 59%;
-    }
-}  @media all and (max-height: 800px) {
-    .text-wrap {
-        top: 55%;
-    }
-}  @media all and (max-height: 770px) {
-    .text-wrap {
-        top: 50%;
-    }
-}  @media all and (max-height: 730px) {
-    .text-wrap {
-        top: 45%;
-    }
-}  @media all and (max-height: 680px) {
-    .text-wrap {
-        top: 40%;
-    }
-}  @media all and (max-height: 630px) {
-    .text-wrap {
-        top: 35%;
-    }
-}
+}  
+
 
 .text-wrap h2 {
     color: #000000;
@@ -1963,30 +1882,6 @@ a {
     text-align: center;
     transition: 0.5s;
     z-index: 1;
-}  @media all and (max-height: 882px) {
-    .text-wrap2 {
-        top: 59%;
-    }
-}  @media all and (max-height: 800px) {
-    .text-wrap2 {
-        top: 55%;
-    }
-}  @media all and (max-height: 770px) {
-    .text-wrap2 {
-        top: 50%;
-    }
-}  @media all and (max-height: 730px) {
-    .text-wrap2 {
-        top: 45%;
-    }
-}  @media all and (max-height: 680px) {
-    .text-wrap2 {
-        top: 40%;
-    }
-}  @media all and (max-height: 630px) {
-    .text-wrap2 {
-        top: 35%;
-    }
 }
 
 .text-wrap2 h2 {
