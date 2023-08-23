@@ -98,6 +98,41 @@ const output = {
     logger.info(`GET /flooring 304 "바닥재 페이지"`);
     res.render("home/floor/flooring");
   },
+
+      maru: (req,res) => {
+        logger.info(`GET /maru 304 "마루 페이지"`);
+        res.render("home/floor/maru/maru");
+      },
+
+          sentra7: (req,res) => {
+            logger.info(`GET /sentra7 304 "센트라 프라임 7.5 페이지"`);
+            res.render("home/floor/maru/sentra7");
+          },
+
+          sentra6: (req,res) => {
+            logger.info(`GET /sentra6 304 "센트라 프라임 6.5 페이지"`);
+            res.render("home/floor/maru/sentra6");
+          },
+
+      leum: (req,res) => {
+        logger.info(`GET /leum 304 "륨시트 페이지"`);
+        res.render("home/floor/leum");
+      },
+
+      tile: (req,res) => {
+        logger.info(`GET /tile 304 "타일 페이지"`);
+        res.render("home/floor/tile");
+      },
+
+          dongseo: (req,res) => {
+            logger.info(`GET /dongseo 304 "동서타일 페이지"`);
+            res.render("home/floor/dongseo");
+          },
+      
+      function: (req,res) => {
+        logger.info(`GET /function 304 "기능성 바닥재 페이지"`);
+        res.render("home/floor/function");
+      },
 };
 
 const process = {

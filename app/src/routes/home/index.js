@@ -21,6 +21,10 @@ router.get("/homesash", ctrl.output.homesash);
   router.get("/sheetcolor", ctrl.output.sheetcolor);
   router.get("/handle", ctrl.output.handle);
 router.get("/flooring", ctrl.output.flooring);
+  router.get("/maru", ctrl.output.maru);
+    router.get("/sentra7", ctrl.output.sentra7);
+    router.get("/sentra6", ctrl.output.sentra6);
+  
 
 router.post("/login", ctrl.process.login);
 router.post("/register", ctrl.process.register);
