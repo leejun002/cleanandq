@@ -96,7 +96,7 @@ const output = {
 
   flooring: (req,res) => {
     logger.info(`GET /flooring 304 "바닥재 페이지"`);
-    res.render("home/flooring");
+    res.render("home/floor/flooring");
   },
 };
 
