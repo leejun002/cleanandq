@@ -185,7 +185,7 @@ background: rgb(255, 255, 255);
     color: rgb(253, 255, 130);
 }
 .txt13-span3 {
-    color: rgb(116, 255, 213);
+    color: rgb(142, 255, 227);
 }
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
@@ -1100,7 +1100,7 @@ a {
 
 .txt14-span2 {
   /* color: rgb(255, 253, 143); */
-  color: rgb(176 255 244);
+  color: rgb(255, 205, 112);
   font-size: 150%;
 }
 
@@ -1117,6 +1117,54 @@ a {
 
 @media all and (max-width:1000px) {
     .txt14-span3 {
+        font-size: 120%;
+    }
+}
+
+.txt14-span4 {
+    /* color: rgb(255, 253, 143); */
+    color: rgb(186, 255, 226);
+    font-size: 150%;
+}
+
+@media all and (max-width:1000px) {
+    .txt14-span4 {
+        font-size: 120%;
+    }
+}
+
+.txt14-span5 {
+    /* color: rgb(255, 253, 143); */
+    color: rgb(190, 243, 255);
+    font-size: 150%;
+}
+
+@media all and (max-width:1000px) {
+    .txt14-span5 {
+        font-size: 120%;
+    }
+}
+
+.txt14-span6 {
+    /* color: rgb(255, 253, 143); */
+    color: rgb(255, 157, 157);
+    font-size: 150%;
+}
+
+@media all and (max-width:1000px) {
+    .txt14-span6 {
+        font-size: 120%;
+    }
+}
+
+.txt14-span7 {
+    /* color: rgb(255, 253, 143); */
+    color: rgb(255, 199, 247);
+    font-size: 150%;
+}
+
+@media all and (max-width:1000px) {
+    .txt14-span7 {
         font-size: 120%;
     }
 }
