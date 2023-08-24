@@ -106,12 +106,12 @@ const output = {
 
           sentra7: (req,res) => {
             logger.info(`GET /sentra7 304 "센트라 프라임 7.5 페이지"`);
-            res.render("home/floor/maru/sentra7");
+            res.render("home/floor/maru/sentra7/sentra7");
           },
 
           sentra6: (req,res) => {
             logger.info(`GET /sentra6 304 "센트라 프라임 6.5 페이지"`);
-            res.render("home/floor/maru/sentra6");
+            res.render("home/floor/maru/sentra6/sentra6");
           },
 
       leum: (req,res) => {

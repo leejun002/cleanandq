@@ -155,7 +155,7 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:1100px) {
     .txt13-2 {
-        top: 10%;
+        top: 25%;
         font-size: 32px;
     }
 }  @media all and (max-width:900px) {
@@ -1100,7 +1100,7 @@ a {
 
 .txt14-span2 {
   /* color: rgb(255, 253, 143); */
-  color: rgb(176 255 244);
+  color: rgb(185, 239, 255);
   font-size: 150%;
 }
 
