@@ -51,16 +51,10 @@ background: rgb(255, 255, 255);
 
 .sec13 {
   position: relative;
-  padding: 1rem;
+  padding: 0.5rem;
   background: rgb(0, 0, 0);
   overflow: hidden;
   height: auto;
-}
-
-@media all and (max-width: 1000px) {
-  .sec13 {
-     padding: 0.5rem; 
-  }
 }
 
 .img {
@@ -1129,19 +1123,13 @@ a {
   /* max-width: 1200px; */
   margin: 0 auto;
   display: grid;
-  gap: 1rem;
+  gap: 0.5rem;
   grid-template-columns: repeat(3, 1fr);
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }  @media (min-width: 741px) {
   .sec13 .cards { grid-template-columns: repeat(4, 1fr); }
 }  @media (min-width: 1500px) {
   .sec13 .cards { grid-template-columns: repeat(5, 1fr); }
-}
-
-@media all and (max-width: 1000px) {
-  .sec13 .cards {
-     gap: 0.5rem; 
-  }
 }
 
 .sec10 .cards {
@@ -1380,7 +1368,6 @@ a {
   background: url('/pic/floor/maru/sentra6/1.png');
   background-size: cover;
   background-position: center;
-  /* background-attachment: fixed; */
 }
 
 .sec13 .card .card-pic2 {
@@ -1421,7 +1408,6 @@ a {
   background: url('/pic/floor/maru/sentra6/6.png');
   background-size: cover;
   background-position: center;
-  /* background-attachment: fixed; */
 }
 
 .sec13 .card .card-pic7 {
@@ -1430,7 +1416,6 @@ a {
     background: url('/pic/floor/maru/sentra6/7.png');
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
 }
   
 .sec13 .card .card-pic8 {
@@ -1471,7 +1456,6 @@ a {
     background: url('/pic/floor/maru/sentra6/12.png');
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
 }
 
 .sec13 .card .card-pic13 {
@@ -1480,7 +1464,6 @@ a {
     background: url('/pic/floor/maru/sentra6/13.png');
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
 }
   
 .sec13 .card .card-pic14 {
