@@ -23,8 +23,11 @@ router.get("/homesash", ctrl.output.homesash);
 router.get("/flooring", ctrl.output.flooring);
   router.get("/maru", ctrl.output.maru);
     router.get("/sentra7", ctrl.output.sentra7);
+      router.get("/sentra7char", ctrl.output.sentra7char);
+      router.get("/sentra7ex", ctrl.output.sentra7ex);
     router.get("/sentra6", ctrl.output.sentra6);
-  
+      router.get("/sentra6char", ctrl.output.sentra6char);
+      router.get("/sentra6ex", ctrl.output.sentra6ex);
 
 router.post("/login", ctrl.process.login);
 router.post("/register", ctrl.process.register);
