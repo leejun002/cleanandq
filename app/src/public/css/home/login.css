@@ -24,7 +24,7 @@ input[type=text], input[type=password] {
 }
 
 #button:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .closecontainer {
@@ -105,7 +105,7 @@ a:hover {
 }
 
 .close:hover,.close:focus {
-  opacity: 0.8;
+  opacity: 0.9;
   cursor: pointer;
 }
 

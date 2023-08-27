@@ -3564,7 +3564,7 @@ body {
 }
 
 .nav-container2 {
-  background: rgba(218, 218, 218, 0.8);
+  background: rgb(215, 215, 215);
   font-weight: 600;
   height: 40px;
   z-index: 200;
@@ -3605,8 +3605,8 @@ nav .desktop-nav li a {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
-  opacity: 0.8;
-  transition: opacity 400ms;
+  opacity: 0.9;
+  transition: 400ms;
 }  
 
 nav .desktop-nav li a:hover {
@@ -3622,11 +3622,11 @@ nav .sash-nav {
 }
 
 nav .sash-nav li a {
-  color: #000000;
+  color: #2b2b2b;
   text-decoration: none;
   font-size: 18px;
   opacity: 1;
-  transition: opacity 400ms;
+  transition: 100ms;
 }
 
 @media all and (max-width:740px) {
@@ -3642,7 +3642,7 @@ nav .sash-nav li a {
 }
 
 nav .sash-nav li a:hover {
-  opacity: 0.8;
+  color: rgb(0, 0, 0);
 }
 
 .link-logo {
@@ -3964,7 +3964,7 @@ i {
 a {
   color: rgb(255, 255, 255);
   opacity: 0.9;
-  transition: opacity 400ms;
+  transition: 400ms;
   text-decoration-line: none;
 }
 

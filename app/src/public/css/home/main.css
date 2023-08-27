@@ -55,8 +55,8 @@ nav .desktop-nav li a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    opacity: 0.8;
-    transition: opacity 400ms;
+    opacity: 0.9;
+    transition: 400ms;
 }
 
 nav .desktop-nav li a:hover{
@@ -362,8 +362,8 @@ i {color: rgb(255, 255, 255);}
 
 a {
     color: rgb(255, 255, 255);
-    opacity: 0.8;
-    transition: opacity 400ms;
+    opacity: 0.9;
+    transition: 400ms;
     text-decoration-line: none;
 }
 
