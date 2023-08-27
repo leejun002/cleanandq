@@ -31,12 +31,12 @@ background: rgb(255, 255, 255);
 .sec9 {
     position: relative;
     background:rgb(0, 0, 0);
-    height: 8vh;
+    height: 12vh;
     overflow: hidden;
 }
 @media all and (max-width: 1000px) {
     .sec9 {
-        height: 7vh;
+        height: 10vh;
     }
 }
 
@@ -150,7 +150,7 @@ background: rgb(255, 255, 255);
 
 .txt13-2 {
     position: absolute;
-    top: 7%;
+    top: 10%;
     left: 3%;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 40px;
@@ -163,12 +163,11 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:1650px) {
     .txt13-2 {
-        top: 5%;
         font-size: 36px;
     }
 }  @media all and (max-width:1400px) {
     .txt13-2 {
-        top: 10%;
+        top: 13%;
         left: 5%;
         font-size: 34px;
     }
@@ -182,6 +181,7 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:740px) {
     .txt13-2 {
+        top: 15%;
         font-size: 28px;
     }
 }  @media all and (max-width:600px) {
@@ -191,6 +191,7 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:400px) {
     .txt13-2 {
+        top: 20%;
         left: 8%;
         font-size: 25px;
     }
@@ -301,7 +302,7 @@ nav .desktop-nav {
 nav .desktop-nav li a {
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     opacity: 0.8;
     transition: opacity 400ms;
 }
@@ -1183,12 +1184,12 @@ a {
     height: 10%;
     background-color: rgb(0, 0, 0);
     /* background-attachment: fixed; */
+    text-align: center;
 }
 
 .card .card-txt .txt14 {
     position: relative;
-    /* top: 550px; */
-    left: 5%;
+    top: -10px;
     max-width: 100%;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
@@ -1214,6 +1215,11 @@ a {
 }  @media all and (max-width:1000px) {
     .card .card-txt .txt14 {
         font-size: 18px;
+        top: -6px;
+    }
+}  @media all and (max-width:950px) {
+    .card .card-txt .txt14 {
+        font-size: 17px;
     }
 }  @media all and (max-width:740px) {
     .card .card-txt .txt14 {
@@ -1226,6 +1232,7 @@ a {
 }  @media all and (max-width:500px) {
     .card .card-txt .txt14 {
         font-size: 15px;
+        top: -5px;
     }
 }  @media all and (max-width:400px) {
     .card .card-txt .txt14 {
@@ -1234,11 +1241,11 @@ a {
 }
 
 .txt14-span {
-    color: rgb(255, 253, 143)
+    color: rgb(255, 253, 157)
 }
 
 .txt14-span2 {
-  color: rgb(255, 253, 143);
+  color: rgb(255, 253, 157);
   font-size: 150%;
 }
 
@@ -1249,7 +1256,7 @@ a {
 }
 
 .txt14-span3 {
-  color: rgb(255, 70, 70);
+  color: rgb(255, 114, 114);
   font-size: 150%;
 }
 
@@ -1260,7 +1267,7 @@ a {
 }
 
 .txt14-span4 {
-    color: rgb(255, 253, 143);
+    color: rgb(255, 253, 157);
     font-size: 140%;
   }
   

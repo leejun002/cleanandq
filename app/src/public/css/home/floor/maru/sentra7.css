@@ -354,7 +354,7 @@ nav .desktop-nav {
 nav .desktop-nav li a {
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     opacity: 0.8;
     transition: opacity 400ms;
 }
@@ -1283,11 +1283,11 @@ a {
 }
 
 .txt14-span {
-    color: rgb(255, 253, 143)
+    color: rgb(255, 253, 157)
 }
 
 .txt14-span2 {
-  /* color: rgb(255, 253, 143); */
+  /* color: rgb(255, 253, 157); */
   color: rgb(255, 255, 255);
   font-size: 120%;
 }
@@ -1299,7 +1299,7 @@ a {
 }
 
 .txt14-span3 {
-  color: rgb(255, 70, 70);
+  color: rgb(255, 114, 114);
   font-size: 150%;
 }
 

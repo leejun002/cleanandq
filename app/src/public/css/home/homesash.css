@@ -3604,7 +3604,7 @@ nav .desktop-nav {
 nav .desktop-nav li a {
   color: #fff;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0.8;
   transition: opacity 400ms;
 }  
@@ -4854,7 +4854,7 @@ a {
 }
 
 .txt14-span {
-  color: rgb(255, 253, 143)
+  color: rgb(255, 253, 157)
 }
 
 .card .card-pic1 {

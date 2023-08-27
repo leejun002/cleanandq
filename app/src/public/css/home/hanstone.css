@@ -139,16 +139,13 @@ background: rgb(255, 255, 255);
 }
 
 .sec1-3 {
-    background-image: url('/pic/hanstone/sec1/matterhorn.jpg');
+    background-image: url('/pic/hanstone/sec1/matterhorn_c.png');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
     flex: 1;
-    /* display: block;
-    object-fit: none;
-    position: relative; */
 }  @media all and (max-width: 740px) {
     .sec1-3 {
         background-image: url('/pic/hanstone/sec1/white.png');
@@ -308,7 +305,7 @@ background: rgb(255, 255, 255);
 } */
 
 .content4 {
-    background: url('/pic/hanstone/sec3/bathdark_c.png');
+    background: url('/pic/hanstone/sec3/bd_c.png');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -332,7 +329,6 @@ background: rgb(255, 255, 255);
 
 .img1 {
     position: absolute;
-    /* width: 58.5%; */
     height: auto;
 }
     @media all and (max-width: 768px) {
@@ -360,7 +356,6 @@ background: rgb(255, 255, 255);
     bottom: 50%;
     width: 20%;
     min-width: 180px;
-    /* transform: translateY(30px); */
     transition: all 0.5s;
 }  @media all and (max-width: 740px) {
     .img--2 {
@@ -1107,7 +1102,7 @@ nav .desktop-nav {
 nav .desktop-nav li a {
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     opacity: 0.8;
     transition: opacity 400ms;
 }
@@ -2092,7 +2087,7 @@ a {
 }
 
 .txt14-span {
-    color: rgb(255, 253, 143)
+    color: rgb(255, 253, 157)
 }
 
 .card .card-pic1 {
