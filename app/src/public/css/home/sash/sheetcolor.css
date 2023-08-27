@@ -19,18 +19,18 @@ background: rgb(255, 255, 255);
 .sec9 {
     position: relative;
     background:rgb(0, 0, 0);
-    height: 8vh;
+    height: 10vh;
     overflow: hidden;
 }
 @media all and (max-width: 1000px) {
     .sec9 {
-        height: 7vh;
+        height: 10vh;
     }
 }
 
 .sec10 {
     position: relative;
-    padding: 1rem;
+    padding: 0.5rem;
     background: rgb(0, 0, 0);
     overflow: hidden;
     height: auto;
@@ -38,7 +38,7 @@ background: rgb(255, 255, 255);
 
 .sec11 {
     position: relative;
-    padding: 1rem;
+    padding: 0.5rem;
     background: rgb(0, 0, 0);
     overflow: hidden;
     height: auto;
@@ -46,7 +46,7 @@ background: rgb(255, 255, 255);
 
 .sec12 {
     position: relative;
-    padding: 1rem;
+    padding: 0.5rem;
     background: rgb(0, 0, 0);
     overflow: hidden;
     height: auto;
@@ -60,76 +60,6 @@ background: rgb(255, 255, 255);
     @media all and (max-width: 768px) {
     .img {
         width: 75vw;
-    }
-}
-
-.txt13 {
-    position: absolute;
-    top: 60%;
-    left: 3%;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    transition: all 0.5s;
-}  @media all and (max-width:1700px) {
-    .txt13 {
-        font-size: 38px;
-    }
-}  @media all and (max-width:1650px) {
-    .txt13 {
-        font-size: 36px;
-    }
-}  @media all and (max-width:1400px) {
-    .txt13 {
-        left: 5%;
-        font-size: 34px;
-    }
-}  @media all and (max-width:1100px) {
-    .txt13 {
-        font-size: 32px;
-    }
-}  @media all and (max-width:1000px) {
-    .txt13 {
-        top: 65%;
-    }
-}  @media all and (max-width:900px) {
-    .txt13 {
-        font-size: 30px;
-    }
-}  @media all and (max-width:740px) {
-    .txt13 {
-        font-size: 28px;
-    }
-}  @media all and (max-width:600px) {
-    .txt13 {
-        left: 10%;
-        font-size: 26px;
-    }
-}  @media all and (max-width:500px) {
-    .txt13 {
-        top: 70%;
-        left: 10%;
-        font-size: 24px;
-    }
-}  @media all and (max-width:440px) {
-    .txt13 {
-        left: 7%;
-        font-size: 23px;
-    }
-}  @media all and (max-width:400px) {
-    .txt13 {
-        left: 5.5%;
-        font-size: 23px;
-    }
-}  @media all and (max-width:380px) {
-    .txt13 {
-        left: 6%;
-        font-size: 22px;
-    }
-}  @media all and (max-width:350px) {
-    .txt13 {
-        font-size: 20px;
     }
 }
 
@@ -148,7 +78,6 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:1650px) {
     .txt13-2 {
-        top: 10%;
         font-size: 36px;
     }
 }  @media all and (max-width:1400px) {
@@ -159,7 +88,6 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width:1100px) {
     .txt13-2 {
-        top: 10%;
         font-size: 32px;
     }
 }  @media all and (max-width:900px) {
@@ -182,17 +110,32 @@ background: rgb(255, 255, 255);
     }
 }
 
+.txt13 {
+    top: 50%;
+}  @media all and (max-width:1000px) {
+    .txt13 {
+        top: 55%;
+    }
+}  @media all and (max-width:500px) {
+    .txt13 {
+        top: 60%;
+    }
+}
+
 .txt13-span2 {
     color: rgb(243, 250, 116);
 }
 .txt13-span3 {
-    color: rgb(255, 114, 243);
+    color: rgb(253, 152, 203);
+    font-size: 1.2em;
 }
 .txt13-span4 {
-    color: rgb(116, 234, 255);
+    color: rgb(170, 242, 255);
+    font-size: 1.2em;
 }
 .txt13-span5 {
-    color: rgb(116, 255, 197);
+    color: rgb(156, 255, 214);
+    font-size: 1.2em;
 }
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
@@ -976,39 +919,29 @@ a {
     /* max-width: 1200px; */
     margin: 0 auto;
     display: grid;
-    gap: 2rem;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-}  @media (min-width: 741px) {
+    gap: 0.5rem;
+}  @media (min-width: 0px) {
     .sec10 .cards { grid-template-columns: repeat(2, 1fr); }
-}  @media (min-width: 1500px) {
+}  @media (min-width: 850px) {
     .sec10 .cards { grid-template-columns: repeat(3, 1fr); }
-}
-
-@media all and (max-width: 1000px) {
-    .sec10 .cards {
-       gap: 1rem;
-    }
+}  @media (min-width: 1800px) {
+    .sec10 .cards { grid-template-columns: repeat(4, 1fr); }
 }
 
 .sec11 .cards {
     /* max-width: 1200px; */
     margin: 0 auto;
     display: grid;
-    gap: 2rem;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    gap: 0.5rem;
 }  @media (min-width: 741px) {
     .sec11 .cards { grid-template-columns: repeat(2, 1fr); }
-}  @media (min-width: 1500px) {
+}  @media (min-width: 1370px) {
     .sec11 .cards { grid-template-columns: repeat(3, 1fr); }
+}  @media (min-width: 1800px) {
+    .sec11 .cards { grid-template-columns: repeat(4, 1fr); }
 }
 
-@media all and (max-width: 1000px) {
-    .sec11 .cards {
-       gap: 1rem; 
-    }
-}
-
-@media all and (max-width: 740px) {
+@media all and (max-width: 830px) {
     .sec11 .cards {
        gap: 0; 
     }
@@ -1018,38 +951,39 @@ a {
     /* max-width: 1200px; */
     margin: 0 auto;
     display: grid;
-    gap: 2rem;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-}  @media (min-width: 741px) {
+    gap: 0.5rem;
+}  @media (min-width: 0px) {
     .sec12 .cards { grid-template-columns: repeat(2, 1fr); }
-}  @media (min-width: 1500px) {
+}  @media (min-width: 850px) {
     .sec12 .cards { grid-template-columns: repeat(3, 1fr); }
-}
-
-@media all and (max-width: 1000px) {
-    .sec12 .cards {
-       gap: 1rem; 
-    }
+}  @media (min-width: 1800px) {
+    .sec12 .cards { grid-template-columns: repeat(4, 1fr); }
 }
 
 .sec10 .card {
     background-color: rgb(0, 0, 0);
     color: white;
-    /* padding: 1rem; */
+    /* padding: 0.5rem; */
     height: 350px;
     max-width: 100%;
 }
 
 @media all and (max-width:1000px) {
     .sec10 .card {
-        height: 330px;
+        height: 250px;
+    }
+}
+
+@media all and (max-width:650px) {
+    .sec10 .card {
+        height: 180px;
     }
 }
 
 .sec11 .card {
     background-color: rgb(0, 0, 0);
     color: white;
-    /* padding: 1rem; */
+    /* padding: 0.5rem; */
     height: 350px;
     max-width: 100%;
 }
@@ -1063,14 +997,20 @@ a {
 .sec12 .card {
     background-color: rgb(0, 0, 0);
     color: white;
-    /* padding: 1rem; */
+    /* padding: 0.5rem; */
     height: 350px;
     max-width: 100%;
 }
 
 @media all and (max-width:1000px) {
     .sec12 .card {
-        height: 330px;
+        height: 250px;
+    }
+}
+
+@media all and (max-width:650px) {
+    .sec12 .card {
+        height: 180px;
     }
 }
 
@@ -1079,13 +1019,13 @@ a {
     top: 90%;
     height: 10%;
     background-color: rgb(0, 0, 0);
+    text-align: center;
     /* background-attachment: fixed; */
 }
 
 .card .card-txt .txt14 {
     position: relative;
-    /* top: 550px; */
-    left: 5%;
+    top: -10px;
     max-width: 100%;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
@@ -1110,11 +1050,12 @@ a {
     }
 }  @media all and (max-width:1000px) {
     .card .card-txt .txt14 {
-        font-size: 16px;
+        font-size: 18px;
+        top: -6px;
     }
 }  @media all and (max-width:950px) {
     .card .card-txt .txt14 {
-        font-size: 15px;
+        font-size: 17px;
     }
 }  @media all and (max-width:740px) {
     .card .card-txt .txt14 {
@@ -1127,6 +1068,7 @@ a {
 }  @media all and (max-width:500px) {
     .card .card-txt .txt14 {
         font-size: 15px;
+        top: -5px;
     }
 }  @media all and (max-width:400px) {
     .card .card-txt .txt14 {
@@ -1139,7 +1081,7 @@ a {
 }
 
 .txt14-span2 {
-  color: rgb(255, 253, 143);
+  color: rgb(255, 253, 157);
   font-size: 150%;
 }
 
