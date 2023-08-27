@@ -104,54 +104,154 @@ const output = {
         res.render("home/floor/maru/maru");
       },
 
-          sentra7: (req,res) => {
-            logger.info(`GET /sentra7 304 "센트라 프라임 7.5"`);
-            res.render("home/floor/maru/sentra7/sentra7");
-          },
+            sentra7: (req,res) => {
+              logger.info(`GET /sentra7 304 "센트라 프라임 7.5"`);
+              res.render("home/floor/maru/sentra7/sentra7");
+            },
+                sentra7char: (req,res) => {
+                  logger.info(`GET /sentra7char 304 "센트라 프라임 7.5 특징"`);
+                  res.render("home/floor/maru/sentra7/sentra7char");
+                },
+                sentra7ex: (req,res) => {
+                  logger.info(`GET /sentra7ex 304 "센트라 프라임 7.5 시공사례"`);
+                  res.render("home/floor/maru/sentra7/sentra7ex");
+                },
 
-              sentra7char: (req,res) => {
-                logger.info(`GET /sentra7char 304 "센트라 프라임 7.5 특징"`);
-                res.render("home/floor/maru/sentra7/sentra7char");
-              },
-
-              sentra7ex: (req,res) => {
-                logger.info(`GET /sentra7ex 304 "센트라 프라임 7.5 시공사례"`);
-                res.render("home/floor/maru/sentra7/sentra7ex");
-              },
-
-          sentra6: (req,res) => {
-            logger.info(`GET /sentra6 304 "센트라 프라임 6.5"`);
-            res.render("home/floor/maru/sentra6/sentra6");
-          },
-
-              sentra6char: (req,res) => {
-                logger.info(`GET /sentra6char 304 "센트라 프라임 6.5 특징"`);
-                res.render("home/floor/maru/sentra6/sentra6char");
-              },
-
-              sentra6ex: (req,res) => {
-                logger.info(`GET /sentra6ex 304 "센트라 프라임 6.5 시공사례"`);
-                res.render("home/floor/maru/sentra6/sentra6ex");
-              },
+            sentra6: (req,res) => {
+              logger.info(`GET /sentra6 304 "센트라 프라임 6.5"`);
+              res.render("home/floor/maru/sentra6/sentra6");
+            },
+                sentra6char: (req,res) => {
+                  logger.info(`GET /sentra6char 304 "센트라 프라임 6.5 특징"`);
+                  res.render("home/floor/maru/sentra6/sentra6char");
+                },
+                sentra6ex: (req,res) => {
+                  logger.info(`GET /sentra6ex 304 "센트라 프라임 6.5 시공사례"`);
+                  res.render("home/floor/maru/sentra6/sentra6ex");
+                },
 
       leum: (req,res) => {
         logger.info(`GET /leum 304 "륨시트"`);
-        res.render("home/floor/leum");
+        res.render("home/floor/leum/leum");
       },
+
+            artium2: (req,res) => {
+              logger.info(`GET /artium2 304 "아티움 2.7"`);
+              res.render("home/floor/leum/artium2/artium2");
+            },
+                artium2char: (req,res) => {
+                  logger.info(`GET /artium2char 304 "아티움 2.7 특징"`);
+                  res.render("home/floor/leum/artium2/artium2char");
+                },
+                artium2ex: (req,res) => {
+                  logger.info(`GET /artium2ex 304 "아티움 2.7 시공사례"`);
+                  res.render("home/floor/leum/artium2/artium2ex");
+                },
+
+            artium3: (req,res) => {
+              logger.info(`GET /artium3 304 "아티움 3.2"`);
+              res.render("home/floor/leum/artium3/artium3");
+            },
+                artium3char: (req,res) => {
+                  logger.info(`GET /artium3char 304 "아티움 3.2 특징"`);
+                  res.render("home/floor/leum/artium3/artium3char");
+                },
+                artium3ex: (req,res) => {
+                  logger.info(`GET /artium3ex 304 "아티움 3.2 시공사례"`);
+                  res.render("home/floor/leum/artium3/artium3ex");
+                },
+
+            charm: (req,res) => {
+              logger.info(`GET /charm 304 "참다움"`);
+              res.render("home/floor/leum/charm/charm");
+            },
+                charmchar: (req,res) => {
+                  logger.info(`GET /charmchar 304 "참다움 특징"`);
+                  res.render("home/floor/leum/charm/charmchar");
+                },
+                charmex: (req,res) => {
+                  logger.info(`GET /charmex 304 "참다움 시공사례"`);
+                  res.render("home/floor/leum/charm/charmex");
+                },
+
+            goldstrong: (req,res) => {
+              logger.info(`GET /goldstrong 304 "골드스트롱"`);
+              res.render("home/floor/leum/goldstrong/goldstrong");
+            },
+                goldstrongchar: (req,res) => {
+                  logger.info(`GET /goldstrongchar 304 "골드스트롱 특징"`);
+                  res.render("home/floor/leum/goldstrong/goldstrongchar");
+                },
+                goldstrongex: (req,res) => {
+                  logger.info(`GET /goldstrongex 304 "골드스트롱 시공사례"`);
+                  res.render("home/floor/leum/goldstrong/goldstrongex");
+                },
+
+            myeong20: (req,res) => {
+              logger.info(`GET /myeong20 304 "명가 2.0"`);
+              res.render("home/floor/leum/myeong20/myeong20");
+            },
+                myeong20char: (req,res) => {
+                  logger.info(`GET /myeong20char 304 "명가 2.0 특징"`);
+                  res.render("home/floor/leum/myeong20/myeong20char");
+                },
+                myeong20ex: (req,res) => {
+                  logger.info(`GET /myeong20ex 304 "명가 2.0 시공사례"`);
+                  res.render("home/floor/leum/myeong20/myeong20ex");
+                },
+  
+            myeong22: (req,res) => {
+              logger.info(`GET /myeong22 304 "명가 2.2"`);
+              res.render("home/floor/leum/myeong22/myeong22");
+            },
+                myeong22char: (req,res) => {
+                  logger.info(`GET /myeong22char 304 "명가 2.2 특징"`);
+                  res.render("home/floor/leum/myeong22/myeong22char");
+                },
+                myeong22ex: (req,res) => {
+                  logger.info(`GET /myeong22ex 304 "명가 2.2 시공사례"`);
+                  res.render("home/floor/leum/myeong22/myeong22ex");
+                },
+
+            shium: (req,res) => {
+              logger.info(`GET /shium 304 "쉬움"`);
+              res.render("home/floor/leum/shium/shium");
+            },
+                shiumchar: (req,res) => {
+                  logger.info(`GET /shiumchar 304 "쉬움 특징"`);
+                  res.render("home/floor/leum/shium/shiumchar");
+                },
+                shiumex: (req,res) => {
+                  logger.info(`GET /shiumex 304 "쉬움 시공사례"`);
+                  res.render("home/floor/leum/shium/shiumex");
+                },
+      
+            sorigium: (req,res) => {
+              logger.info(`GET /sorigium 304 "소리지움 5.0"`);
+              res.render("home/floor/leum/sorigium/sorigium");
+            },
+                sorigiumchar: (req,res) => {
+                  logger.info(`GET /sorigiumchar 304 "소리지움 5.0 특징"`);
+                  res.render("home/floor/leum/sorigium/sorigiumchar");
+                },
+                sorigiumex: (req,res) => {
+                  logger.info(`GET /sorigiumex 304 "소리지움 5.0 시공사례"`);
+                  res.render("home/floor/leum/sorigium/sorigiumex");
+                },
 
       tile: (req,res) => {
         logger.info(`GET /tile 304 "타일"`);
-        res.render("home/floor/tile");
+        res.render("home/floor/tile/tile");
       },
 
-          dongseo: (req,res) => {
-            logger.info(`GET /dongseo 304 "동서타일"`);
-            res.render("home/floor/dongseo");
-          },
+            dongseo: (req,res) => {
+              logger.info(`GET /dongseo 304 "동서타일"`);
+              res.render("home/floor/tile/dongseo/dongseo");
+            },
       
       function: (req,res) => {
         logger.info(`GET /function 304 "기능성 바닥재"`);
-        res.render("home/floor/function");
+        res.render("home/floor/function/function");
       },
 };
 

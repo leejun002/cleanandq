@@ -1111,15 +1111,12 @@ a {
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
 .sec8 .cards {
-    /* max-width: 1200px; */
     margin: 0 auto;
     display: grid;
     gap: 0.5rem;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }
 
 .sec13 .cards {
-  /* max-width: 1200px; */
   margin: 0 auto;
   display: grid;
   gap: 0.5rem;
@@ -1547,7 +1544,7 @@ a {
     background-position: center;
 }
 
-/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡsentra7charㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡsentra7charㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
 .content1 {
     position: absolute;
@@ -1588,9 +1585,95 @@ a {
 
 
 .sec6 {
-    /* height: 100vh; */
     position: relative;
     padding: 0.5rem;
     background: rgb(255, 255, 255);
-    /* overflow: hidden; */
+}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡsentra7exㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.sec4 .card {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 600px;
+    max-width: 100%;
+}
+
+@media all and (max-width:1000px) {
+    .sec4 .card {
+        height: 350px;
+    }
+}
+
+.sec4 {
+    position: relative;
+    padding: 0.5rem;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    height: auto;
+}
+
+.sec5 {
+    position: relative;
+    background:rgb(0, 0, 0);
+    height: 18vh;
+    overflow: hidden;
+}
+
+.sec4 .cards {
+    margin: 0 auto;
+    display: grid;
+    gap: 0.5rem;
+}  @media (min-width: 741px) {
+    .sec4 .cards { grid-template-columns: repeat(2, 1fr); }
+}  @media (min-width: 1500px) {
+    .sec4 .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+.sec4 .card .card-pic1 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/floor/maru/sentra7/1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec4 .card .card-pic2 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/floor/maru/sentra7/2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec4 .card .card-pic3 {
+  width: 100%;
+  height: 90%;
+  background: url('/pic/floor/maru/sentra7/3.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.sec4 .card .card-pic4 {
+  width: 100%;
+  height: 90%;
+  background: url('/pic/floor/maru/sentra7/4.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.sec4 .card .card-pic5 {
+  width: 100%;
+  height: 90%;
+  background: url('/pic/floor/maru/sentra7/5.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.sec4 .card .card-pic6 {
+  width: 100%;
+  height: 90%;
+  background: url('/pic/floor/maru/sentra7/6.png');
+  background-size: cover;
+  background-position: center;
 }
