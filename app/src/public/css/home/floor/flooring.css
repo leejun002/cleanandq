@@ -1208,7 +1208,6 @@ a {
     background: url('/pic/floor/main/flooring.jpg');
     background-size: cover;
     background-position: 0 30%;
-    /* background-attachment: fixed; */
 }
 
 .sec10 .card .card-pic1 {
@@ -1216,8 +1215,7 @@ a {
     height: 60%;
     background: url('/pic/floor/main/maru.png');
     background-size: cover;
-    background-position: 80% 60%;
-    /* background-attachment: fixed; */
+    background-position: 90% 60%;
 }
 
 .card .card-pic2 {

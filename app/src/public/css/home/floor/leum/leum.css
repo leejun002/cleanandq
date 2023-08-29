@@ -1156,7 +1156,7 @@ a {
     height: 60%;
     background: url('/pic/floor/leum/sorigium/sorigium.png');
     background-size: cover;
-    background-position: 0 60%;
+    background-position: 0 40%;
 }
 
 .card .card-pic2 {
@@ -1164,7 +1164,7 @@ a {
     height: 60%;
     background: url('/pic/floor/leum/artium3/artium3.png');
     background-size: cover;
-    background-position: 70% 75%;
+    background-position: 0% 65%;
 }
 
 .card .card-pic3 {
