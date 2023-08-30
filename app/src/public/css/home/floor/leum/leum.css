@@ -1156,7 +1156,7 @@ a {
     height: 60%;
     background: url('/pic/floor/leum/sorigium/sorigium.png');
     background-size: cover;
-    background-position: 0 40%;
+    background-position: 30% 40%;
 }
 
 .card .card-pic2 {
@@ -1180,7 +1180,7 @@ a {
   height: 60%;
   background: url('/pic/floor/leum/myeong22/myeong22.png');
   background-size: cover;
-  background-position: 70% 75%;
+  background-position: 0 40%;
 }
 
 .card .card-pic5 {
@@ -1196,7 +1196,7 @@ a {
   height: 60%;
   background: url('/pic/floor/leum/charm/charm.png');
   background-size: cover;
-  background-position: 70% 75%;
+  background-position: 0 60%;
 }
 
 .card .card-pic7 {
@@ -1212,5 +1212,5 @@ a {
   height: 60%;
   background: url('/pic/floor/leum/goldstrong/goldstrong.png');
   background-size: cover;
-  background-position: 70% 75%;
+  background-position: 0 60%;
 }
