@@ -261,7 +261,7 @@ nav .sash-nav li a:hover {
 }
 
 .link-logo {
-    /* background: url('/pic/hanstone/xx.png'); */
+    
     display: block;
     background-position: center;
     height: 45px;
@@ -272,10 +272,10 @@ nav .sash-nav li a:hover {
 }
 
 .link-search {
-    /* background: url('/pic/hanstone/xx.png'); */
+    
     display: block;
     background-position: center;
-    height: 30px;
+    height: 35px;
     /* background-size: 30px; */
     width: 15px;
     background-repeat: no-repeat;
@@ -285,7 +285,7 @@ nav .sash-nav li a:hover {
     position: fixed;
     float: right;
     right: 15px;
-    /* background: url('/pic/hanstone/xx.png'); */
+    
     display: block;
     height: 35px;
     /* background-size: 18px; */
