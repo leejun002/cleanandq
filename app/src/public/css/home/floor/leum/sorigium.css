@@ -1124,7 +1124,7 @@ a {
 }  @media (min-width: 741px) {
   .sec13 .cards { grid-template-columns: repeat(3, 1fr); }
 }  @media (min-width: 1500px) {
-  .sec13 .cards { grid-template-columns: repeat(4, 1fr); }
+  .sec13 .cards { grid-template-columns: repeat(3, 1fr); }
 }
 
 .sec10 .cards {
@@ -1187,9 +1187,15 @@ a {
   background-color: rgb(0, 0, 0);
   color: white;
   /* padding: 0.5rem; */
-  height: 350px;
+  height: 450px;
   max-width: 100%;
 }
+
+@media all and (max-width:1500px) {
+    .sec13 .card {
+        height: 350px;
+    }
+  }
 
 @media all and (max-width:1130px) {
   .sec13 .card {
@@ -1357,7 +1363,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/sorigium/1.png');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic2 {
@@ -1365,7 +1371,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/sorigium/2.png');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic3 {
@@ -1373,7 +1379,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/sorigium/3.png');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic4 {
@@ -1381,7 +1387,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/sorigium/4.png');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic5 {
@@ -1389,7 +1395,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/sorigium/5.png');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic6 {
@@ -1397,7 +1403,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/sorigium/6.png');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic7 {
@@ -1405,7 +1411,7 @@ a {
     height: 90%;
     background: url('/pic/floor/leum/sorigium/7.png');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 100%;
 }
   
 .sec13 .card .card-pic8 {
@@ -1413,7 +1419,7 @@ a {
     height: 90%;
     background: url('/pic/floor/leum/sorigium/8.png');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 100%;
 }
   
 .sec13 .card .card-pic9 {
@@ -1421,7 +1427,7 @@ a {
     height: 90%;
     background: url('/pic/floor/leum/sorigium/9.png');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 100%;
 }
   
 .sec13 .card .card-pic10 {
@@ -1429,7 +1435,7 @@ a {
     height: 90%;
     background: url('/pic/floor/leum/sorigium/10.png');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 100%;
 }
   
 .sec13 .card .card-pic11 {
@@ -1437,7 +1443,7 @@ a {
     height: 90%;
     background: url('/pic/floor/leum/sorigium/11.png');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 100%;
 }
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡsentra7charㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
