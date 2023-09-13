@@ -33,8 +33,7 @@ background: rgb(255, 255, 255);
     background:rgb(0, 0, 0);
     height: 12vh;
     overflow: hidden;
-}
-@media all and (max-width: 1000px) {
+}  @media all and (max-width: 1000px) {
     .sec9 {
         height: 10vh;
     }
@@ -46,6 +45,10 @@ background: rgb(255, 255, 255);
     background: rgb(0, 0, 0);
     overflow: hidden;
     height: auto;
+}  @media all and (max-width: 740px) {
+    .sec10 {
+        padding: 0.2rem;
+    }
 }
 
 .sec11 {
@@ -54,6 +57,10 @@ background: rgb(255, 255, 255);
     background: rgb(0, 0, 0);
     overflow: hidden;
     height: auto;
+}  @media all and (max-width: 740px) {
+    .sec11 {
+        padding: 0.2rem;
+    }
 }
 
 .sec12 {
@@ -62,6 +69,10 @@ background: rgb(255, 255, 255);
     background: rgb(0, 0, 0);
     overflow: hidden;
     height: auto;
+}  @media all and (max-width: 740px) {
+    .sec12 {
+        padding: 0.2rem;
+    }
 }
 
 .sec13 {
@@ -70,6 +81,10 @@ background: rgb(255, 255, 255);
     background: rgb(0, 0, 0);
     overflow: hidden;
     height: auto;
+}  @media all and (max-width: 740px) {
+    .sec13 {
+        padding: 0.2rem;
+    }
 }
 
 .img {
@@ -249,7 +264,7 @@ body {
 }
 
 .nav-container {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(51, 51, 51);
     font-weight: 300;
     height: 44px;
     z-index: 300;
@@ -640,7 +655,7 @@ i {color: rgb(255, 255, 255);}
 
 a {
     color: rgb(255, 255, 255);
-    opacity: 0.9;
+    opacity: 0.95;
     transition: 400ms;
     text-decoration-line: none;
 }  
@@ -771,6 +786,7 @@ a:hover {cursor: pointer;opacity: 1.0;}
         transform: translateY(-80px);
         opacity: 0;
         transition: all 700ms ease;
+        text-align: center;
     }
 
     .nav-container.active .desktop-nav li a {
@@ -1007,10 +1023,9 @@ a {
 }  @media (min-width: 1500px) {
     .sec10 .cards { grid-template-columns: repeat(4, 1fr); }
 }
-
-@media all and (max-width: 1000px) {
+@media all and (max-width: 740px) {
     .sec10 .cards {
-       gap: 0.5rem;
+       gap: 0.2rem;
     }
 }
 
@@ -1026,10 +1041,9 @@ a {
 }  @media (min-width: 1500px) {
     .sec11 .cards { grid-template-columns: repeat(4, 1fr); }
 }
-
-@media all and (max-width: 1000px) {
+@media all and (max-width: 740px) {
     .sec11 .cards {
-       gap: 0.5rem; 
+       gap: 0.2rem;
     }
 }
 
@@ -1046,9 +1060,9 @@ a {
     .sec12 .cards { grid-template-columns: repeat(4, 1fr); }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 740px) {
     .sec12 .cards {
-       gap: 0.5rem; 
+       gap: 0.2rem; 
     }
 }
 
@@ -1064,10 +1078,9 @@ a {
 }  @media (min-width: 1500px) {
     .sec13 .cards { grid-template-columns: repeat(4, 1fr); }
 }
-
-@media all and (max-width: 1000px) {
+@media all and (max-width: 740px) {
     .sec13 .cards {
-       gap: 0.5rem; 
+       gap: 0.2rem;
     }
 }
 
@@ -1221,6 +1234,7 @@ a {
 }  @media all and (max-width:740px) {
     .card .card-txt .txt14 {
         font-size: 17px;
+        top: -7.5px;
     }
 }  @media all and (max-width:600px) {
     .card .card-txt .txt14 {
@@ -1229,7 +1243,6 @@ a {
 }  @media all and (max-width:500px) {
     .card .card-txt .txt14 {
         font-size: 15px;
-        top: -5px;
     }
 }  @media all and (max-width:400px) {
     .card .card-txt .txt14 {
@@ -1244,11 +1257,13 @@ a {
 .txt14-span2 {
   color: rgb(255, 253, 157);
   font-size: 150%;
-}
-
-@media all and (max-width:1000px) {
+}  @media all and (max-width:1000px) {
     .txt14-span2 {
         font-size: 120%;
+    }
+}  @media all and (max-width:740px) {
+    .txt14-span2 {
+        color: rgb(255, 254, 182);
     }
 }
 

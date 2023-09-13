@@ -234,8 +234,11 @@
   background: rgb(0, 0, 0);
   overflow: hidden;
   height: auto;
+}  @media all and (max-width:700px) {
+  .sec10 {
+    padding: 0.2rem;
+  }
 }
-
 
 .content1 {
   position: absolute;
@@ -2077,14 +2080,11 @@
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  /* color: rgb(255, 101, 81); */
   color: rgb(255, 86, 142);
-  /* z-index: 100; */
   opacity: 1;
   position: absolute;
   left: 35%;
   top: 40%;
-  /* transform: translateY(30px); */
   transition: all 0.5s;
 }
 
@@ -3553,7 +3553,7 @@ body {
 }
 
 .nav-container {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgb(51, 51, 51);
   font-weight: 300;
   height: 44px;
   z-index: 300;
@@ -4104,6 +4104,7 @@ a:hover {
     transform: translateY(-80px);
     opacity: 0;
     transition: all 700ms ease;
+    text-align: center;
   }
 
   .nav-container.active .desktop-nav li a {
@@ -4771,6 +4772,10 @@ a {
   gap: 0.5rem;
   grid-template-columns: repeat(2, 1fr);
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}  @media all and (max-width:700px) {
+  .cards {
+    gap: 0.2rem;
+  }
 }
 
 @media (min-width: 741px) {
@@ -4843,6 +4848,7 @@ a {
 
 @media all and (max-width:740px) {
   .card .card-txt .txt14 {
+    top: 15%;
     font-size: 30px;
   }
 }

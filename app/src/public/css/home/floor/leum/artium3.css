@@ -55,6 +55,10 @@ background: rgb(255, 255, 255);
   background: rgb(0, 0, 0);
   overflow: hidden;
   height: auto;
+}  @media all and (max-width: 740px) {
+    .sec13 {
+        padding: 0.1rem;
+    }
 }
 
 .img {
@@ -246,7 +250,7 @@ background: rgb(255, 255, 255);
     color: rgb(116, 255, 213);
 }
 .txt13-span4 {
-    color: rgb(235, 255, 190);
+    color: rgb(251, 255, 189);
 }
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
@@ -279,7 +283,7 @@ body {
 }
 
 .nav-container {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(51, 51, 51);
     font-weight: 300;
     height: 44px;
     z-index: 300;
@@ -339,7 +343,7 @@ body {
 .nav-container3 nav {
   width: 1000px;
   margin: 0 auto;
-  padding: 0 8px;
+  padding: 0 120px;
   height: 100%;
 }
 
@@ -727,7 +731,7 @@ i {color: rgb(255, 255, 255);}
 
 a {
     color: rgb(255, 255, 255);
-    opacity: 0.9;
+    opacity: 0.95;
     transition: 400ms;
     text-decoration-line: none;
 }  
@@ -811,33 +815,68 @@ a:hover {cursor: pointer;opacity: 1.0;}
     }
 }
 
-@media (max-width: 1100px) {
-  .nav-container3 nav {
-      width: 100%;
-      padding: 0 100px;
+@media (max-width: 1600px) {
+    .nav-container3 nav {
+        width: 100%;
+        padding: 0 350px;
+    }
+  } 
+  
+  @media (max-width: 1300px) {
+    .nav-container3 nav {
+        width: 100%;
+        padding: 0 250px;
+    }
   }
-} 
-
-@media (max-width: 740px) {
-  .nav-container3 nav {
-      width: 100%;
-      padding: 0 70px;
+  
+  @media (max-width: 1100px) {
+    .nav-container3 nav {
+        width: 100%;
+        padding: 0 200px;
+    }
   }
-}
-
-@media (max-width: 550px) {
-  .nav-container3 nav {
-      width: 100%;
-      padding: 0 50px;
+  
+  @media (max-width: 900px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 170px;
+      }
   }
-}
-
-@media (max-width: 490px) {
-  .nav-container3 nav {
-      width: 100%;
-      padding: 0 40px;
+  
+  @media (max-width: 740px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 150px;
+      }
   }
-}
+  
+  @media (max-width: 600px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 120px;
+      }
+  }
+  
+  @media (max-width: 500px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 80px;
+      }
+  }
+  
+  @media (max-width: 370px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 70px;
+      }
+  }
+  
+  @media (max-width: 300px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 40px;
+      }
+  }
 
 @media (max-width: 740px) {
 
@@ -886,6 +925,7 @@ a:hover {cursor: pointer;opacity: 1.0;}
         transform: translateY(-80px);
         opacity: 0;
         transition: all 700ms ease;
+        text-align: center;
     }
 
     .nav-container.active .desktop-nav li a {
@@ -1125,6 +1165,10 @@ a {
   .sec13 .cards { grid-template-columns: repeat(3, 1fr); }
 }  @media (min-width: 1500px) {
   .sec13 .cards { grid-template-columns: repeat(3, 1fr); }
+}  @media all and (max-width: 740px) {
+    .sec13 .cards  {
+        gap: 0.15rem;
+    }
 }
 
 .sec10 .cards {
@@ -1186,7 +1230,6 @@ a {
 .sec13 .card {
   background-color: rgb(0, 0, 0);
   color: white;
-  /* padding: 0.5rem; */
   height: 450px;
   max-width: 100%;
 }
@@ -1279,9 +1322,12 @@ a {
 }
 
 .sec13 .card .card-txt .txt14 {
-  position: relative;
-  top: -3px;
-  /* left: 10%; */
+    position: relative;
+    top: -4px;
+}  @media all and (max-width:740px) {
+    .sec13 .card .card-txt .txt14 {
+        top: -7px;
+    }
 }
 
 .txt14-span {
@@ -1430,7 +1476,7 @@ a {
     background-position: 50% 0%;
 }
 
-/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡsentra7charㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡartium3charㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
 .content1 {
     position: absolute;
@@ -1476,7 +1522,7 @@ a {
     background: rgb(255, 255, 255);
 }
 
-/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡsentra7exㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡsorigiumexㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
 .sec4 .card {
     background-color: rgb(0, 0, 0);
@@ -1499,6 +1545,10 @@ a {
     height: auto;
 }
 
+.sec4 .card .card-txt {
+    text-align: center;
+}
+
 .sec5 {
     position: relative;
     background:rgb(0, 0, 0);
@@ -1519,7 +1569,7 @@ a {
 .sec4 .card .card-pic1 {
     width: 100%;
     height: 90%;
-    background: url('/pic/floor/leum/artium3/1.png');
+    background: url('/pic/floor/leum/sorigium/sg101.png');
     background-size: cover;
     background-position: center;
 }
@@ -1527,39 +1577,148 @@ a {
 .sec4 .card .card-pic2 {
     width: 100%;
     height: 90%;
-    background: url('/pic/floor/leum/artium3/2.png');
+    background: url('/pic/floor/leum/sorigium/sg102.png');
     background-size: cover;
     background-position: center;
 }
 
 .sec4 .card .card-pic3 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/artium3/3.png');
-  background-size: cover;
-  background-position: center;
+    width: 100%;
+    height: 90%;
+    background: url('/pic/floor/leum/sorigium/sg103.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .sec4 .card .card-pic4 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/artium3/4.png');
-  background-size: cover;
-  background-position: center;
+    width: 100%;
+    height: 90%;
+    background: url('/pic/floor/leum/sorigium/sg104.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .sec4 .card .card-pic5 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/artium3/5.png');
-  background-size: cover;
-  background-position: center;
+    width: 100%;
+    height: 90%;
+    background: url('/pic/floor/leum/sorigium/sg105.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .sec4 .card .card-pic6 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/artium3/6.png');
-  background-size: cover;
-  background-position: center;
+    width: 100%;
+    height: 90%;
+    background: url('/pic/floor/leum/sorigium/sg106.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec4 .card .card-pic7 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/floor/leum/sorigium/sg107.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec4 .card .card-pic8 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/floor/leum/sorigium/sg108.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec4 .card .card-pic9 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/floor/leum/sorigium/sg109.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec4 .card .card-pic10 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/floor/leum/sorigium/sg110.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec4 .card .card-pic11 {
+    width: 100%;
+    height: 90%;
+    background: url('/pic/floor/leum/sorigium/sg111.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.txt13-5 {
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}  @media all and (max-width:1700px) {
+    .txt13-5 {
+        font-size: 28px;
+    }
+}  @media all and (max-width:1650px) {
+    .txt13-5 {
+        font-size: 27px;
+    }
+}  @media all and (max-width:1400px) {
+    .txt13-5 {
+        font-size: 26px;
+    }
+}  @media all and (max-width:1100px) {
+    .txt13-5 {
+        font-size: 25px;
+    }
+}  @media all and (max-width:1000px) {
+    .txt13-5 {
+        top: 0%;
+        font-size: 24px;
+    }
+}  @media all and (max-width:900px) {
+    .txt13-5 {
+        font-size: 23px;
+    }
+}  @media all and (max-width:740px) {
+    .txt13-5 {
+        left: 15%;
+        font-size: 21px;
+    }
+}  @media all and (max-width:600px) {
+    .txt13-5 {
+        font-size: 20px;
+    }
+}  @media all and (max-width:550px) {
+    .txt13-5 {
+        font-size: 18px;
+    }
+}  @media all and (max-width:500px) {
+    .txt13-5 {
+        font-size: 17px;
+    }
+}  @media all and (max-width:440px) {
+    .txt13-5 {
+        font-size: 16px;
+    }
+}  @media all and (max-width:400px) {
+    .txt13-5 {
+        font-size: 15px;
+    }
+}  @media all and (max-width:380px) {
+    .txt13-5 {
+        font-size: 14px;
+    }
+}  @media all and (max-width:350px) {
+    .txt13-5 {
+        font-size: 13px;
+    }
 }

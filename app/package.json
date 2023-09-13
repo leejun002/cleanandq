@@ -1,10 +1,9 @@
 {
   "name": "resurrection",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "bin": {
-    "resurrection": "./bin/www.js"
+    "resurrection": "bin/www.js"
   },
   "dependencies": {
     "accepts": "^1.3.8",
@@ -97,12 +96,16 @@
   },
   "author": "junyoung lee",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/leejun002/clnq#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:leejun002/clnq.git"
+    "url": "git+ssh://git@github.com/leejun002/clnq.git"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/leejun002/clnq/issues"
+  },
+  "description": ""
 }

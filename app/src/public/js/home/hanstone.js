@@ -71,35 +71,35 @@ function show() {
 
 //ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
-// let observer1 = new IntersectionObserver((e)=>{
-//     e.forEach((box)=>{
-//         if (box.isIntersecting){
-//             box.target.style.opacity = 1;
-//             box.target.style.transform = translateY('0');
-//         } else {
-//             box.target.style.opacity = 0;
-//         }
-//     })
-// })
+let observer1 = new IntersectionObserver((e)=>{
+    e.forEach((box)=>{
+        if (box.isIntersecting){
+            box.target.style.opacity = 1;
+            box.target.style.transform = 'translateY(0px)';
+        } else {
+          box.target.style.opacity = 0;
+        }
+    })
+})
 
-// let first = document.querySelector('.parallax-item .first')
-// observer1.observe(first)
+let first = document.querySelector('.parallax-item .first')
+observer1.observe(first)
 
 //ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".parallax-item .first", {
-    scrollTrigger: {
-        trigger: ".parallax-item .first",
-        // markers: true,
-        start: "top bottom",
-        end: "bottom 80%",
-        scrub: true,
-},
-    opacity: 1, y: 0, duration: 0.2
-});
+// gsap.to(".parallax-item .first", {
+//     scrollTrigger: {
+//         trigger: ".parallax-item .first",
+//         // markers: true,
+//         start: "top bottom",
+//         end: "bottom 80%",
+//         scrub: true,
+// },
+//     opacity: 1, y: 0, duration: 0.2
+// });
 
 gsap.to(".txt2", {
     scrollTrigger: {

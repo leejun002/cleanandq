@@ -55,6 +55,10 @@ background: rgb(255, 255, 255);
   background: rgb(0, 0, 0);
   overflow: hidden;
   height: auto;
+}  @media all and (max-width: 740px) {
+    .sec13 {
+        padding: 0.1rem;
+    }
 }
 
 .img {
@@ -246,7 +250,7 @@ background: rgb(255, 255, 255);
     color: rgb(116, 255, 213);
 }
 .txt13-span4 {
-    color: rgb(235, 255, 190);
+    color: rgb(251, 255, 189);
 }
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
@@ -279,7 +283,7 @@ body {
 }
 
 .nav-container {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(51, 51, 51);
     font-weight: 300;
     height: 44px;
     z-index: 300;
@@ -339,7 +343,7 @@ body {
 .nav-container3 nav {
   width: 1000px;
   margin: 0 auto;
-  padding: 0 8px;
+  padding: 0 120px;
   height: 100%;
 }
 
@@ -727,7 +731,7 @@ i {color: rgb(255, 255, 255);}
 
 a {
     color: rgb(255, 255, 255);
-    opacity: 0.9;
+    opacity: 0.95;
     transition: 400ms;
     text-decoration-line: none;
 }  
@@ -811,33 +815,68 @@ a:hover {cursor: pointer;opacity: 1.0;}
     }
 }
 
-@media (max-width: 1100px) {
-  .nav-container3 nav {
-      width: 100%;
-      padding: 0 100px;
+@media (max-width: 1600px) {
+    .nav-container3 nav {
+        width: 100%;
+        padding: 0 350px;
+    }
+  } 
+  
+  @media (max-width: 1300px) {
+    .nav-container3 nav {
+        width: 100%;
+        padding: 0 250px;
+    }
   }
-} 
-
-@media (max-width: 740px) {
-  .nav-container3 nav {
-      width: 100%;
-      padding: 0 70px;
+  
+  @media (max-width: 1100px) {
+    .nav-container3 nav {
+        width: 100%;
+        padding: 0 200px;
+    }
   }
-}
-
-@media (max-width: 550px) {
-  .nav-container3 nav {
-      width: 100%;
-      padding: 0 50px;
+  
+  @media (max-width: 900px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 170px;
+      }
   }
-}
-
-@media (max-width: 490px) {
-  .nav-container3 nav {
-      width: 100%;
-      padding: 0 40px;
+  
+  @media (max-width: 740px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 150px;
+      }
   }
-}
+  
+  @media (max-width: 600px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 120px;
+      }
+  }
+  
+  @media (max-width: 500px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 80px;
+      }
+  }
+  
+  @media (max-width: 370px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 70px;
+      }
+  }
+  
+  @media (max-width: 300px) {
+      .nav-container3 nav {
+          width: 100%;
+          padding: 0 40px;
+      }
+  }
 
 @media (max-width: 740px) {
 
@@ -886,6 +925,7 @@ a:hover {cursor: pointer;opacity: 1.0;}
         transform: translateY(-80px);
         opacity: 0;
         transition: all 700ms ease;
+        text-align: center;
     }
 
     .nav-container.active .desktop-nav li a {
@@ -1125,6 +1165,10 @@ a {
   .sec13 .cards { grid-template-columns: repeat(3, 1fr); }
 }  @media (min-width: 1500px) {
   .sec13 .cards { grid-template-columns: repeat(3, 1fr); }
+}  @media all and (max-width: 740px) {
+    .sec13 .cards  {
+        gap: 0.15rem;
+    }
 }
 
 .sec10 .cards {
@@ -1279,9 +1323,12 @@ a {
 }
 
 .sec13 .card .card-txt .txt14 {
-  position: relative;
-  top: -3px;
-  /* left: 10%; */
+    position: relative;
+    top: -4px;
+}  @media all and (max-width:740px) {
+    .sec13 .card .card-txt .txt14 {
+        top: -7px;
+    }
 }
 
 .txt14-span {
@@ -1289,7 +1336,6 @@ a {
 }
 
 .txt14-span2 {
-  /* color: rgb(255, 253, 157); */
   color: rgb(255, 255, 255);
   font-size: 120%;
 }
@@ -1363,7 +1409,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/1.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic2 {
@@ -1371,7 +1417,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/2.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic3 {
@@ -1379,7 +1425,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/3.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic4 {
@@ -1387,7 +1433,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/4.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic5 {
@@ -1395,7 +1441,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/5.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic6 {
@@ -1403,7 +1449,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/6.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic7 {
@@ -1411,7 +1457,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/7.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic8 {
@@ -1419,7 +1465,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/8.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic9 {
@@ -1427,7 +1473,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/9.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic10 {
@@ -1435,7 +1481,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/10.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic11 {
@@ -1443,7 +1489,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/11.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic12 {
@@ -1451,7 +1497,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/12.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic13 {
@@ -1459,7 +1505,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/13.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic14 {
@@ -1467,7 +1513,7 @@ a {
     height: 90%;
     background: url('/pic/floor/leum/myeong22/14.png');
     background-size: cover;
-    background-position: 50% 0%;
+    background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic15 {
@@ -1475,7 +1521,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/15.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic16 {
@@ -1483,7 +1529,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/16.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic17 {
@@ -1491,7 +1537,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/17.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic18 {
@@ -1499,7 +1545,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/18.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic19 {
@@ -1507,7 +1553,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/19.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic20 {
@@ -1515,7 +1561,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/20.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic21 {
@@ -1523,7 +1569,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/21.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic22 {
@@ -1531,7 +1577,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/22.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic23 {
@@ -1539,7 +1585,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/23.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic24 {
@@ -1547,7 +1593,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/24.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic25 {
@@ -1555,7 +1601,7 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/25.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
 .sec13 .card .card-pic26 {
@@ -1563,10 +1609,10 @@ a {
   height: 90%;
   background: url('/pic/floor/leum/myeong22/26.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
 }
 
-/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡsentra7charㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡmyeong22charㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
 .content1 {
     position: absolute;
@@ -1594,92 +1640,4 @@ a {
     position: relative;
     padding: 0.5rem;
     background: rgb(255, 255, 255);
-}
-
-/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡsentra7exㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
-
-.sec4 .card {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    height: 600px;
-    max-width: 100%;
-}
-
-@media all and (max-width:1000px) {
-    .sec4 .card {
-        height: 350px;
-    }
-}
-
-.sec4 {
-    position: relative;
-    padding: 0.5rem;
-    background: rgb(0, 0, 0);
-    overflow: hidden;
-    height: auto;
-}
-
-.sec5 {
-    position: relative;
-    background:rgb(0, 0, 0);
-    height: 18vh;
-    overflow: hidden;
-}
-
-.sec4 .cards {
-    margin: 0 auto;
-    display: grid;
-    gap: 0.5rem;
-}  @media (min-width: 741px) {
-    .sec4 .cards { grid-template-columns: repeat(2, 1fr); }
-}  @media (min-width: 1500px) {
-    .sec4 .cards { grid-template-columns: repeat(3, 1fr); }
-}
-
-.sec4 .card .card-pic1 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/myeong22/1.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic2 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/myeong22/2.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic3 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/myeong22/3.png');
-  background-size: cover;
-  background-position: center;
-}
-
-.sec4 .card .card-pic4 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/myeong22/4.png');
-  background-size: cover;
-  background-position: center;
-}
-
-.sec4 .card .card-pic5 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/myeong22/5.png');
-  background-size: cover;
-  background-position: center;
-}
-
-.sec4 .card .card-pic6 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/myeong22/6.png');
-  background-size: cover;
-  background-position: center;
 }

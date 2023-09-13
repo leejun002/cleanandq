@@ -235,6 +235,10 @@ background: rgb(255, 255, 255);
     background: rgb(0, 0, 0);
     overflow: hidden;
     height: auto;
+}  @media all and (max-width: 740px) {
+    .sec10  {
+        padding: 0.2rem;
+    }
 }
 
 .content1 {
@@ -814,27 +818,41 @@ background: rgb(255, 255, 255);
     z-index: 100;
     opacity: 1;
     position: absolute;
-    left: 5%;
+    left: 3%;
     bottom: 53%;
-    /* transform: translateY(30px); */
     transition: all 0.5s;
 }  @media all and (max-width: 1500px) {
     .txt9 {
+        left: 2%;
         font-size: 27px;
     }
 }  @media all and (max-width: 1200px) {
     .txt9 {
-        font-size: 25px;
-    }
-}  @media all and (max-width: 740px) {
-    .txt9 {
-        left: 0%;
+        left: -1%;
         font-size: 40px;
         transform: rotate( -90deg );
     }
+}  @media all and (max-width: 920px) {
+    .txt9 {
+        left: -3%;
+    }
+}  @media all and (max-width: 740px) {
+    .txt9 {
+        left: -5%;
+    }
 }  @media all and (max-width: 600px) {
     .txt9 {
-        left: -7%;
+        left: -6%;
+        font-size: 35px;
+    }
+}  @media all and (max-width: 500px) {
+    .txt9 {
+        left: -9%;
+        font-size: 35px;
+    }
+}  @media all and (max-width: 400px) {
+    .txt9 {
+        left: -12%;
         font-size: 35px;
     }
 }
@@ -848,9 +866,8 @@ background: rgb(255, 255, 255);
     z-index: 100;
     opacity: 1;
     position: absolute;
-    right: 3%;
+    right: 1%;
     bottom: 53%;
-    /* transform: translateY(30px); */
     transition: all 0.5s;
 }  @media all and (max-width: 1500px) {
     .txt10 {
@@ -858,31 +875,43 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width: 1200px) {
     .txt10 {
-        font-size: 25px;
-    }
-}  @media all and (max-width: 900px) {
-    .txt10 {
-        right: 1%;
-    }
-}  @media all and (max-width: 740px) {
-    .txt10 {
-        right: -4%;
+        right: -1%;
         bottom: 40%;
         font-size: 40px;
         transform: rotate( -90deg );
     }
+}  @media all and (max-width: 1000px) {
+    .txt10 {
+        right: -5%;
+    }
+}  @media all and (max-width: 900px) {
+    .txt10 {
+        right: -6%;
+    }
+}  @media all and (max-width: 740px) {
+    .txt10 {
+        right: -8%;
+    }
 }  @media all and (max-width: 600px) {
     .txt10 {
-        right: -7%;
+        right: -10%;
         font-size: 35px;
     }
 }  @media all and (max-width: 500px) {
     .txt10 {
-        right: -10%;
+        right: -13%;
+    }
+}  @media all and (max-width: 450px) {
+    .txt10 {
+        right: -15%;
     }
 }  @media all and (max-width: 400px) {
     .txt10 {
-        right: -15%;
+        right: -17%;
+    }
+}  @media all and (max-width: 360px) {
+    .txt10 {
+        right: -20%;
     }
 }
 
@@ -897,25 +926,29 @@ background: rgb(255, 255, 255);
     position: absolute;
     left: 4%;
     bottom: 53%;
-    /* transform: translateY(30px); */
     transition: all 0.5s;
 }  @media all and (max-width: 1500px) {
     .txt11 {
+        left: 3%;
         font-size: 27px;
     }
 }  @media all and (max-width: 1200px) {
     .txt11 {
-        font-size: 25px;
+        left: 1%;
+        font-size: 40px;
+        transform: rotate( -90deg );
     }
-}  @media all and (max-width: 900px) {
+}  @media all and (max-width: 1050px) {
     .txt11 {
-        left: 2%;
+        left: 0%;
+    }
+}  @media all and (max-width: 920px) {
+    .txt11 {
+        left: -2%;
     }
 }  @media all and (max-width: 740px) {
     .txt11 {
-        left: -2%;
-        font-size: 40px;
-        transform: rotate( -90deg );
+        left: -4%;
     }
 }  @media all and (max-width: 600px) {
     .txt11 {
@@ -924,13 +957,17 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width: 500px) {
     .txt11 {
-        left: -7%;
+        left: -8%;
         font-size: 35px;
     }
 }  @media all and (max-width: 400px) {
     .txt11 {
         left: -10%;
         font-size: 35px;
+    }
+}  @media all and (max-width: 360px) {
+    .txt11 {
+        left: -12%;
     }
 }
 
@@ -945,7 +982,6 @@ background: rgb(255, 255, 255);
     position: absolute;
     right: 3%;
     bottom: 53%;
-    /* transform: translateY(30px); */
     transition: all 0.5s;
 }  @media all and (max-width: 1500px) {
     .txt12 {
@@ -953,27 +989,27 @@ background: rgb(255, 255, 255);
     }
 }  @media all and (max-width: 1200px) {
     .txt12 {
-        font-size: 25px;
-    }
-}  @media all and (max-width: 900px) {
-    .txt12 {
-        right: 1%;
-    }
-}  @media all and (max-width: 740px) {
-    .txt12 {
-        right: -4%;
+        right: 0%;
         bottom: 40%;
         font-size: 40px;
         transform: rotate( -90deg );
     }
+}  @media all and (max-width: 900px) {
+    .txt12 {
+        right: -3%;
+    }
 }  @media all and (max-width: 600px) {
     .txt12 {
-        right: -7%;
+        right: -5%;
         font-size: 35px;
     }
 }  @media all and (max-width: 500px) {
     .txt12 {
-        right: -10%;
+        right: -7%;
+    }
+}  @media all and (max-width: 400px) {
+    .txt12 {
+        right: -9%;
     }
 }
 
@@ -1074,7 +1110,7 @@ body {
 }
 
 .nav-container {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(51, 51, 51);
     font-weight: 300;
     height: 44px;
     z-index: 300;
@@ -1410,7 +1446,7 @@ i {color: rgb(255, 255, 255);}
 
 a {
     color: rgb(255, 255, 255);
-    opacity: 0.9;
+    opacity: 0.95;
     transition: 400ms;
     text-decoration-line: none;
 }  
@@ -1513,6 +1549,7 @@ a:hover {cursor: pointer;opacity: 1.0;}
         transform: translateY(-80px);
         opacity: 0;
         transition: all 700ms ease;
+        text-align: center;
     }
 
     .nav-container.active .desktop-nav li a {
@@ -1746,7 +1783,7 @@ a {
 } */
 
 .swiper-left {
-    width: 80%;
+    width: 87%;
     position: absolute;
     right: 0;
 }
@@ -1758,7 +1795,7 @@ a {
 }
 
 .swiper-right {
-    width: 80%;
+    width: 87%;
     position: absolute;
     left: 0;
 }
