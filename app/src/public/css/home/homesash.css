@@ -40,10 +40,10 @@
 }  @media all and (max-width: 1070px) {
   .sec1-1 {
     background-image: url('/pic/homesash/sec1/energy.jpg');
-    background-size: auto 80%;
-    background-position: 30% 44px;
+    background-size: auto 100%;
+    background-position: 100% 44px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     position: relative;
     overflow: hidden;
     display: flex;
@@ -51,17 +51,41 @@
     grid-row-start: 1;
     grid-row-end: 2;
   }
+}  @media all and (max-width: 970px) {
+  .sec1-1 {
+    background-position: 100% 44px;
+  }
+}  @media all and (max-width: 870px) {
+  .sec1-1 {
+    background-position: 30px 44px;
+  }
+}  @media all and (max-width: 740px) {
+  .sec1-1 {
+    background-position: -70px 44px;
+  }
 }  @media all and (max-width: 640px) {
   .sec1-1 {
-    background-size: auto 70%;
+    background-position: -90px 44px;
   }
 }  @media all and (max-width: 570px) {
   .sec1-1 {
-    background-size: auto 60%;
+    background-size: auto 90%;
+    background-position: -60px 44px;
   }
 }  @media all and (max-width: 500px) {
   .sec1-1 {
-    background-size: auto 50%;
+    background-size: auto 90%;
+    background-position: -40px 44px;
+  }
+}  @media all and (max-width: 450px) {
+  .sec1-1 {
+    background-size: auto 90%;
+    background-position: -80px 44px;
+  }
+}  @media all and (max-width: 400px) {
+  .sec1-1 {
+    background-size: auto 90%;
+    background-position: -70px 44px;
   }
 }
 
@@ -71,31 +95,31 @@
   background-size: auto 100%;
   background-position: 100% 44px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   width: 100%;
   flex: 3;
 }  @media all and (max-width: 1700px) {
   .sec1-2 {
-    background-position: 330px 44px;
+    background-position: 200px 44px;
   }
 }  @media all and (max-width: 1400px) {
   .sec1-2 {
-    background-position: 250px 44px;
+    background-position: 120px 44px;
   }
 } @media all and (max-width: 1300px) {
   .sec1-2 {
-    background-position: 200px 44px;
+    background-position: 50px 44px;
   }
 }  @media all and (max-width: 1200px) {
   .sec1-2 {
-    background-position: 80px 44px;
+    background-position: 0px 44px;
   }
 }  @media all and (max-width: 1070px) {
   .sec1-2 {
     background-image: url('/pic/hanstone/sec1/white.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     width: 100%;
     grid-row-start: 2;
     grid-row-end: 3;
@@ -166,7 +190,7 @@
   background: url('/pic/hanstone/swiper/classic/classic.png');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   /* padding: 5vw; */
   height: 31vh;
   overflow: hidden;
@@ -177,7 +201,7 @@
   background: url('/pic/hanstone/swiper/irregular/irregular.png');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   /* padding: 5vw; */
   height: 31vh;
   overflow: hidden;
@@ -188,7 +212,7 @@
   background: url('/pic/hanstone/swiper/stream/stream.png');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   /* padding: 5vw; */
   height: 30.9vh;
   overflow: hidden;
@@ -199,7 +223,7 @@
   background: url('/pic/hanstone/swiper/subtle/subtle.png');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   /* padding: 5vw; */
   height: 31vh;
   overflow: hidden;
@@ -209,9 +233,9 @@
   position: relative;
   background: rgb(0, 0, 0);
   /* background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding: 5vw; */
+  background-position: center;
+  background-attachment: fixed; */
+  padding: 5vw;
   height: 18vh;
   overflow: hidden;
 }

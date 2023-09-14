@@ -110,7 +110,7 @@ background: rgb(255, 255, 255);
         background-image: url('/pic/hanstone/sec1/irregular.jpg');
         background-position: 50% 100%;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         background-size: cover;
         width: 100%;
         grid-column-start: 1;
@@ -122,14 +122,14 @@ background: rgb(255, 255, 255);
     background-image: url('/pic/hanstone/sec1/irregular.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     width: 100%;
     flex: 1;
 }  @media all and (max-width: 740px) {
     .sec1-2 {
-        background-image: url('/pic/hanstone/sec1/matterhorn_m.png');
-        background-position: center;
+        background-image: url('/pic/hanstone/sec1/matterhorn_c.png');
+        background-position: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -140,9 +140,9 @@ background: rgb(255, 255, 255);
 
 .sec1-3 {
     background-image: url('/pic/hanstone/sec1/matterhorn_c.png');
-    background-position: center;
+    background-position: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     width: 100%;
     flex: 1;
@@ -150,7 +150,7 @@ background: rgb(255, 255, 255);
     .sec1-3 {
         background-image: url('/pic/hanstone/sec1/white.png');
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         width: 100%;
         grid-row-start: 2;
         grid-row-end: 3;
@@ -183,8 +183,8 @@ background: rgb(255, 255, 255);
     position: relative;
     background: url('/pic/hanstone/swiper/classic/classic.png');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: 900% 30%;
+    /* background-attachment: fixed; */
     /* padding: 5vw; */
     height: 300px;
     overflow: hidden;
@@ -194,8 +194,8 @@ background: rgb(255, 255, 255);
     position: relative;
     background: url('/pic/hanstone/swiper/irregular/irregular.png');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: 100% 0%;
+    /* background-attachment: fixed; */
     /* padding: 5vw; */
     height: 300px;
     overflow: hidden;
@@ -205,8 +205,8 @@ background: rgb(255, 255, 255);
     position: relative;
     background: url('/pic/hanstone/swiper/stream/stream.png');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: 110% 100%;
+    /* background-attachment: fixed; */
     /* padding: 5vw; */
     height: 300px;
     overflow: hidden;
@@ -216,8 +216,8 @@ background: rgb(255, 255, 255);
     position: relative;
     background: url('/pic/hanstone/swiper/subtle/subtle.png');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: 270% 80%;
+    /* background-attachment: fixed; */
     height: 300px;
     overflow: hidden;
 }
