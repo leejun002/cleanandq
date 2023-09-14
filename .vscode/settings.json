@@ -13,5 +13,7 @@
             "username": "jun9990",
             "password": "juny8425%"
         }
-    ]
+    ],
+    "search.actionsPosition": "right",
+    "search.experimental.closedNotebookRichContentResults": true
 }
