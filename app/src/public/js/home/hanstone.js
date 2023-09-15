@@ -101,16 +101,16 @@ gsap.registerPlugin(ScrollTrigger);
 //     opacity: 1, y: 0, duration: 0.2
 // });
 
-gsap.to(".txt2", {
-    scrollTrigger: {
-      trigger: ".txt2",
-      // markers: true,
-      start: "-50% bottom",
-      end: "-30% 90%",
-      scrub: true,
-},
-    opacity: 1, y: 0
-});
+// gsap.to(".txt2", {
+//     scrollTrigger: {
+//       trigger: ".txt2",
+//       // markers: true,
+//       start: "-50% bottom",
+//       end: "-30% 90%",
+//       scrub: true,
+// },
+//     opacity: 1, y: 0
+// });
 
 gsap.from(".txt3", {
     scrollTrigger: {
