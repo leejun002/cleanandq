@@ -41,7 +41,7 @@
   .sec1-1 {
     background-image: url('/pic/homesash/sec1/energy.jpg');
     background-size: auto 100%;
-    background-position: 100% 44px;
+    background-position: 40% 44px;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     position: relative;
@@ -53,19 +53,19 @@
   }
 }  @media all and (max-width: 970px) {
   .sec1-1 {
-    background-position: 100% 44px;
+    background-position: 35% 44px;
   }
 }  @media all and (max-width: 870px) {
   .sec1-1 {
-    background-position: 30px 44px;
+    background-position: 30% 44px;
   }
 }  @media all and (max-width: 740px) {
   .sec1-1 {
-    background-position: -70px 44px;
+    background-position: -80px 44px;
   }
 }  @media all and (max-width: 640px) {
   .sec1-1 {
-    background-position: -90px 44px;
+    background-position: -100px 44px;
   }
 }  @media all and (max-width: 570px) {
   .sec1-1 {
@@ -87,6 +87,11 @@
     background-size: auto 90%;
     background-position: -70px 44px;
   }
+}  @media all and (max-width: 380px) {
+  .sec1-1 {
+    background-size: auto 90%;
+    background-position: -55px 44px;
+  }
 }
 
 
@@ -100,19 +105,15 @@
   flex: 3;
 }  @media all and (max-width: 1700px) {
   .sec1-2 {
-    background-position: 200px 44px;
+    background-position: 50% 44px;
   }
 }  @media all and (max-width: 1400px) {
   .sec1-2 {
-    background-position: 120px 44px;
+    background-position: 30% 44px;
   }
-} @media all and (max-width: 1300px) {
+}  @media all and (max-width: 1300px) {
   .sec1-2 {
-    background-position: 50px 44px;
-  }
-}  @media all and (max-width: 1200px) {
-  .sec1-2 {
-    background-position: 0px 44px;
+    background-position: 20% 44px;
   }
 }  @media all and (max-width: 1070px) {
   .sec1-2 {
