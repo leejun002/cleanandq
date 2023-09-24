@@ -1230,6 +1230,7 @@ a {
 .sec13 .card {
   background-color: rgb(0, 0, 0);
   color: white;
+  /* padding: 0.5rem; */
   height: 450px;
   max-width: 100%;
 }
@@ -1322,8 +1323,9 @@ a {
 }
 
 .sec13 .card .card-txt .txt14 {
-    position: relative;
-    top: -4px;
+  position: relative;
+  top: -4px;
+  /* left: 10%; */
 }  @media all and (max-width:740px) {
     .sec13 .card .card-txt .txt14 {
         top: -7px;
@@ -1343,6 +1345,17 @@ a {
 @media all and (max-width:1000px) {
     .txt14-span2 {
         font-size: 100%;
+    }
+}
+
+.txt14-span2-2 {
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+}
+
+@media all and (max-width:1000px) {
+    .txt14-span2-2 {
+        font-size: 90%;
     }
 }
 
@@ -1391,9 +1404,9 @@ a {
 .sec10 .card .card-pic1 {
     width: 100%;
     height: 80%;
-    background: url('/pic/floor/leum/artium3/artium3.png');
+    background: url('/pic/floor/function/conductive/conductive.png');
     background-size: cover;
-    background-position: 30% 40%;
+    background-position: 30% 60%;
 }  @media all and (max-width:1000px) {
   .sec10 .card .card-pic1 {
     height: 70%;
@@ -1407,76 +1420,20 @@ a {
 .sec13 .card .card-pic1 {
   width: 100%;
   height: 90%;
-  background: url('/pic/floor/leum/artium3/1.png');
+  background: url('/pic/floor/function/conductive/501.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: center;
 }
 
 .sec13 .card .card-pic2 {
   width: 100%;
   height: 90%;
-  background: url('/pic/floor/leum/artium3/2.png');
+  background: url('/pic/floor/function/conductive/503.png');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: center;
 }
 
-.sec13 .card .card-pic3 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/artium3/3.png');
-  background-size: cover;
-  background-position: 50% 0%;
-}
-
-.sec13 .card .card-pic4 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/artium3/4.png');
-  background-size: cover;
-  background-position: 50% 0%;
-}
-
-.sec13 .card .card-pic5 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/artium3/5.png');
-  background-size: cover;
-  background-position: 50% 0%;
-}
-
-.sec13 .card .card-pic6 {
-  width: 100%;
-  height: 90%;
-  background: url('/pic/floor/leum/artium3/6.png');
-  background-size: cover;
-  background-position: 50% 0%;
-}
-
-.sec13 .card .card-pic7 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/artium3/7.png');
-    background-size: cover;
-    background-position: 50% 0%;
-}
-  
-.sec13 .card .card-pic8 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/artium3/8.png');
-    background-size: cover;
-    background-position: 50% 0%;
-}
-  
-.sec13 .card .card-pic9 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/artium3/9.png');
-    background-size: cover;
-    background-position: 50% 0%;
-}
-
-/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡartium3charㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡmyeong22charㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 
 .content1 {
     position: absolute;
@@ -1515,210 +1472,8 @@ a {
     }
 }
 
-
 .sec6 {
     position: relative;
     padding: 0.5rem;
     background: rgb(255, 255, 255);
 }
-
-/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡsorigiumexㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
-
-/* .sec4 .card {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    height: 600px;
-    max-width: 100%;
-}
-
-@media all and (max-width:1000px) {
-    .sec4 .card {
-        height: 350px;
-    }
-}
-
-.sec4 {
-    position: relative;
-    padding: 0.5rem;
-    background: rgb(0, 0, 0);
-    overflow: hidden;
-    height: auto;
-}
-
-.sec4 .card .card-txt {
-    text-align: center;
-}
-
-.sec5 {
-    position: relative;
-    background:rgb(0, 0, 0);
-    height: 18vh;
-    overflow: hidden;
-}
-
-.sec4 .cards {
-    margin: 0 auto;
-    display: grid;
-    gap: 0.5rem;
-}  @media (min-width: 741px) {
-    .sec4 .cards { grid-template-columns: repeat(2, 1fr); }
-}  @media (min-width: 1500px) {
-    .sec4 .cards { grid-template-columns: repeat(3, 1fr); }
-}
-
-.sec4 .card .card-pic1 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/sorigium/sg101.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic2 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/sorigium/sg102.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic3 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/sorigium/sg103.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic4 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/sorigium/sg104.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic5 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/sorigium/sg105.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic6 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/sorigium/sg106.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic7 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/sorigium/sg107.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic8 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/sorigium/sg108.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic9 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/sorigium/sg109.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic10 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/sorigium/sg110.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.sec4 .card .card-pic11 {
-    width: 100%;
-    height: 90%;
-    background: url('/pic/floor/leum/sorigium/sg111.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.txt13-5 {
-    position: absolute;
-    top: -10%;
-    left: 5%;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    transition: all 0.5s;
-}  @media all and (max-width:1700px) {
-    .txt13-5 {
-        font-size: 28px;
-    }
-}  @media all and (max-width:1650px) {
-    .txt13-5 {
-        font-size: 27px;
-    }
-}  @media all and (max-width:1400px) {
-    .txt13-5 {
-        font-size: 26px;
-    }
-}  @media all and (max-width:1100px) {
-    .txt13-5 {
-        font-size: 25px;
-    }
-}  @media all and (max-width:1000px) {
-    .txt13-5 {
-        top: 0%;
-        font-size: 24px;
-    }
-}  @media all and (max-width:900px) {
-    .txt13-5 {
-        font-size: 23px;
-    }
-}  @media all and (max-width:740px) {
-    .txt13-5 {
-        left: 15%;
-        font-size: 21px;
-    }
-}  @media all and (max-width:600px) {
-    .txt13-5 {
-        font-size: 20px;
-    }
-}  @media all and (max-width:550px) {
-    .txt13-5 {
-        font-size: 18px;
-    }
-}  @media all and (max-width:500px) {
-    .txt13-5 {
-        font-size: 17px;
-    }
-}  @media all and (max-width:440px) {
-    .txt13-5 {
-        font-size: 16px;
-    }
-}  @media all and (max-width:400px) {
-    .txt13-5 {
-        font-size: 15px;
-    }
-}  @media all and (max-width:380px) {
-    .txt13-5 {
-        font-size: 14px;
-    }
-}  @media all and (max-width:350px) {
-    .txt13-5 {
-        font-size: 13px;
-    }
-} */

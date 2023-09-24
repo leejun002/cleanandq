@@ -1687,40 +1687,45 @@ a {
     width: 100%;
     height: 90%;
     background: url('/pic/floor/tile/rubber/nmr44.png');
-    background-size: cover;
-    background-position: center;
+    background-size: 50%;
+    background-position: 50% 0%;
+    background-repeat: repeat;
   }
   
   .sec13 .card .card-pic33 {
     width: 100%;
     height: 90%;
     background: url('/pic/floor/tile/rubber/nmr46.png');
-    background-size: cover;
-    background-position: center;
+    background-size: 50%;
+    background-position: 50% 0%;
+    background-repeat: repeat;
   }
   
   .sec13 .card .card-pic34 {
     width: 100%;
     height: 90%;
     background: url('/pic/floor/tile/rubber/nmr31.png');
-    background-size: cover;
-    background-position: center;
+    background-size: 50%;
+    background-position: 50% 0%;
+    background-repeat: repeat;
   }
   
   .sec13 .card .card-pic35 {
     width: 100%;
     height: 90%;
     background: url('/pic/floor/tile/rubber/nmr88.png');
-    background-size: cover;
-    background-position: center;
+    background-size: 50%;
+    background-position: 50% 0%;
+    background-repeat: repeat;
   }
   
   .sec13 .card .card-pic36 {
     width: 100%;
     height: 90%;
     background: url('/pic/floor/tile/rubber/nmr93.png');
-    background-size: cover;
-    background-position: center;
+    background-size: 50%;
+    background-position: 50% 0%;
+    background-repeat: repeat;
   }
   
   .sec13 .card .card-pic37 {

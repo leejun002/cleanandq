@@ -195,10 +195,10 @@ const output = {
                   res.render("home/floor/leum/sorigium/sorigiumchar");
                 },
 
-                sorigiumex: (req,res) => {
-                  logger.info(`GET /sorigiumex 304 "소리지움 5.0 시공사례"`);
-                  res.render("home/floor/leum/sorigium/sorigiumex");
-                },
+                // sorigiumex: (req,res) => {
+                //   logger.info(`GET /sorigiumex 304 "소리지움 5.0 시공사례"`);
+                //   res.render("home/floor/leum/sorigium/sorigiumex");
+                // },
 
       tile: (req,res) => {
         logger.info(`GET /tile 304 "타일"`);
@@ -272,6 +272,24 @@ const output = {
         logger.info(`GET /function 304 "기능성 바닥재"`);
         res.render("home/floor/function/function");
       },
+
+            conductive: (req,res) => {
+              logger.info(`GET /conductive 304 "전도성타일"`);
+              res.render("home/floor/function/conductive/conductive");
+            },
+                conductivechar: (req,res) => {
+                  logger.info(`GET /conductivechar 304 "전도성타일 특징"`);
+                  res.render("home/floor/function/conductive/conductivechar");
+                },
+
+            oa: (req,res) => {
+              logger.info(`GET /oa 304 "OA타일"`);
+              res.render("home/floor/function/oa/oa");
+            },
+                oachar: (req,res) => {
+                  logger.info(`GET /oachar 304 "OA타일 특징"`);
+                  res.render("home/floor/function/oa/oachar");
+                },
 };
 
 const process = {
