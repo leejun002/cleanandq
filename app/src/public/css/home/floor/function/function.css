@@ -1146,7 +1146,7 @@ a {
 .card .card-pic1 {
     width: 100%;
     height: 60%;
-    background: url('/pic/floor/function/conductive/conductive.png');
+    background: url('/pic/floor/function/oa/oa.png');
     background-size: cover;
     background-position: 0% 0%;
 }
@@ -1154,7 +1154,7 @@ a {
 .card .card-pic2 {
     width: 100%;
     height: 60%;
-    background: url('/pic/floor/function/oa/oa.png');
+    background: url('/pic/floor/function/conductive/conductive.png');
     background-size: cover;
-    background-position: 0% 0%;
+    background-position: 70% 60%;
 }
