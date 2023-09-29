@@ -1,5 +1,3 @@
-"use strict"
-
 const searchButton = document.querySelector("nav .desktop-nav .link-search");
 const closeButton = document.querySelector(".search-container .link-close");
 const desktopNav = document.querySelector(".desktop-nav");

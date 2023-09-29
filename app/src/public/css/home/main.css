@@ -828,24 +828,8 @@ a {
     }
 }
 
-/* .img {
-    position: absolute;
-    width: 35%;
-    height: auto;
-}
-    @media all and (max-width: 768px) {
-    .img {
-        width: 75vw;
-    }
-} */
-
-
 .logo1 {
     position: relative;
     width: 200px;
     height: auto;
 }
-    /* @media all and (max-width: 768px) {
-    .logo1 {
-        width: 50vw;
-    } */

@@ -124,35 +124,29 @@
 
   <div>
     <ul id="options" style="display:none;">
-      {% if user %}
-        <br>
-        <span id="memb">{{user.id}}</span><span id="hello">님 안녕하세요</span>
+        <!-- <span id="hello">
+          안녕하세요<br>
+          현재 로그인 시스템은<br>
+          비활성화 되어있습니다.
+        </span> -->
         <li class="option">
-          <a href="/profile">
+          <a href="#">
             <span class="iconify" data-icon="material-symbols:manage-accounts-sharp" style="font-size: 15px;"></span>
             <span>계정</span>
           </a>
         </li>
-        <li class="option">
-          <a href="/logout">
+        <!-- <li class="option">
+          <a href="#">
             <span class="iconify" data-icon="fluent:arrow-enter-20-filled" style="font-size: 15px;" data-flip="horizontal"></span>
             <span>로그아웃</span>
           </a>
-        </li>
-      {% else %}
+        </li> -->
         <li class="option">
           <a href="/login">
             <span class="iconify" data-icon="fluent:arrow-enter-20-filled" style="font-size: 15px;"></span>
             <span>로그인</span>
           </a>
         </li>
-        <li class="option">
-          <a href="/profile">
-            <span class="iconify" data-icon="material-symbols:manage-accounts-sharp" style="font-size: 15px;"></span>
-            <span>계정</span>
-          </a>
-        </li>
-      {% endif %}
     </ul>
   </div>
 
@@ -164,12 +158,6 @@
           <div class="sec1-2"></div>
           <div class="sec1-3"></div>
           <div class="sec1-4"></div>
-          
-          <!-- <div class="content1">
-            <p class="txt2">
-              2023.02~04 중랑구 면목동 건물 ALL 인테리어
-            </p>
-          </div> -->
         </section>
     </div>
   </div>
@@ -178,8 +166,6 @@
     <div style="text-align:center;">
       <br><br>
       <img class="logo1" src="/pic/main/clnqlogo.png"></img>
-      <!-- <br>
-      <img class="logo2" src="/pic/main/hlc.png"></img> -->
     </div>
   </div>
 

@@ -123,35 +123,18 @@
 
   <div>
     <ul id="options" style="display:none;">
-      {% if user %}
-        <br>
-        <span id="memb">{{user.id}}</span><span id="hello">님 안녕하세요</span>
         <li class="option">
-          <a href="/profile">
+          <a href="#">
             <span class="iconify" data-icon="material-symbols:manage-accounts-sharp" style="font-size: 15px;"></span>
             <span>계정</span>
           </a>
         </li>
-        <li class="option">
-          <a href="/logout">
-            <span class="iconify" data-icon="fluent:arrow-enter-20-filled" style="font-size: 15px;" data-flip="horizontal"></span>
-            <span>로그아웃</span>
-          </a>
-        </li>
-      {% else %}
         <li class="option">
           <a href="/login">
             <span class="iconify" data-icon="fluent:arrow-enter-20-filled" style="font-size: 15px;"></span>
             <span>로그인</span>
           </a>
         </li>
-        <li class="option">
-          <a href="/profile">
-            <span class="iconify" data-icon="material-symbols:manage-accounts-sharp" style="font-size: 15px;"></span>
-            <span>계정</span>
-          </a>
-        </li>
-      {% endif %}
     </ul>
   </div>
 
