@@ -19,11 +19,10 @@ app.use(
 app.use(express.urlencoded({ extended: true }));
 app.use("/", home);
 
+// robots.txt
 app.get("/robots.txt", (req, res) => {
   res.type("text/plain");
-  res.send(
-    "User-agent: *\nAllow:/"
-  );
+  res.send("User-agent: *\nAllow:/");
 });
 
 module.exports = app;
