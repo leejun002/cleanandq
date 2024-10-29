@@ -1,2 +1,0 @@
-# resurrection
-homepage for clnq
