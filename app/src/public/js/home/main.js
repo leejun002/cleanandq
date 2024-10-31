@@ -30,6 +30,8 @@ const navContainer = document.querySelector(".nav-container");
 menuIconContainer.addEventListener("click", () => {
     navContainer.classList.toggle("active");
 })
+menuIconContainer.addEventListener("click", toggleMenu);
+
 
 const searchBar = document.querySelector(".mobile-search-container .search-bar");
 const nav = document.querySelector(".nav-container nav");
